@@ -1,0 +1,168 @@
+(footprint "150044M155220"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0 -1.4064 0)
+		(layer "F.SilkS")
+		(uuid "a4a0d738-3bae-4300-855d-a2bb4cfc6159")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "150044M155220"
+		(at 0 1.3936 0)
+		(layer "F.Fab")
+		(uuid "ae953ca7-346c-4088-965d-03f678f0351f")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4286f22f-bb62-48f5-a987-e979d4e1d3ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af47ed09-2767-4418-a40d-eb7ef2a89deb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e10b8191-ed36-4819-898a-18b07b86556a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.8 -0.8) (xy 0.8 -0.8) (xy 0.8 0.8) (xy -0.8 0.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "d3db04fd-1e0b-42be-bb2c-38ff293f8aed")
+	)
+	(fp_line
+		(start -0.5 -0.5)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93564491-79aa-4e1a-9710-483d15b2cd76")
+	)
+	(fp_line
+		(start -0.5 0.5)
+		(end -0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96001980-fff4-4a93-a2af-7cb0b446b026")
+	)
+	(fp_line
+		(start 0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8abad4e4-0c6e-40d4-9861-3d187996ca13")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "983731a8-806f-4473-87c6-97cd386535e8")
+	)
+	(fp_text user "+"
+		(at -1.1 0.45 0)
+		(layer "F.SilkS")
+		(uuid "6c4277ef-be55-477e-828f-9cc6ea1f077d")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -1.1 0.45 0)
+		(layer "F.Fab")
+		(uuid "b0f3b4cf-5c60-4b68-a28c-e40280012812")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "dd2b939a-ef45-494d-8812-4948da9f541b")
+	)
+	(pad "2" smd rect
+		(at -0.4 -0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "cf075717-0542-4882-8030-7e4fb33a9df9")
+	)
+	(pad "3" smd rect
+		(at 0.4 -0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "aa0a8935-72fa-40bb-935b-e9da6fb93504")
+	)
+	(pad "4" smd rect
+		(at 0.4 0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "dcd8dacd-3517-4a20-a508-91b6c7bbbc8b")
+	)
+)
