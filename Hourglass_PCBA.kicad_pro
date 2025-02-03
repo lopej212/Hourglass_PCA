@@ -402,6 +402,10 @@
     [
       "17afb56f-fd70-4807-b06e-f0dc27c7a2b2",
       "Bottom LEDs"
+    ],
+    [
+      "e8095abd-2da6-4096-a23d-04399ef236ae",
+      "LSM6DSOX 6-Axis IMU"
     ]
   ],
   "text_variables": {}

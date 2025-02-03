@@ -86,6 +86,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 121.92 87.63)
+		(size 41.91 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8095abd-2da6-4096-a23d-04399ef236ae")
+		(property "Sheetname" "LSM6DSOX 6-Axis IMU"
+			(at 121.92 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 121.92 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
