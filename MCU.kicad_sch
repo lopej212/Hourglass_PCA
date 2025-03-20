@@ -1088,14 +1088,42 @@
 		)
 	)
 	(junction
-		(at 91.44 39.37)
+		(at 149.86 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71a9d25b-3b1e-4e8b-b81a-d9cc649cf43f")
 	)
+	(bus_entry
+		(at 172.72 90.17)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb12b277-d95e-446a-b1c4-121ab2466718")
+	)
+	(bus_entry
+		(at 172.72 87.63)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca1c03f-d768-4246-9d4e-fd18f4854c3b")
+	)
 	(wire
 		(pts
-			(xy 88.9 39.37) (xy 91.44 39.37)
+			(xy 176.53 97.79) (xy 162.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09687f48-48ec-43d8-95aa-f8e024210884")
+	)
+	(wire
+		(pts
+			(xy 147.32 49.53) (xy 149.86 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1133,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 49.53) (xy 88.9 39.37)
+			(xy 162.56 95.25) (xy 176.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347b40e2-7962-40e0-a791-9c1fa4394a80")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 147.32 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 49.53) (xy 93.98 39.37)
+			(xy 152.4 59.69) (xy 152.4 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 39.37) (xy 91.44 39.37)
+			(xy 152.4 49.53) (xy 149.86 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1173,47 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 39.37) (xy 91.44 49.53)
+			(xy 170.18 90.17) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633352af-4f47-437d-90be-dd1f58a951f9")
+	)
+	(wire
+		(pts
+			(xy 162.56 105.41) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3dbd9a-13e9-4f41-a7a0-bf5e7e80fc13")
+	)
+	(bus
+		(pts
+			(xy 172.72 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed9c57e-458f-46e2-8ab2-00dcdca3f586")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b17b603-fe79-41d1-905c-595462c822fb")
+	)
+	(wire
+		(pts
+			(xy 149.86 49.53) (xy 149.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 102.87) (xy 91.44 113.03)
+			(xy 149.86 113.03) (xy 149.86 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1153,9 +1231,114 @@
 		)
 		(uuid "b6223034-ec56-470e-bf7a-c7009730954d")
 	)
+	(wire
+		(pts
+			(xy 162.56 72.39) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e355ae65-1728-4410-a5f4-2a53b34854a8")
+	)
+	(bus
+		(pts
+			(xy 172.72 87.63) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f8cf39-6953-4c8d-9045-c3b9aef6e40f")
+	)
+	(label "I2C.SDA"
+		(at 162.56 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b98e135-b918-493e-85ea-2ac1ee9fadff")
+	)
+	(label "I2C.SCL"
+		(at 162.56 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b732fb38-1814-43f5-9220-e80830cef163")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 176.53 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4a6327c2-78fe-4124-8fce-4f3c19f796bc")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 176.53 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "798449ef-d71a-4a7a-85eb-7395ccef6312")
+	)
+	(hierarchical_label "I2C{SDA SCL}"
+		(shape bidirectional)
+		(at 176.53 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "96cbc69e-74bf-400d-877c-9dfd32e91f50")
+	)
+	(hierarchical_label "LSM6DSOX_INT1"
+		(shape input)
+		(at 176.53 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c878d384-a34d-46e9-b792-5c95be56439d")
+	)
+	(hierarchical_label "LSM6DSOX_INT2"
+		(shape input)
+		(at 176.53 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f82b0c54-f432-4448-a33b-c1252affcdf1")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 113.03 0)
+		(at 149.86 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1164,7 +1347,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e138f17-684f-40d0-bb02-d389f973507a")
 		(property "Reference" "#PWR9"
-			(at 91.44 119.38 0)
+			(at 149.86 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,7 +1356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 118.11 0)
+			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,7 +1364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 113.03 0)
+			(at 149.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,7 +1373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 113.03 0)
+			(at 149.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 113.03 0)
+			(at 149.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1404,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32L4:STM32L432KCUx")
-		(at 91.44 77.47 0)
+		(at 149.86 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1230,7 +1413,7 @@
 		(fields_autoplaced yes)
 		(uuid "494a79ce-de7f-4273-94c8-c81f02856d54")
 		(property "Reference" "U2"
-			(at 93.6341 102.87 0)
+			(at 152.0541 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1422,7 @@
 			)
 		)
 		(property "Value" "STM32L432KCUx"
-			(at 93.6341 105.41 0)
+			(at 152.0541 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1431,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 81.28 100.33 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +1441,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l432kc.pdf"
-			(at 91.44 77.47 0)
+			(at 149.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1267,7 +1450,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, UFQFPN32"
-			(at 91.44 77.47 0)
+			(at 149.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1568,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 91.44 39.37 0)
+		(at 149.86 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1394,7 +1577,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e210fe2-6872-44df-ad51-0332ca96b354")
 		(property "Reference" "#PWR8"
-			(at 91.44 43.18 0)
+			(at 149.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1586,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 91.44 34.29 0)
+			(at 149.86 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 39.37 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 39.37 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 91.44 39.37 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
