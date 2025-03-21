@@ -1094,7 +1094,7 @@
 		(uuid "71a9d25b-3b1e-4e8b-b81a-d9cc649cf43f")
 	)
 	(bus_entry
-		(at 172.72 90.17)
+		(at 193.04 90.17)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1103,7 +1103,7 @@
 		(uuid "bb12b277-d95e-446a-b1c4-121ab2466718")
 	)
 	(bus_entry
-		(at 172.72 87.63)
+		(at 193.04 87.63)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1173,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 162.56 90.17)
+			(xy 190.5 90.17) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1193,7 +1193,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 87.63) (xy 176.53 87.63)
+			(xy 193.04 87.63) (xy 196.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1203,7 +1203,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 170.18 92.71)
+			(xy 162.56 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7334b32e-16c9-4c9b-a765-959fa267ecda")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 190.5 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1243,7 +1253,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 87.63) (xy 172.72 90.17)
+			(xy 193.04 87.63) (xy 193.04 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1309,7 @@
 	)
 	(hierarchical_label "I2C{SDA SCL}"
 		(shape bidirectional)
-		(at 176.53 87.63 0)
+		(at 196.85 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1322,6 +1332,19 @@
 			(justify left)
 		)
 		(uuid "c878d384-a34d-46e9-b792-5c95be56439d")
+	)
+	(hierarchical_label "VSYNC"
+		(shape output)
+		(at 176.53 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "eedfe8f1-2530-462c-a5a8-33dd67734376")
 	)
 	(hierarchical_label "LSM6DSOX_INT2"
 		(shape input)
