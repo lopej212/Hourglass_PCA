@@ -367,6 +367,36 @@
 				(justify right)
 			)
 		)
+		(pin "NRST" input
+			(at 124.46 77.47 180)
+			(uuid "3c0f6bbb-35c3-4bad-97db-3b4172efd166")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 124.46 74.93 180)
+			(uuid "39442ca1-4951-4fb4-8a79-80e3e75de600")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 124.46 72.39 180)
+			(uuid "7a8934ca-7d35-460e-bcd1-a823fa2f2cbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b"

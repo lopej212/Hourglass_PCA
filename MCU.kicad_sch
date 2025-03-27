@@ -5,6 +5,1262 @@
 	(uuid "3284a8bc-a78a-4630-8f8d-2316b2541663")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Hourglass_symbol_library:CC0402KRX7R6BB104"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CC0402KRX7R6BB104"
+				(at 0.254 -7.112 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Hourglass_footprint_library:YAG_CC0402_YAG"
+				(at 0 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CC0402KRX7R6BB104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "YAG_CC0402_YAG YAG_CC0402_YAG-M YAG_CC0402_YAG-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC0402KRX7R6BB104_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.3302 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 -1.905) (xy -0.3302 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3048 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3048 -1.905) (xy 0.3048 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text ".1uF\n10V\n"
+					(at 3.556 -3.81 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CC0402KRX7R6BB104_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hourglass_symbol_library:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Hourglass_footprint_library:FB_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6383/FCM%20Series.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FERRITE BEAD 600 OHM 0603 1LN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ferrrite Bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hourglass_symbol_library:GRM155Z71A105KE01D"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "GRM155Z71A105KE01D"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Hourglass_footprint_library:CAP_GRM155Z_MUR"
+				(at 0 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 1UF 10V X7R 0402"
+				(at 0 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "GRM155Z71A105KE01D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAP_GRM155Z_MUR CAP_GRM155Z_MUR-M CAP_GRM155Z_MUR-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRM155Z71A105KE01D_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.3302 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 -1.905) (xy -0.3302 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3048 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3048 -1.905) (xy 0.3048 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1uF\n10V\n"
+					(at 2.794 -3.81 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GRM155Z71A105KE01D_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hourglass_symbol_library:GRM21BR71A475KE51L"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "GRM21BR71A475KE51L"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Hourglass_footprint_library:GRM21BR71A475KE51L"
+				(at 0 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 4.7UF 10V X7R 0805"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "GRM21BR71A475KE51L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "YAG_CC0402_YAG YAG_CC0402_YAG-M YAG_CC0402_YAG-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRM21BR71A475KE51L_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.3302 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 -1.905) (xy -0.3302 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3048 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3048 -1.905) (xy 0.3048 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "4.7uF\n10V\n"
+					(at 3.556 -3.81 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GRM21BR71A475KE51L_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hourglass_symbol_library:KMR221NGLFS"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0.127 6.096 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KMR221NGLFS"
+				(at 0 -5.334 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Hourglass_footprint_library:KMR221_CNK"
+				(at -5.842 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf"
+				(at 0.254 -20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SWITCH TACTILE SPST-NO 0.05A 32V"
+				(at 0.254 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "KMR221NGLFS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "KMR221_CNK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KMR221NGLFS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 -0.9525) (xy -0.9525 0.9525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.9525)
+					(radius 0.3048)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -0.9525)
+					(radius 0.3048)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KMR221NGLFS_1_1"
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hourglass_symbol_library:RMCF0805FT10K0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RMCF0805FT10K0"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Hourglass_footprint_library:RMCF0805FT10K0"
+				(at 0.762 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+				(at 0.762 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 10K OHM 1% 1/8W 0805"
+				(at 1.27 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0805FT10K0_1_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "10k"
+					(at 0 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32L4:STM32L432KCUx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1086,12 +2342,344 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDDA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDDA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDDA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 16.51 64.77)
+		(end 80.01 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 809f2fd4-bc2e-4a84-aee5-36b68b82cef8)
+	)
+	(rectangle
+		(start 16.51 99.06)
+		(end 40.64 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae085cbf-f667-4995-8ceb-b1927a98c9eb)
+	)
+	(text "PC14 & PC15 are for LSE clock\n"
+		(exclude_from_sim yes)
+		(at 119.126 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e71fcbc-1ec6-4001-bd96-4ad1f41cffb1")
+	)
+	(text "Boot Option"
+		(exclude_from_sim yes)
+		(at 22.098 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1dbda7e-3e2c-48d2-98ba-2a1f8e65e588")
+	)
+	(text "JTMS/SWDIO: internall pull-up\nTCK/SWCLK: internal pull-down "
+		(exclude_from_sim yes)
+		(at 187.96 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b469bea5-f240-498c-85c6-933a5a084457")
+	)
+	(text "Place as close to VDD"
+		(exclude_from_sim no)
+		(at 93.726 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf529382-6016-4075-bb89-ddde65b17a28")
+	)
+	(text "On-board reset"
+		(exclude_from_sim no)
+		(at 24.384 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d05c2edb-af7b-4c3b-bc60-9e6940307087")
+	)
+	(text "PH3 is for BOOT option "
+		(exclude_from_sim no)
+		(at 118.11 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec56ef2e-101a-4bbb-b8b8-27026aa4ab9a")
+	)
+	(text "Place close to VDDA\n"
+		(exclude_from_sim no)
+		(at 212.598 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eef4cba2-dd61-475d-9ec3-27303b904384")
+	)
+	(junction
+		(at 35.56 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43ace0b2-5e81-4a11-897b-066d8817fc15")
+	)
+	(junction
+		(at 124.46 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4f8c68-6016-4f50-961e-91d2b20ab014")
 	)
 	(junction
 		(at 149.86 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71a9d25b-3b1e-4e8b-b81a-d9cc649cf43f")
+	)
+	(junction
+		(at 190.5 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80a1b93b-15c1-4a30-b09c-f8364eb110f9")
+	)
+	(junction
+		(at 49.53 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8789a434-78ee-42e6-b1c1-ca9a1db1500a")
+	)
+	(junction
+		(at 66.04 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fd9a823-3461-4c51-9ab6-c4c6b7d370ad")
+	)
+	(junction
+		(at 190.5 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8886608-f9ce-4194-94bd-12a280919de8")
+	)
+	(junction
+		(at 124.46 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f321a86d-87be-44d7-8618-e8904127a26a")
+	)
+	(junction
+		(at 152.4 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe6e7b8f-cc17-45a5-9079-c605ab402c0f")
+	)
+	(no_connect
+		(at 137.16 92.71)
+		(uuid "022d85b3-076c-4190-a4f7-a86a0507f3fe")
+	)
+	(no_connect
+		(at 137.16 85.09)
+		(uuid "12736b05-4bd7-472d-a0ff-4324ebb721f8")
+	)
+	(no_connect
+		(at 137.16 80.01)
+		(uuid "14c5b4f4-ab1e-400c-95e7-b77eaec8b9c9")
+	)
+	(no_connect
+		(at 162.56 67.31)
+		(uuid "25a6afc1-3ca1-4e7b-b065-4e4bc024bfc3")
+	)
+	(no_connect
+		(at 162.56 85.09)
+		(uuid "3058ba0a-c902-46c0-ab98-652068ca5ce2")
+	)
+	(no_connect
+		(at 137.16 95.25)
+		(uuid "3093e135-02a2-4260-9d80-a15f6b2bba64")
+	)
+	(no_connect
+		(at 162.56 82.55)
+		(uuid "7a2b0666-2598-4224-8969-724f2de26eca")
+	)
+	(no_connect
+		(at 137.16 90.17)
+		(uuid "9135f8f8-6484-4a6f-af3b-2b340ac0527e")
+	)
+	(no_connect
+		(at 137.16 77.47)
+		(uuid "9a8f7630-d276-4289-a00e-95cd065a5dd7")
+	)
+	(no_connect
+		(at 137.16 87.63)
+		(uuid "a23da13f-4b74-4f42-8a8d-80ace6bd624e")
+	)
+	(no_connect
+		(at 162.56 77.47)
+		(uuid "b95194c6-00e1-42a6-9342-7f3a5e54b0df")
+	)
+	(no_connect
+		(at 162.56 69.85)
+		(uuid "d171745c-94a9-4ed9-ac36-250c3da318cc")
+	)
+	(no_connect
+		(at 162.56 80.01)
+		(uuid "de4bd026-edd4-4a39-898b-d773804d9b6e")
+	)
+	(no_connect
+		(at 137.16 100.33)
+		(uuid "e0d41dc6-96b5-4a28-8efe-5e095d3958f0")
+	)
+	(no_connect
+		(at 162.56 74.93)
+		(uuid "e46f32f4-c077-4df2-9684-184e982697c2")
+	)
+	(no_connect
+		(at 137.16 97.79)
+		(uuid "e99891d5-90fc-40df-b483-a5160955da68")
 	)
 	(bus_entry
 		(at 193.04 90.17)
@@ -1113,6 +2701,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 26.67) (xy 114.3 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ab5e9d-901d-49a6-916e-a646aff9a509")
+	)
+	(wire
+		(pts
 			(xy 176.53 97.79) (xy 162.56 97.79)
 		)
 		(stroke
@@ -1120,6 +2718,116 @@
 			(type default)
 		)
 		(uuid "09687f48-48ec-43d8-95aa-f8e024210884")
+	)
+	(wire
+		(pts
+			(xy 22.86 74.93) (xy 35.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0caaf5eb-e82d-4469-94c2-d2bd2b88e55a")
+	)
+	(wire
+		(pts
+			(xy 163.83 49.53) (xy 163.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119f239f-0a29-4610-8fa5-b29784b60352")
+	)
+	(wire
+		(pts
+			(xy 114.3 34.29) (xy 114.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f7aa50-3d88-4f48-acfe-7942ce5fbfbb")
+	)
+	(wire
+		(pts
+			(xy 190.5 24.13) (xy 190.5 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c147c44-a771-40e5-bfbf-91a20f7fbdad")
+	)
+	(wire
+		(pts
+			(xy 124.46 36.83) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1a785a-2be4-485c-bc63-3b471516db17")
+	)
+	(wire
+		(pts
+			(xy 26.67 102.87) (xy 34.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2331ae11-23b3-41f6-b136-8b0dcb932dd9")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 163.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270e7970-646c-4123-a1ce-d20f2880b143")
+	)
+	(wire
+		(pts
+			(xy 124.46 22.86) (xy 124.46 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2744f3f4-80dc-4256-9ecb-406fd28213d6")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 152.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2869e857-4f67-4927-8b26-7d30ddb3877b")
+	)
+	(wire
+		(pts
+			(xy 190.5 27.94) (xy 195.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9fc7d1-b40f-4ebc-b225-956a477996d0")
+	)
+	(wire
+		(pts
+			(xy 185.42 35.56) (xy 185.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30769112-1724-451d-b735-a3351dd86bed")
 	)
 	(wire
 		(pts
@@ -1143,6 +2851,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 27.94) (xy 185.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d78513-ef46-47dd-9c08-ebadf2db77b5")
+	)
+	(wire
+		(pts
 			(xy 147.32 59.69) (xy 147.32 49.53)
 		)
 		(stroke
@@ -1153,13 +2871,63 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 59.69) (xy 152.4 49.53)
+			(xy 49.53 72.39) (xy 66.04 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "554aa9ba-6e86-44a9-ae4b-4411a40d3f8b")
+		(uuid "3a9ca68a-43e2-4d7f-934e-4e9182ca14b4")
+	)
+	(wire
+		(pts
+			(xy 26.67 107.95) (xy 26.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4043ff3b-bbf7-4267-bde9-98d699b718ea")
+	)
+	(wire
+		(pts
+			(xy 35.56 69.85) (xy 35.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a552b6a-f912-4348-919d-6c23641ec095")
+	)
+	(wire
+		(pts
+			(xy 162.56 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3eedac-8774-4055-b684-5f044a4d65f0")
+	)
+	(wire
+		(pts
+			(xy 162.56 102.87) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccd7836-ee4d-4239-8e1f-890d53f99f89")
+	)
+	(wire
+		(pts
+			(xy 124.46 34.29) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e168aa-7fc8-49ad-8b20-fbd358ee33d2")
 	)
 	(wire
 		(pts
@@ -1173,6 +2941,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 80.01) (xy 40.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c7c7a2-efb9-40ba-a12a-fe070e996db5")
+	)
+	(wire
+		(pts
 			(xy 190.5 90.17) (xy 162.56 90.17)
 		)
 		(stroke
@@ -1183,6 +2961,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 35.56) (xy 195.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e1209b-68de-47c5-97d9-7b4cc75288e7")
+	)
+	(wire
+		(pts
 			(xy 162.56 105.41) (xy 176.53 105.41)
 		)
 		(stroke
@@ -1190,6 +2978,26 @@
 			(type default)
 		)
 		(uuid "6d3dbd9a-13e9-4f41-a7a0-bf5e7e80fc13")
+	)
+	(wire
+		(pts
+			(xy 152.4 49.53) (xy 152.4 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5fbcf8-4fbf-43b6-b07f-6bc7aca122d3")
+	)
+	(wire
+		(pts
+			(xy 22.86 74.93) (xy 22.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eaa45b2-b061-4e27-ad3e-9445bd801cd8")
 	)
 	(bus
 		(pts
@@ -1203,6 +3011,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 57.15) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70cb63e2-47f3-4b81-8095-43ce70b4a2fc")
+	)
+	(wire
+		(pts
 			(xy 162.56 87.63) (xy 176.53 87.63)
 		)
 		(stroke
@@ -1210,6 +3028,16 @@
 			(type default)
 		)
 		(uuid "7334b32e-16c9-4c9b-a765-959fa267ecda")
+	)
+	(wire
+		(pts
+			(xy 66.04 72.39) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742a2c13-9f00-4256-8c55-83335b655c93")
 	)
 	(wire
 		(pts
@@ -1233,6 +3061,116 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 69.85) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff20737-de05-4059-b45e-0b5bbc3f21cc")
+	)
+	(wire
+		(pts
+			(xy 49.53 69.85) (xy 49.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff9b0c0-d46f-487e-8eff-063a0e823cf6")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.01) (xy 49.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8248087f-7f22-4ead-8123-f45a7607d010")
+	)
+	(wire
+		(pts
+			(xy 134.62 26.67) (xy 134.62 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843f0fa9-65dd-4406-a46b-3e39aecd66ef")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cfde222-91c4-46ce-a21f-e8c55374c2cb")
+	)
+	(wire
+		(pts
+			(xy 124.46 20.32) (xy 124.46 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f254d08-6ae3-47ae-b4e7-a32a9b5a4662")
+	)
+	(wire
+		(pts
+			(xy 114.3 22.86) (xy 124.46 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902519f5-0e07-4c3f-b9db-f086124b8ba5")
+	)
+	(wire
+		(pts
+			(xy 134.62 36.83) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cce189-6eac-41e4-a20b-57c78667f9ab")
+	)
+	(wire
+		(pts
+			(xy 195.58 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94165a06-17df-4c17-9f9d-bcb8632be225")
+	)
+	(wire
+		(pts
+			(xy 134.62 22.86) (xy 124.46 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a17a455-1209-4acc-be7b-39f047b72bbd")
+	)
+	(wire
+		(pts
+			(xy 49.53 72.39) (xy 49.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39a35b8-011f-464d-9d36-5392c771d95a")
+	)
+	(wire
+		(pts
 			(xy 149.86 113.03) (xy 149.86 123.19)
 		)
 		(stroke
@@ -1240,6 +3178,76 @@
 			(type default)
 		)
 		(uuid "b6223034-ec56-470e-bf7a-c7009730954d")
+	)
+	(wire
+		(pts
+			(xy 114.3 36.83) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beeb35ea-377a-45b3-99e1-56858196ed2e")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 137.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8fb6c9-0470-481b-8fb8-fec3890b42cb")
+	)
+	(wire
+		(pts
+			(xy 185.42 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c711b2-b7dd-4799-a605-cfb152f499f6")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.01) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e097e8-d4e5-4050-a096-14510cec0784")
+	)
+	(wire
+		(pts
+			(xy 45.72 69.85) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e0e1b6-0a0d-4239-bab2-127e919c2600")
+	)
+	(wire
+		(pts
+			(xy 134.62 34.29) (xy 134.62 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df71c499-57d4-4cbf-95d3-9eadaf5713a0")
+	)
+	(wire
+		(pts
+			(xy 35.56 74.93) (xy 35.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07888a3-e23a-485b-8648-88dc8e830320")
 	)
 	(wire
 		(pts
@@ -1261,6 +3269,26 @@
 		)
 		(uuid "e7f8cf39-6953-4c8d-9045-c3b9aef6e40f")
 	)
+	(label "BOOT"
+		(at 127 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a569a28-5a7f-4e75-86c9-64b375b1cc8d")
+	)
+	(label "NRST"
+		(at 74.93 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "682938a9-5542-488b-9bdb-a6614154faa1")
+	)
 	(label "I2C.SDA"
 		(at 162.56 92.71 0)
 		(effects
@@ -1281,6 +3309,37 @@
 		)
 		(uuid "b732fb38-1814-43f5-9220-e80830cef163")
 	)
+	(label "NRST"
+		(at 127 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1ef0781-d8c5-48af-aadb-5fee4b721300")
+	)
+	(label "BOOT"
+		(at 34.29 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8117da9-ff2e-4d3e-baa4-a287fbe5b7ad")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 127 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41375da7-dd09-4e3f-90ec-4e370e9d4e63")
+	)
 	(hierarchical_label "RX"
 		(shape input)
 		(at 176.53 105.41 0)
@@ -1293,6 +3352,17 @@
 			(justify left)
 		)
 		(uuid "4a6327c2-78fe-4124-8fce-4f3c19f796bc")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 176.53 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7370f2dd-5ab3-46bd-a554-3a9ed6c111e2")
 	)
 	(hierarchical_label "TX"
 		(shape output)
@@ -1319,6 +3389,17 @@
 			(justify left)
 		)
 		(uuid "96cbc69e-74bf-400d-877c-9dfd32e91f50")
+	)
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 176.53 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9e01e37-09c7-4c53-bfff-dfaacb527f46")
 	)
 	(hierarchical_label "LSM6DSOX_INT1"
 		(shape input)
@@ -1358,6 +3439,83 @@
 			(justify left)
 		)
 		(uuid "f82b0c54-f432-4448-a33b-c1252affcdf1")
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:KMR221NGLFS")
+		(at 43.18 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eeae6d7-0fbc-4d94-8a5b-6315c50c214c")
+		(property "Reference" "SW1"
+			(at 40.64 66.5479 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KMR221NGLFS"
+			(at 34.798 82.0419 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:KMR221_CNK"
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf"
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 32V"
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "93c111be-2fad-4b32-8a57-a9cfcc319a22")
+		)
+		(pin "2"
+			(uuid "549d4a07-c00d-49cb-b1d0-4446c013bb15")
+		)
+		(pin "1"
+			(uuid "28c5537b-b61e-4578-be3d-ea91e6fe76dc")
+		)
+		(pin "4"
+			(uuid "6d3b4fdc-51de-4dff-8ec7-40c1c18ce4b5")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1420,6 +3578,78 @@
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
 					(reference "#PWR9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:CC0402KRX7R6BB104")
+		(at 66.04 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "449480c5-ed48-4a47-ab13-6de832758c02")
+		(property "Reference" "C12"
+			(at 58.928 74.2501 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0402KRX7R6BB104"
+			(at 66.04 81.1081 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:YAG_CC0402_YAG"
+			(at 73.406 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 55.626 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 71.628 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce091efb-1c19-4b97-8d40-c42e2f5d24f0")
+		)
+		(pin "1"
+			(uuid "f1917dcd-9236-4dd6-8518-0379d34fae42")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1590,6 +3820,286 @@
 		)
 	)
 	(symbol
+		(lib_id "Hourglass_symbol_library:GRM155Z71A105KE01D")
+		(at 195.58 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50c89b5e-49e0-4987-9ac5-bd1394e22833")
+		(property "Reference" "C15"
+			(at 196.342 29.4191 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GRM155Z71A105KE01D"
+			(at 199.39 34.7531 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:CAP_GRM155Z_MUR"
+			(at 204.724 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
+			(at 201.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 10V X7R 0402"
+			(at 187.198 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4df75c78-aced-468b-ba28-3dd191e21827")
+		)
+		(pin "1"
+			(uuid "09a3279a-e0cf-4f16-bc49-5d5b4c86290b")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:RMCF0805FT10K0")
+		(at 26.67 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "536004ec-d4be-4191-b8d5-a9dac82a8127")
+		(property "Reference" "R16"
+			(at 22.606 103.1238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RMCF0805FT10K0"
+			(at 31.75 106.6798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:RMCF0805FT10K0"
+			(at 30.988 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 32.766 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 20.066 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b61b07c5-eb87-49b5-b248-4db4744aad8e")
+		)
+		(pin ""
+			(uuid "f884fe93-2a2d-4793-be5c-044defe4ba9b")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5844c8ad-54ee-4fb6-a169-e139eb012b6c")
+		(property "Reference" "#PWR043"
+			(at 124.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ced5fea7-735b-46e4-9907-3d9d20b65a13")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:GRM21BR71A475KE51L")
+		(at 134.62 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "684ed00b-f61b-4310-aa71-652faad38ee8")
+		(property "Reference" "C17"
+			(at 127.762 28.2761 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GRM21BR71A475KE51L"
+			(at 138.43 33.8641 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:GRM21BR71A475KE51L"
+			(at 141.986 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 124.206 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 4.7UF 10V X7R 0805"
+			(at 140.208 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c0abc87-d8d9-4e83-8eff-03f6e78f4c68")
+		)
+		(pin "2"
+			(uuid "090eba2a-b3eb-4ec3-9132-54af60b92307")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 149.86 49.53 0)
 		(unit 1)
@@ -1650,6 +4160,754 @@
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
 					(reference "#PWR8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d6bb2cd-6919-4e02-9982-f6f690b2e12f")
+		(property "Reference" "#PWR041"
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fdb44a9-ea33-4f4b-87da-7bf585a7f1b4")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a03368ad-fbbc-46c3-b830-8150f38b32f7")
+		(property "Reference" "#PWR037"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26de1019-62e5-4fc9-912d-b02ca90b0f87")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:CC0402KRX7R6BB104")
+		(at 124.46 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a53a2f80-2e80-4dce-8623-ae8d9726df7e")
+		(property "Reference" "C13"
+			(at 117.094 28.5301 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0402KRX7R6BB104"
+			(at 128.27 33.8641 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:YAG_CC0402_YAG"
+			(at 131.826 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 114.046 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 130.048 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90319bce-ca01-491a-87da-20f4ff1594e9")
+		)
+		(pin "2"
+			(uuid "774ac056-459e-49a9-b325-189c48e3849c")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 190.5 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b09895a7-1a60-4d59-8154-180f5be12189")
+		(property "Reference" "#PWR040"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 190.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 190.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20e2e08a-3c63-47ef-987e-e013cbc510bb")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b582d4fb-1c50-4846-94bb-91e2f8fef4db")
+		(property "Reference" "#PWR038"
+			(at 22.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c95649b-2bb7-4fa0-aa4c-809d969d0fc1")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:FerriteBead_Small")
+		(at 152.4 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c16351bc-c971-4c7c-9563-23dcd694cded")
+		(property "Reference" "FB1"
+			(at 154.94 54.5718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead_Small"
+			(at 154.94 55.8418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:FB_0603_1608Metric"
+			(at 150.622 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6383/FCM%20Series.pdf"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FERRITE BEAD 600 OHM 0603 1LN"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20a19c97-c9a1-4ed2-8e68-036f93049cc5")
+		)
+		(pin "2"
+			(uuid "c34cae73-38b7-4764-8b8f-71ed591575e9")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 124.46 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0c52d8d-5984-4517-b586-82034ab86f48")
+		(property "Reference" "#PWR042"
+			(at 124.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.46 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 124.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "236d7257-6589-436e-a37d-8fc9ce280449")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d97e70a8-5f51-44ce-a476-b0515beac4f9")
+		(property "Reference" "#PWR044"
+			(at 26.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d2813db-40bb-4494-bcd0-159994f60ab5")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:CC0402KRX7R6BB104")
+		(at 185.42 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e06e9422-1ebe-44ff-ae96-e332ae6b7dab")
+		(property "Reference" "C14"
+			(at 178.308 29.5461 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0402KRX7R6BB104"
+			(at 189.23 35.1341 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:YAG_CC0402_YAG"
+			(at 192.786 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 175.006 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 191.008 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14dd74ec-a0df-4f5d-b4af-635897de2bb5")
+		)
+		(pin "2"
+			(uuid "4fcdb6a2-d71f-43d2-91a2-b8ab9815b8db")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:CC0402KRX7R6BB104")
+		(at 114.3 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3753d30-a780-4699-90bd-b86023fddddd")
+		(property "Reference" "C16"
+			(at 106.934 28.5301 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0402KRX7R6BB104"
+			(at 118.11 33.8641 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:YAG_CC0402_YAG"
+			(at 121.666 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 103.886 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 119.888 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64c4379e-7f53-4563-95df-46125eb6d809")
+		)
+		(pin "2"
+			(uuid "195dca32-afac-4860-935d-d6f7a685ea91")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 163.83 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9f00033-8039-41b8-9cc0-87dc02d03e57")
+		(property "Reference" "#PWR039"
+			(at 163.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69322214-9150-416a-b967-f711f5919285")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)

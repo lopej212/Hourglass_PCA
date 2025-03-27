@@ -4404,10 +4404,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D28")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D56")
 					(unit 1)
@@ -4563,10 +4559,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D23")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D51")
 					(unit 1)
@@ -4722,10 +4714,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D2")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D30")
 					(unit 1)
@@ -4881,10 +4869,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D6")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D34")
 					(unit 1)
@@ -5040,10 +5024,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D24")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D52")
 					(unit 1)
@@ -5199,10 +5179,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D20")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D48")
 					(unit 1)
@@ -5358,10 +5334,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D3")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D31")
 					(unit 1)
@@ -5517,10 +5489,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D21")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D49")
 					(unit 1)
@@ -5676,10 +5644,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D13")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D41")
 					(unit 1)
@@ -5835,10 +5799,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D1")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D29")
 					(unit 1)
@@ -5994,10 +5954,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D7")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D35")
 					(unit 1)
@@ -6153,10 +6109,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D22")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D50")
 					(unit 1)
@@ -6312,10 +6264,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D9")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D37")
 					(unit 1)
@@ -6471,10 +6419,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D25")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D53")
 					(unit 1)
@@ -6630,10 +6574,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D5")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D33")
 					(unit 1)
@@ -6789,10 +6729,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D26")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D54")
 					(unit 1)
@@ -6948,10 +6884,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D14")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D42")
 					(unit 1)
@@ -7107,10 +7039,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D40")
 					(unit 1)
@@ -7266,10 +7194,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D11")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D39")
 					(unit 1)
@@ -7425,10 +7349,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D19")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D47")
 					(unit 1)
@@ -7584,10 +7504,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D10")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D38")
 					(unit 1)
@@ -7742,10 +7658,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D18")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D46")
 					(unit 1)
@@ -7900,10 +7812,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D16")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D44")
 					(unit 1)
@@ -8059,10 +7967,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D4")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D32")
 					(unit 1)
@@ -8218,10 +8122,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D8")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D36")
 					(unit 1)
@@ -8376,10 +8276,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D17")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D45")
 					(unit 1)
@@ -8535,10 +8431,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D27")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D55")
 					(unit 1)
@@ -8694,10 +8586,6 @@
 		)
 		(instances
 			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D15")
-					(unit 1)
-				)
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
 					(reference "D43")
 					(unit 1)
