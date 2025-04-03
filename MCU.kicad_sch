@@ -5,6 +5,113 @@
 	(uuid "3284a8bc-a78a-4630-8f8d-2316b2541663")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Hourglass_symbol_library:CC0402KRX7R6BB104"
 			(pin_names
 				(offset 0.254)
@@ -2545,7 +2652,7 @@
 	)
 	(text "PH3 is for BOOT option "
 		(exclude_from_sim no)
-		(at 118.11 52.07 0)
+		(at 113.538 72.136 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2576,6 +2683,12 @@
 		(uuid "4a4f8c68-6016-4f50-961e-91d2b20ab014")
 	)
 	(junction
+		(at 172.72 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61270830-5d9e-4ea4-aa7e-83c1cbc81bc0")
+	)
+	(junction
 		(at 149.86 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2598,6 +2711,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fd9a823-3461-4c51-9ab6-c4c6b7d370ad")
+	)
+	(junction
+		(at 163.83 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "974c5145-076b-45c9-a551-e21e598ca1dc")
 	)
 	(junction
 		(at 190.5 27.94)
@@ -2708,16 +2827,6 @@
 			(type default)
 		)
 		(uuid "03ab5e9d-901d-49a6-916e-a646aff9a509")
-	)
-	(wire
-		(pts
-			(xy 176.53 97.79) (xy 162.56 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09687f48-48ec-43d8-95aa-f8e024210884")
 	)
 	(wire
 		(pts
@@ -2871,6 +2980,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a738943-8303-483d-8e9f-eabb7c530249")
+	)
+	(wire
+		(pts
 			(xy 49.53 72.39) (xy 66.04 72.39)
 		)
 		(stroke
@@ -2918,6 +3037,16 @@
 			(type default)
 		)
 		(uuid "4ccd7836-ee4d-4239-8e1f-890d53f99f89")
+	)
+	(wire
+		(pts
+			(xy 163.83 58.42) (xy 168.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e558cc-2d09-450d-bd1c-a7e4131a2d8b")
 	)
 	(wire
 		(pts
@@ -3021,7 +3150,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 87.63) (xy 176.53 87.63)
+			(xy 162.56 87.63) (xy 172.72 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3098,6 +3227,16 @@
 			(type default)
 		)
 		(uuid "843f0fa9-65dd-4406-a46b-3e39aecd66ef")
+	)
+	(wire
+		(pts
+			(xy 172.72 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869480ae-e95e-40e0-854d-1dbaa2ea43d3")
 	)
 	(wire
 		(pts
@@ -3527,7 +3666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e138f17-684f-40d0-bb02-d389f973507a")
-		(property "Reference" "#PWR9"
+		(property "Reference" "#PWR010"
 			(at 149.86 129.54 0)
 			(effects
 				(font
@@ -3577,7 +3716,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR9")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3592,7 +3731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "449480c5-ed48-4a47-ab13-6de832758c02")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 58.928 74.2501 90)
 			(effects
 				(font
@@ -3649,7 +3788,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3665,7 +3804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "494a79ce-de7f-4273-94c8-c81f02856d54")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 152.0541 113.03 0)
 			(effects
 				(font
@@ -3813,7 +3952,75 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "U2")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 172.72 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee93ccc-cccd-4708-9204-43dd14038e13")
+		(property "Reference" "TP2"
+			(at 175.26 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 175.26 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 172.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0e58b9e-b163-4552-980e-2e0d1ebbe762")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3828,7 +4035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50c89b5e-49e0-4987-9ac5-bd1394e22833")
-		(property "Reference" "C15"
+		(property "Reference" "C5"
 			(at 196.342 29.4191 90)
 			(effects
 				(font
@@ -3885,7 +4092,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "C15")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3900,7 +4107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "536004ec-d4be-4191-b8d5-a9dac82a8127")
-		(property "Reference" "R16"
+		(property "Reference" "R1"
 			(at 22.606 103.1238 90)
 			(effects
 				(font
@@ -3955,7 +4162,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "R16")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3971,7 +4178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5844c8ad-54ee-4fb6-a169-e139eb012b6c")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR03"
 			(at 124.46 44.45 0)
 			(effects
 				(font
@@ -4021,7 +4228,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR043")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4036,7 +4243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "684ed00b-f61b-4310-aa71-652faad38ee8")
-		(property "Reference" "C17"
+		(property "Reference" "C3"
 			(at 127.762 28.2761 90)
 			(effects
 				(font
@@ -4093,7 +4300,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "C17")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4109,7 +4316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e210fe2-6872-44df-ad51-0332ca96b354")
-		(property "Reference" "#PWR8"
+		(property "Reference" "#PWR05"
 			(at 149.86 53.34 0)
 			(effects
 				(font
@@ -4159,7 +4366,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR8")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4175,7 +4382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d6bb2cd-6919-4e02-9982-f6f690b2e12f")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR04"
 			(at 190.5 44.45 0)
 			(effects
 				(font
@@ -4225,7 +4432,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR041")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4241,7 +4448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a03368ad-fbbc-46c3-b830-8150f38b32f7")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR08"
 			(at 66.04 88.9 0)
 			(effects
 				(font
@@ -4291,7 +4498,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR037")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4306,7 +4513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a53a2f80-2e80-4dce-8623-ae8d9726df7e")
-		(property "Reference" "C13"
+		(property "Reference" "C2"
 			(at 117.094 28.5301 90)
 			(effects
 				(font
@@ -4363,7 +4570,75 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "C13")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaba48c6-5ff4-4eaa-bbb4-ef203179436d")
+		(property "Reference" "TP1"
+			(at 171.45 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.45 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b8360b8-dbd7-4400-bc3b-2faa26d06084")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4378,7 +4653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b09895a7-1a60-4d59-8154-180f5be12189")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR02"
 			(at 190.5 27.94 0)
 			(effects
 				(font
@@ -4428,7 +4703,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR040")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b582d4fb-1c50-4846-94bb-91e2f8fef4db")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR07"
 			(at 22.86 88.9 0)
 			(effects
 				(font
@@ -4494,7 +4769,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR038")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4581,7 +4856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0c52d8d-5984-4517-b586-82034ab86f48")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR01"
 			(at 124.46 24.13 0)
 			(effects
 				(font
@@ -4631,7 +4906,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR042")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4647,7 +4922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d97e70a8-5f51-44ce-a476-b0515beac4f9")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR09"
 			(at 26.67 118.11 0)
 			(effects
 				(font
@@ -4697,7 +4972,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR044")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4712,7 +4987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e06e9422-1ebe-44ff-ae96-e332ae6b7dab")
-		(property "Reference" "C14"
+		(property "Reference" "C4"
 			(at 178.308 29.5461 90)
 			(effects
 				(font
@@ -4769,7 +5044,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "C14")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4784,7 +5059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3753d30-a780-4699-90bd-b86023fddddd")
-		(property "Reference" "C16"
+		(property "Reference" "C1"
 			(at 106.934 28.5301 90)
 			(effects
 				(font
@@ -4841,7 +5116,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "C16")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4857,7 +5132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9f00033-8039-41b8-9cc0-87dc02d03e57")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR06"
 			(at 163.83 53.34 0)
 			(effects
 				(font
@@ -4907,7 +5182,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
-					(reference "#PWR039")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)

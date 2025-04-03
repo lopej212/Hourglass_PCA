@@ -1,4 +1,4 @@
-24779234962845151
+24786207680327132
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58443,6 +58443,13 @@ Hourglass_footprint_library
 4
 4
 Hourglass_footprint_library
+009159010061911
+
+
+0
+0
+0
+Hourglass_footprint_library
 BQ25185
 
 BQ25185DLHR 
@@ -58491,6 +58498,20 @@ CUI_UJ31-CH-G2-SMT-TR
 0
 28
 28
+Hourglass_footprint_library
+FB_0603_1608Metric
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+Hourglass_footprint_library
+GRM21BR71A475KE51L
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
 Hourglass_footprint_library
 JS202011JCQN
 
@@ -58689,6 +58710,13 @@ inductor handsolder
 2
 Inductor_SMD
 L_0603_1608Metric
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+Inductor_SMD
+L_0603_1608Metric_1
 Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 inductor
 0

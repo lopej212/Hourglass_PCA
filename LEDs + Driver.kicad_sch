@@ -5,6 +5,113 @@
 	(uuid "5c4f2165-91a7-4fbb-af63-186ad4adb1fb")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Hourglass_symbol_library:GRM155Z71A105KE01D"
 			(pin_names
 				(offset 0.254)
@@ -1596,6 +1703,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 35.56 167.64)
+		(end 83.82 187.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 99c914ea-ff87-4fa3-a7c1-8ba443eaa42f)
+	)
+	(text "CS TPs\n"
+		(exclude_from_sim yes)
+		(at 38.608 166.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2701d4ab-f905-4c8e-a128-3dd2487d5c27")
+	)
 	(text "I2C Address: 0x10"
 		(exclude_from_sim no)
 		(at 56.642 109.22 0)
@@ -1615,6 +1744,12 @@
 		(uuid "1888ed77-75a8-400e-9858-f78097d48b9e")
 	)
 	(junction
+		(at 72.39 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e183e54-1e87-44b6-9a32-5a07b216f88a")
+	)
+	(junction
 		(at 62.23 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1627,10 +1762,22 @@
 		(uuid "b5a384c0-e3b5-45f2-a2c3-3ce95a80de86")
 	)
 	(junction
+		(at 72.39 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba7502a4-a299-42a8-8dec-40956bcf79e9")
+	)
+	(junction
 		(at 69.85 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc6eefa4-f89a-4441-b894-c2e7c2b71a6c")
+	)
+	(junction
+		(at 72.39 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde7ffda-701f-4cff-9d2c-1378f35000d2")
 	)
 	(junction
 		(at 69.85 110.49)
@@ -2024,6 +2171,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 58.42) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd8dafc-6039-486d-9db0-19b9d95c2169")
+	)
+	(wire
+		(pts
 			(xy 76.2 110.49) (xy 69.85 110.49)
 		)
 		(stroke
@@ -2064,6 +2221,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 177.8) (xy 71.12 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef29798-34d5-417a-8263-68691a08418a")
+	)
+	(wire
+		(pts
+			(xy 78.74 177.8) (xy 78.74 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4eb4b9-e680-45e9-b470-381dd4b09183")
+	)
+	(wire
+		(pts
 			(xy 121.92 96.52) (xy 133.35 96.52)
 		)
 		(stroke
@@ -2071,16 +2248,6 @@
 			(type default)
 		)
 		(uuid "36e7b1ce-083b-48fa-b35f-990070c241a1")
-	)
-	(wire
-		(pts
-			(xy 76.2 63.5) (xy 72.39 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d38471-82cf-4545-b156-c5d2a6a4e186")
 	)
 	(bus
 		(pts
@@ -2094,6 +2261,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 58.42) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abfb061-d8d1-4ed1-9093-dda6eb422011")
+	)
+	(wire
+		(pts
 			(xy 69.85 99.06) (xy 76.2 99.06)
 		)
 		(stroke
@@ -2101,6 +2278,16 @@
 			(type default)
 		)
 		(uuid "3b7ceff9-d779-4723-bf7c-7e9e53bfde80")
+	)
+	(wire
+		(pts
+			(xy 76.2 177.8) (xy 76.2 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42792632-2c65-44f4-a551-0ba454db4d2d")
 	)
 	(wire
 		(pts
@@ -2134,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 53.34) (xy 76.2 53.34)
+			(xy 64.77 53.34) (xy 72.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2144,13 +2331,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 62.23 58.42)
+			(xy 55.88 177.8) (xy 55.88 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5188bf62-3317-4ca9-9826-5e0c95a02df9")
+		(uuid "5058db4f-99ef-40e2-b99a-7904824dde94")
+	)
+	(wire
+		(pts
+			(xy 73.66 177.8) (xy 73.66 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b81b48-097c-47a2-a8e9-0df39833fe59")
 	)
 	(wire
 		(pts
@@ -2161,6 +2358,16 @@
 			(type default)
 		)
 		(uuid "5ae6770b-6ba6-4995-9b49-88328f7bce5d")
+	)
+	(wire
+		(pts
+			(xy 72.39 63.5) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1f9650-8985-44e1-b055-920487ca1ff1")
 	)
 	(wire
 		(pts
@@ -2201,6 +2408,26 @@
 			(type default)
 		)
 		(uuid "64ac41eb-6eef-409f-b941-17a382417fba")
+	)
+	(wire
+		(pts
+			(xy 50.8 177.8) (xy 50.8 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6525b122-4212-448a-8753-26608051c51c")
+	)
+	(wire
+		(pts
+			(xy 63.5 177.8) (xy 63.5 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e5076a-1dea-4fdc-9cf1-fe2cae8d0178")
 	)
 	(bus
 		(pts
@@ -2284,6 +2511,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 177.8) (xy 66.04 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77256a9e-a5f8-4d80-94b4-3259ff9214d0")
+	)
+	(wire
+		(pts
 			(xy 76.2 132.08) (xy 69.85 132.08)
 		)
 		(stroke
@@ -2352,6 +2589,16 @@
 		)
 		(uuid "867971f4-8f76-4670-ba85-2e9bd1ee1eea")
 	)
+	(wire
+		(pts
+			(xy 58.42 177.8) (xy 58.42 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879228f1-bd83-4d42-8ce3-85b4c6232658")
+	)
 	(bus
 		(pts
 			(xy 134.62 68.58) (xy 134.62 71.12)
@@ -2404,6 +2651,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 177.8) (xy 45.72 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e408d0d-12b5-40b9-a687-020b3e498b14")
+	)
+	(wire
+		(pts
 			(xy 101.6 148.59) (xy 100.33 148.59)
 		)
 		(stroke
@@ -2422,6 +2679,16 @@
 		)
 		(uuid "9196c8b5-1712-48d0-9d38-94abcd679657")
 	)
+	(wire
+		(pts
+			(xy 53.34 177.8) (xy 53.34 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92742bb2-a74b-4802-a27d-10f5372517c1")
+	)
 	(bus
 		(pts
 			(xy 135.89 96.52) (xy 135.89 99.06)
@@ -2434,6 +2701,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 53.34) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ab8029-15b2-426f-a415-a177621155de")
+	)
+	(wire
+		(pts
 			(xy 121.92 106.68) (xy 133.35 106.68)
 		)
 		(stroke
@@ -2441,6 +2718,16 @@
 			(type default)
 		)
 		(uuid "9864008c-3078-47fc-bdcc-5086daf679e6")
+	)
+	(wire
+		(pts
+			(xy 72.39 53.34) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993c2800-9f63-41ed-bf3c-201c783c77f2")
 	)
 	(bus
 		(pts
@@ -2554,6 +2841,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 177.8) (xy 38.1 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b746d389-065e-427e-9da0-da756f694f4f")
+	)
+	(wire
+		(pts
 			(xy 121.92 101.6) (xy 133.35 101.6)
 		)
 		(stroke
@@ -2584,6 +2881,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 177.8) (xy 81.28 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf65ed5e-cfa8-415b-b9e1-cba6f2ab42af")
+	)
+	(wire
+		(pts
 			(xy 121.92 91.44) (xy 133.35 91.44)
 		)
 		(stroke
@@ -2591,6 +2898,16 @@
 			(type default)
 		)
 		(uuid "c06b8d17-abe4-449f-a3ce-53a20828e71a")
+	)
+	(wire
+		(pts
+			(xy 40.64 177.8) (xy 40.64 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c0f795-3eef-4fe5-9c4c-a471694960f5")
 	)
 	(wire
 		(pts
@@ -2611,6 +2928,16 @@
 			(type default)
 		)
 		(uuid "c23a6cad-b2a4-42b2-be07-3cdd712bbf2b")
+	)
+	(wire
+		(pts
+			(xy 60.96 177.8) (xy 60.96 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45599ba-9f77-428e-9ef1-90fd006d9597")
 	)
 	(bus
 		(pts
@@ -2662,6 +2989,16 @@
 		)
 		(uuid "cfe96017-6f51-4397-8e6a-5f2c88e6f7dd")
 	)
+	(wire
+		(pts
+			(xy 72.39 63.5) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e7785a-cfb2-4348-9c50-a453f09c1a71")
+	)
 	(bus
 		(pts
 			(xy 135.89 111.76) (xy 135.89 114.3)
@@ -2681,6 +3018,26 @@
 			(type default)
 		)
 		(uuid "e1296fee-204d-4335-bc61-3a628183fa07")
+	)
+	(wire
+		(pts
+			(xy 48.26 177.8) (xy 48.26 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ae2155-f093-4a07-bcd2-f9b58f5da083")
+	)
+	(wire
+		(pts
+			(xy 68.58 177.8) (xy 68.58 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44fa916-0b5f-4e79-8694-f3da688abae6")
 	)
 	(bus
 		(pts
@@ -2754,6 +3111,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 177.8) (xy 43.18 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57783a3-3701-4d1e-910b-2ea19f663906")
+	)
+	(wire
+		(pts
 			(xy 121.92 86.36) (xy 133.35 86.36)
 		)
 		(stroke
@@ -2812,6 +3179,36 @@
 		)
 		(uuid "fe115d60-b9e9-4d97-8428-aa285839776d")
 	)
+	(label "CS14"
+		(at 73.66 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "027b2d82-49c4-4a63-bc91-df0331f7cbcc")
+	)
+	(label "CS4"
+		(at 48.26 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f236d39-576a-40cd-ba09-a1291757c314")
+	)
+	(label "CS10"
+		(at 63.5 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fb613da-1200-4afe-ad9c-48fd038cda47")
+	)
 	(label "CS16"
 		(at 121.92 124.46 0)
 		(effects
@@ -2856,6 +3253,16 @@
 		)
 		(uuid "220a4198-be93-472c-8307-611f331c7250")
 	)
+	(label "CS2"
+		(at 43.18 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25d53873-1527-49f8-b498-3a246f38a0f6")
+	)
 	(label "SW2"
 		(at 121.92 58.42 0)
 		(effects
@@ -2875,6 +3282,16 @@
 			(justify left bottom)
 		)
 		(uuid "2bcf6bcb-2556-4d86-b896-9a0c96bf8195")
+	)
+	(label "CS9"
+		(at 60.96 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bcfa835-23e1-4354-accc-f7f6cd6908cc")
 	)
 	(label "SW[5..9]"
 		(at 139.7 63.5 0)
@@ -2938,6 +3355,16 @@
 		)
 		(uuid "3bbef72f-bacc-4c6c-9a1b-8f5219111bae")
 	)
+	(label "CS16"
+		(at 78.74 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3cbb8893-b965-4d07-aa80-0ca34917e8fc")
+	)
 	(label "SW9"
 		(at 121.92 76.2 0)
 		(effects
@@ -2977,6 +3404,16 @@
 			(justify left bottom)
 		)
 		(uuid "5cbfea2a-0dbb-4f6b-8180-5e1757694fd9")
+	)
+	(label "CS11"
+		(at 66.04 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5df8e3cb-03c6-4a77-85d2-ebf1af57d2e9")
 	)
 	(label "CS9"
 		(at 121.92 106.68 0)
@@ -3040,6 +3477,16 @@
 		)
 		(uuid "83e222f6-92e7-4718-a177-72acb41e0b0a")
 	)
+	(label "CS13"
+		(at 71.12 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "976ff420-b890-45f8-92a3-0714ab2699e5")
+	)
 	(label "CS2"
 		(at 121.92 88.9 0)
 		(effects
@@ -3049,6 +3496,26 @@
 			(justify left bottom)
 		)
 		(uuid "9b6b769a-cfce-4773-b034-248bffdbcdf6")
+	)
+	(label "CS12"
+		(at 68.58 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9316316-532e-4830-b9de-020dea3d4e7e")
+	)
+	(label "CS3"
+		(at 45.72 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae338bab-6989-4325-8b80-63bf74086f54")
 	)
 	(label "SW[0..4]"
 		(at 139.7 41.91 0)
@@ -3094,6 +3561,16 @@
 		)
 		(uuid "be64508f-4450-433a-a3cd-0f67cf17c530")
 	)
+	(label "CS5"
+		(at 50.8 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf1fc3de-f365-47dc-a20a-48157e2ed31c")
+	)
 	(label "CS4"
 		(at 121.92 93.98 0)
 		(effects
@@ -3113,6 +3590,16 @@
 			(justify left bottom)
 		)
 		(uuid "c1b84c71-c4d1-444d-98cf-17bfb7996ba4")
+	)
+	(label "CS15"
+		(at 76.2 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5ad2666-4617-47f7-bb92-0f3c40184ac3")
 	)
 	(label "CS[0..17]"
 		(at 184.15 67.31 0)
@@ -3136,6 +3623,16 @@
 		)
 		(uuid "cf1f32fb-9c55-4d84-ae13-59fe78baa60c")
 	)
+	(label "CS8"
+		(at 58.42 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d028f2a9-eee7-4edf-85f3-2d50f7134c41")
+	)
 	(label "SW1"
 		(at 121.92 55.88 0)
 		(effects
@@ -3145,6 +3642,16 @@
 			(justify left bottom)
 		)
 		(uuid "d631cae8-67ad-4735-bd1a-ed1a6685094a")
+	)
+	(label "CS1"
+		(at 40.64 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d905f862-b02c-432c-b18e-d366698489aa")
 	)
 	(label "SW7"
 		(at 121.92 71.12 0)
@@ -3188,6 +3695,36 @@
 		)
 		(uuid "e8992d79-acfb-4a1c-8644-d7a41897e3aa")
 	)
+	(label "CS0"
+		(at 38.1 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e96982db-7412-40d2-a3d7-3545277e3823")
+	)
+	(label "CS6"
+		(at 53.34 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e99e9bb5-2e04-4bc0-aba2-309514b0ab1a")
+	)
+	(label "CS17"
+		(at 81.28 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eba72a0d-6db8-4f6a-b16b-fad997d169d4")
+	)
 	(label "CS12"
 		(at 121.92 114.3 0)
 		(effects
@@ -3197,6 +3734,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0a9ca24-e27e-4a3e-a43c-76d4ec6cb522")
+	)
+	(label "CS7"
+		(at 55.88 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7adf427-69e3-4590-8b9e-464ae386efde")
 	)
 	(label "CS1"
 		(at 121.92 86.36 0)
@@ -3243,7 +3790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0398c61d-6938-4c92-818a-fd6d658e5686")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 65.532 67.8179 90)
 			(effects
 				(font
@@ -3299,7 +3846,141 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "C11")
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 76.2 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10821d3d-cc40-4771-9e40-14726c29eb17")
+		(property "Reference" "TP18"
+			(at 76.2 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 78.74 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 81.28 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ac77acd-b768-461d-8496-a85ca1b4f942")
+		(property "Reference" "TP7"
+			(at 48.26 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -3315,7 +3996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "267cb4b8-407b-4341-92f2-3c7f85579d4b")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR015"
 			(at 100.33 154.94 0)
 			(effects
 				(font
@@ -3365,7 +4046,208 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR1")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f2177ad-76fc-47c8-b85d-15d0e1423bb3")
+		(property "Reference" "TP6"
+			(at 45.72 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.26 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3447557a-8f8f-459b-a075-5f3b3567000b")
+		(property "Reference" "TP10"
+			(at 55.88 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 58.42 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cd929b2-68e0-4fa4-807e-518033b56a36")
+		(property "Reference" "TP11"
+			(at 58.42 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.96 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 63.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -3381,7 +4263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4869ee4d-4373-4662-8377-d8d511307cd0")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -3552,7 +4434,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3568,7 +4450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b8dbbf7-e0cf-44dc-afeb-e8b85ce74132")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR013"
 			(at 63.5 153.67 0)
 			(effects
 				(font
@@ -3618,7 +4500,208 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR035")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6311239f-cc4f-4275-8e31-58c7f9fffe67")
+		(property "Reference" "TP17"
+			(at 73.66 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 76.2 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 78.74 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6affe323-3665-422c-8fbb-7f6ac805d0ef")
+		(property "Reference" "TP20"
+			(at 81.28 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 86.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76557d95-5cab-4019-885e-ce030afaac18")
+		(property "Reference" "TP15"
+			(at 68.58 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 71.12 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -3633,7 +4716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78274144-ddff-4ce2-92be-4acf092a1ccc")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 55.626 61.6771 90)
 			(effects
 				(font
@@ -3689,7 +4772,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3704,7 +4787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78e20a15-fa9a-45ed-bd4d-ec352cb7635a")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR011"
 			(at 64.77 41.91 0)
 			(effects
 				(font
@@ -3754,7 +4837,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR033")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3769,7 +4852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8014620f-9f0a-4df0-9420-57722174a70c")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 57.912 126.1931 90)
 			(effects
 				(font
@@ -3826,7 +4909,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3842,7 +4925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "921e9ccc-f824-4797-91e7-38a73c5ae4e8")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR012"
 			(at 62.23 81.28 0)
 			(effects
 				(font
@@ -3892,7 +4975,476 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR036")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0713bba-1cd5-4828-a5b8-a10051922508")
+		(property "Reference" "TP3"
+			(at 38.1 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 40.64 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca85dfae-299d-477e-b2a3-8a95b786fe0c")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae6b6819-86ca-4244-a4d7-cd5e69716260")
+		(property "Reference" "TP16"
+			(at 71.12 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 73.66 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be9e4cf9-d6e6-4472-86ea-61578b7828d9")
+		(property "Reference" "TP8"
+			(at 50.8 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfc438aa-1985-48fa-aaff-6486164aa199")
+		(property "Reference" "TP19"
+			(at 78.74 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 81.28 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 78.74 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d05c446e-759d-4dc4-92aa-313d9edd8412")
+		(property "Reference" "TP13"
+			(at 63.5 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 68.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 43.18 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d15cfb41-9fbf-4241-a0b2-29cf0cc224c2")
+		(property "Reference" "TP5"
+			(at 43.18 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 45.72 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6402b00-1566-477a-898f-dabdfadf42fa")
+		(property "Reference" "TP4"
+			(at 40.64 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 43.18 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "445f867a-8c41-43e4-bf2e-9c4adf5aa46e")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -3908,7 +5460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d67fb65f-f9dd-44bf-a8c0-6213a45a6f99")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR014"
 			(at 69.85 153.67 0)
 			(effects
 				(font
@@ -3958,7 +5510,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR034")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3973,7 +5525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6e90732-108d-4112-9c87-bb6a23e24f74")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 46.482 54.8191 90)
 			(effects
 				(font
@@ -4029,7 +5581,208 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "C8")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da30baae-c863-4748-8dec-8f0744c22a45")
+		(property "Reference" "TP9"
+			(at 53.34 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.88 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 58.42 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e18397bd-8958-41a7-ac3e-dc8c9ee3e3cc")
+		(property "Reference" "TP12"
+			(at 60.96 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 63.5 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 66.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3ca4448-f126-4dc9-a393-8b0e4f1ecfcc")
+		(property "Reference" "TP14"
+			(at 66.04 173.7359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
+					(reference "TP14")
 					(unit 1)
 				)
 			)

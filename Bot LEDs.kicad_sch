@@ -5,6 +5,113 @@
 	(uuid "771d1f9d-7f7f-44a3-ac87-3769b2295d8b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Hourglass_symbol_library:150044M155220"
 			(pin_names
 				(offset 1.016)
@@ -2932,78 +3039,6 @@
 		)
 		(uuid "ffae0d43-ad9f-4d7a-a92a-b6857c84046d")
 	)
-	(label "CS9"
-		(at 115.57 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "004191fb-8273-4fe5-af2b-8e8607731569")
-	)
-	(label "CS9"
-		(at 223.52 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "007c38f2-e956-4714-a60e-39e7d918dabf")
-	)
-	(label "CS2"
-		(at 161.29 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "007e3587-2067-4ecd-843a-d08ee85ad5eb")
-	)
-	(label "CS4"
-		(at 64.77 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "0303ec2b-f34d-40a9-af94-8be5a17457bf")
-	)
-	(label "CS4"
-		(at 181.61 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "05eb1750-233d-4274-9531-abd9fdb55d64")
-	)
-	(label "CS5"
-		(at 64.77 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ac5cd0c-ab7f-40bc-aa9b-5dac44a11394")
-	)
 	(label "CS10"
 		(at 223.52 73.66 0)
 		(effects
@@ -3014,7 +3049,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0b6e2e71-5fcf-4422-b4f3-214e08ccf464")
+		(uuid "02d391b7-81b1-4df2-ad9e-dd1484cbba35")
 	)
 	(label "SW6"
 		(at 168.91 26.67 0)
@@ -3024,765 +3059,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0b7a957a-2e52-41fa-9b1d-fc5f1b7a7429")
-	)
-	(label "CS3"
-		(at 64.77 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c8554cb-4e85-46d6-b7dc-de4e00ae9624")
-	)
-	(label "CS12"
-		(at 227.33 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e08b338-ffec-4286-b8f4-26d28f033288")
-	)
-	(label "CS5"
-		(at 181.61 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f93db26-7313-49ec-8642-ef3aa18659ff")
-	)
-	(label "CS1"
-		(at 199.39 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11d467fa-a369-44d8-acae-e2d1d9ed1a53")
-	)
-	(label "CS17"
-		(at 240.03 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13438404-5135-409e-ab15-f74694be11b1")
-	)
-	(label "CS5"
-		(at 59.69 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "13e762c3-38dc-46f6-840e-7dac82ac13ca")
-	)
-	(label "CS16"
-		(at 237.49 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "198e2967-d2f2-46f7-a1a8-f6fbdc7999e9")
-	)
-	(label "CS0"
-		(at 39.37 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "1997fe80-d03e-4f0d-9070-63d0dc6ef430")
-	)
-	(label "CS9"
-		(at 219.71 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b51532a-431c-4462-b68c-b800bbfa5e7e")
-	)
-	(label "CS12"
-		(at 113.03 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "20221d5a-d2ab-4ff0-a647-70199f124255")
-	)
-	(label "CS9"
-		(at 95.25 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2338ab45-81e1-4514-a2c1-7f1c2a862fb5")
-	)
-	(label "CS7"
-		(at 90.17 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "24f7dacf-9048-47aa-8c06-f488ece5ae84")
-	)
-	(label "CS17"
-		(at 274.32 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "26db51de-c3c8-4a66-82cf-6dec5d85c5ef")
-	)
-	(label "CS4"
-		(at 58.42 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "27dccc39-f00f-4da2-814c-5dfd95d72e90")
-	)
-	(label "SW7"
-		(at 19.05 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "288a747e-ed75-4638-ab94-55ec0f172c7c")
-	)
-	(label "CS15"
-		(at 133.35 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "29c7f49b-9124-4229-a5b8-30d7337e0082")
-	)
-	(label "CS1"
-		(at 161.29 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a9fa368-73c4-4be1-8eb2-ee390f194ba6")
-	)
-	(label "CS1"
-		(at 39.37 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e434384-34a6-4556-84ef-335a21bdc1ec")
-	)
-	(label "CS0"
-		(at 39.37 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e9fb5a1-8dd6-465a-9ecf-13ecfff75cd3")
-	)
-	(label "CS7"
-		(at 200.66 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fadbd9d-6701-4805-80af-aed6ca360d3f")
-	)
-	(label "CS6"
-		(at 77.47 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3453816f-08f2-452c-883f-b63d61eb981a")
-	)
-	(label "CS1"
-		(at 40.64 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3529f715-80f7-4ff4-a266-7f496937ec49")
-	)
-	(label "CS16"
-		(at 130.81 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "37c63824-bb17-400a-9a01-732d04ad2cdb")
-	)
-	(label "CS5"
-		(at 182.88 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e3404c8-45f0-468d-a179-9350d7f7185c")
-	)
-	(label "CS12"
-		(at 248.92 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fe73220-6f3c-4b04-925d-88c1c52cf703")
-	)
-	(label "CS9"
-		(at 224.79 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "40a1f66c-3357-4e31-bee1-3f36b690d7c0")
-	)
-	(label "SW8"
-		(at 168.91 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40cb5ae0-0345-4f87-bcc5-149c43e77f43")
-	)
-	(label "CS11"
-		(at 224.79 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49350c2f-b332-4af6-81b1-10073649eb32")
-	)
-	(label "CS14"
-		(at 232.41 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a2b4a45-5d7a-434f-9bf5-190dc69c7f23")
-	)
-	(label "CS8"
-		(at 90.17 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4caa99a3-9274-4a8e-b3f9-e6ac15f65cdd")
-	)
-	(label "CS3"
-		(at 58.42 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f41e512-d982-4119-9e45-3ee07e9d7ea2")
-	)
-	(label "CS8"
-		(at 217.17 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "507a3e92-0a1f-44a8-87af-606a9881b257")
-	)
-	(label "CS7"
-		(at 77.47 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "57a22ded-0bc2-43c6-93c3-7eb8f060aae7")
-	)
-	(label "CS1"
-		(at 160.02 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "57eb39d6-717e-41d7-930f-9718eb885ad6")
-	)
-	(label "CS16"
-		(at 274.32 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "589e0659-94a6-4fc2-ae97-9c958c7cd720")
-	)
-	(label "CS7"
-		(at 203.2 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cbfa24c-680f-4d4d-bd67-1a86a53f0165")
-	)
-	(label "CS0"
-		(at 196.85 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e11e2d9-9077-4d0b-961b-ad7dc8882dfc")
-	)
-	(label "CS10"
-		(at 115.57 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e6391ce-4e07-4ca7-a9d9-88d028492c28")
-	)
-	(label "CS13"
-		(at 248.92 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f59db27-67de-43fd-8df1-a8e9a01b0842")
-	)
-	(label "CS12"
-		(at 250.19 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "66bd90a6-f45a-481e-9f69-ef2278651d58")
-	)
-	(label "CS10"
-		(at 95.25 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "69e32591-096e-4640-8f04-76d73941de92")
-	)
-	(label "SW9"
-		(at 17.78 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "700cc6b4-d51e-4b02-80f5-0f2f8a88ebdf")
-	)
-	(label "CS2"
-		(at 160.02 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "703d0909-dfdf-45c2-aa97-1bf1c5a3829b")
-	)
-	(label "CS1"
-		(at 39.37 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "750df8c6-c6ad-450e-8c7e-91bf56799a53")
-	)
-	(label "CS6"
-		(at 90.17 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "79e73c58-ab30-4146-af82-ae52c9584c26")
-	)
-	(label "CS11"
-		(at 115.57 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "808877d0-8bd7-4248-b2d8-3e20ff75ed6f")
-	)
-	(label "CS5"
-		(at 58.42 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "8118dce8-fedf-4cc2-a11a-b7a0a0dcd8aa")
-	)
-	(label "CS8"
-		(at 203.2 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "85332d19-4681-4f9b-90b8-e62b5615deeb")
-	)
-	(label "CS2"
-		(at 40.64 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "8561af38-e49c-479f-ba55-32b27b22e1af")
-	)
-	(label "CS6"
-		(at 77.47 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a800e20-7ea3-47b1-806a-baee67dce275")
-	)
-	(label "CS11"
-		(at 223.52 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a80a8e1-eec9-47a2-a567-360a74083c23")
-	)
-	(label "CS13"
-		(at 113.03 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "8fbdb3d4-935a-47ec-8478-cd2787bb3db0")
-	)
-	(label "CS13"
-		(at 250.19 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "90c24506-9886-4a41-b20c-9afcb258c6e2")
-	)
-	(label "SW8"
-		(at 143.51 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "947242e6-742c-4835-b754-adbf19c95c8e")
-	)
-	(label "SW6"
-		(at 135.89 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "950f64a5-082c-40b4-9f8e-8f299810dd61")
-	)
-	(label "CS0"
-		(at 40.64 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "96e842ba-35d8-4243-8655-e6735423c6ec")
-	)
-	(label "CS13"
-		(at 114.3 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "972a4cad-4488-4eb5-a1a3-46712bfe9c10")
-	)
-	(label "CS9"
-		(at 95.25 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "9af22b2a-9e6d-4097-9064-a84383ab3281")
-	)
-	(label "CS3"
-		(at 182.88 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b75c74c-12fc-4949-952d-9fd658d6e415")
-	)
-	(label "CS17"
-		(at 130.81 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e930499-fb50-4f7c-b442-3e9eba925e12")
-	)
-	(label "CS4"
-		(at 182.88 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a095ffba-9757-4850-b026-17974668401f")
-	)
-	(label "CS0"
-		(at 161.29 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a30df7c2-e408-4f5b-8f26-f98a8bfe2b6d")
-	)
-	(label "CS8"
-		(at 77.47 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa28d946-d9e5-4f40-a44a-af021c0de7c3")
-	)
-	(label "SW7"
-		(at 168.91 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab5858d3-838d-4368-9ba9-bfdf9078f692")
-	)
-	(label "CS4"
-		(at 59.69 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae647e9c-c932-4e2a-80e7-428fe9548075")
+		(uuid "02f63fb6-14c6-40bc-a0f9-602351e5d9db")
 	)
 	(label "CS7"
 		(at 77.47 102.87 0)
@@ -3794,10 +3071,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "af00d03c-fc22-44ed-bd29-75db28c25975")
+		(uuid "03b6cb9a-9cb0-4f59-91ce-f69dd1a3bb99")
 	)
-	(label "CS16"
-		(at 133.35 38.1 0)
+	(label "SW8"
+		(at 143.51 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3806,20 +3083,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "af02292a-26f0-4f01-8b48-5eec13272635")
+		(uuid "040496f4-b49b-4cda-b966-89bd79489310")
 	)
-	(label "CS5"
-		(at 209.55 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af3449a0-658c-4910-a461-7577c236a94d")
-	)
-	(label "CS14"
-		(at 114.3 43.18 0)
+	(label "CS6"
+		(at 77.47 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3828,137 +3095,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b09467ab-18ac-4e32-87d3-6975a3f19fce")
-	)
-	(label "CS14"
-		(at 248.92 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1cb674c-d1a8-4519-9432-89f380e19357")
-	)
-	(label "CS2"
-		(at 39.37 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b28576b4-fc73-4ea0-b648-7f75f3d9484c")
-	)
-	(label "CS10"
-		(at 222.25 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b77a3b2b-bf71-4443-b68f-2809a33a896a")
-	)
-	(label "CS14"
-		(at 250.19 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b95343e4-4bb9-48dc-b69d-f3604c9cf294")
-	)
-	(label "CS10"
-		(at 224.79 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb65c781-9efb-4c42-a8ef-eb668a9b5876")
-	)
-	(label "CS15"
-		(at 130.81 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdf4e7fd-140a-456f-b8a9-5a9987b02ef4")
-	)
-	(label "CS3"
-		(at 181.61 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c611441a-391b-4ef4-baad-87fb9c9b8f7f")
-	)
-	(label "CS17"
-		(at 275.59 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c778c50e-c9b7-4699-9bfd-718ee9a211fc")
-	)
-	(label "CS8"
-		(at 77.47 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9739da3-91e5-4f59-bfe1-2626c531fcc3")
-	)
-	(label "CS16"
-		(at 275.59 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca45769b-9738-4d26-b0a1-806d7c9f2f78")
-	)
-	(label "CS14"
-		(at 113.03 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb063981-5b1e-4a6f-8359-759b4e30b99c")
+		(uuid "09778d13-51c3-42b2-a050-67cb9f2b171d")
 	)
 	(label "CS0"
 		(at 160.02 68.58 0)
@@ -3970,10 +3107,20 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ce1df4ac-6e79-4eeb-9347-2d82333b80a7")
+		(uuid "09dbe2ba-dbaa-408b-93d6-f19b368b9e54")
 	)
-	(label "CS3"
-		(at 59.69 33.02 0)
+	(label "SW9"
+		(at 168.91 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e47b42c-29ed-4eea-b26f-26655a7958db")
+	)
+	(label "CS16"
+		(at 274.32 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3982,10 +3129,20 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d4ed3f59-5234-4045-a151-6908d1b0aee5")
+		(uuid "0f645269-1247-40f0-994b-b174900fab05")
 	)
-	(label "CS11"
-		(at 224.79 142.24 0)
+	(label "CS12"
+		(at 227.33 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f74604f-3b85-48db-b3ba-b7b9cf7de42e")
+	)
+	(label "CS10"
+		(at 95.25 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3994,10 +3151,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d5ea62d9-40eb-4cfb-8b65-1938927eb352")
+		(uuid "10cb5a76-2971-4907-a59f-e5b190a349d1")
 	)
-	(label "SW5"
-		(at 16.51 17.78 0)
+	(label "CS2"
+		(at 40.64 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4006,10 +3163,20 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d7065dfc-bf84-40ff-87bd-abd5d997e94d")
+		(uuid "15f4bce5-1132-4d92-a90a-4842f9bfcc5c")
 	)
-	(label "CS6"
-		(at 203.2 132.08 0)
+	(label "CS2"
+		(at 201.93 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16d50ef1-ea10-4749-9670-b5e0a4436815")
+	)
+	(label "CS9"
+		(at 95.25 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4018,61 +3185,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d89b4c95-1ddc-42e8-9125-5c0469ea1bf6")
-	)
-	(label "CS6"
-		(at 200.66 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "df84c056-4e1c-45e7-b8c1-14812d846392")
-	)
-	(label "CS7"
-		(at 214.63 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e02ed4fe-8793-452b-aa1c-0f40103ed3c6")
-	)
-	(label "CS8"
-		(at 200.66 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e413bf6a-5ad8-4b67-a1f4-71e40dec5bee")
-	)
-	(label "CS4"
-		(at 207.01 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7bbee0c-9d48-46fd-b21f-57402b14e511")
-	)
-	(label "CS15"
-		(at 234.95 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8613caf-78de-4bbb-b782-f37debf57646")
+		(uuid "1d238689-f4c6-48d2-a43f-a6d80a5f360a")
 	)
 	(label "CS2"
 		(at 39.37 167.64 0)
@@ -4084,17 +3197,111 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ea116691-a1bc-4e08-af7e-1f8282e454ee")
+		(uuid "21853e07-6d6f-4488-88ae-4898a72e2822")
 	)
 	(label "SW9"
-		(at 168.91 34.29 0)
+		(at 17.78 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "265f4d64-13e2-4bc0-bb75-d475b595088c")
+	)
+	(label "CS8"
+		(at 77.47 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "26d1ffad-eaa7-44bd-baf8-2726f8feaa0c")
+	)
+	(label "CS16"
+		(at 237.49 26.67 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ea54640f-c9f4-43a1-9f32-1aba561b111f")
+		(uuid "2d10e88f-5107-41cf-9495-6b40dbdeddb9")
+	)
+	(label "CS6"
+		(at 200.66 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "303b88db-c4de-4cfb-86d0-8c69693fc510")
+	)
+	(label "CS12"
+		(at 248.92 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "378878b1-8600-4d7f-96e8-b466d4ac9500")
+	)
+	(label "CS9"
+		(at 115.57 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "390f18fa-3f58-486d-a605-f12eff9772b7")
+	)
+	(label "SW8"
+		(at 168.91 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c8a97bd-b794-4f54-9e9b-9591681d8c8b")
+	)
+	(label "CS8"
+		(at 200.66 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fecb0f0-e95a-4f66-9c5e-b76437b15ff5")
+	)
+	(label "CS1"
+		(at 160.02 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "413e11a4-7fcf-4c7a-9646-a5cf57c633ea")
 	)
 	(label "CS15"
 		(at 275.59 132.08 0)
@@ -4106,10 +3313,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "eaf26f2f-1575-4b98-a3cc-a3ba6824e8c1")
+		(uuid "4251738c-dd21-4e7c-8632-1630b018a5d4")
 	)
-	(label "CS11"
-		(at 95.25 107.95 0)
+	(label "CS8"
+		(at 77.47 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4118,20 +3325,102 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ed319991-8666-4321-90a6-f6a0adc42b27")
+		(uuid "43f19fe5-4872-4bee-add8-deb8d36dbb91")
 	)
-	(label "CS6"
-		(at 212.09 26.67 90)
+	(label "CS16"
+		(at 275.59 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "446c6b2c-f990-491f-9feb-16578ed535e0")
+	)
+	(label "CS11"
+		(at 223.52 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "48ea15d8-6799-4098-8cb4-d8971e41a25e")
+	)
+	(label "CS4"
+		(at 181.61 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b0a763b-f6de-490e-bf23-dff841b12049")
+	)
+	(label "CS8"
+		(at 217.17 26.67 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ee565717-4a01-4da4-92bd-7435e060572b")
+		(uuid "4c9939a0-1534-45be-86be-d9b2c7ec9629")
+	)
+	(label "CS10"
+		(at 224.79 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c9e9ecf-91b3-4364-bc9c-2c5bacd880a8")
+	)
+	(label "CS4"
+		(at 59.69 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5146bb42-2478-4774-9714-81ff589aa96d")
+	)
+	(label "CS10"
+		(at 222.25 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54fc1964-f37f-4088-aa76-f480e0c70dbb")
+	)
+	(label "CS16"
+		(at 133.35 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bb9c509-f0c3-40d0-9e94-be1124950e6a")
 	)
 	(label "CS15"
-		(at 274.32 68.58 0)
+		(at 130.81 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4140,40 +3429,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f06be614-bcd3-4ae8-907e-99aa63770e3e")
+		(uuid "5dde1ce2-78fe-4241-a453-df3246572726")
 	)
-	(label "CS13"
-		(at 229.87 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0dd2f6d-89ae-4f68-9776-85ad4ef49344")
-	)
-	(label "CS2"
-		(at 201.93 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f235ec51-fab7-4f5d-9fa2-588f5620f15c")
-	)
-	(label "CS3"
-		(at 204.47 26.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f38d1258-67ac-4a3d-b781-4e01650c12bb")
-	)
-	(label "CS11"
-		(at 95.25 43.18 0)
+	(label "CS5"
+		(at 64.77 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4182,7 +3441,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f576aa85-be00-4323-8511-a0d02db0604a")
+		(uuid "618ae8ef-7fb2-4561-8d18-183dc2bd8a61")
 	)
 	(label "CS17"
 		(at 133.35 43.18 0)
@@ -4194,7 +3453,297 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fb8af1f3-8225-4512-b6f3-bb4f99fe390e")
+		(uuid "61b79f88-d98e-4d7c-b064-cbaf6ff99805")
+	)
+	(label "CS1"
+		(at 40.64 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "629b8df8-0dae-41d3-836f-d238a7c36791")
+	)
+	(label "CS8"
+		(at 203.2 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6482d88e-3383-46f1-8fa6-716cb5f3fad8")
+	)
+	(label "CS9"
+		(at 223.52 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "699a42f7-5030-43ef-9d47-ee3db3fbb369")
+	)
+	(label "CS14"
+		(at 248.92 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a221e44-cad2-446c-ba87-ea29b72c3c6e")
+	)
+	(label "CS13"
+		(at 113.03 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ae3a8e8-0c41-4a07-b95e-c8b67573b9a6")
+	)
+	(label "CS3"
+		(at 64.77 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e371836-ce12-45aa-9766-a4a45c30036f")
+	)
+	(label "CS14"
+		(at 113.03 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e83951f-85c0-4f98-a80b-c05dcf8612b2")
+	)
+	(label "CS9"
+		(at 95.25 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "70159a5e-bb4b-460e-ad51-03baab2edd43")
+	)
+	(label "CS14"
+		(at 250.19 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "70602229-315a-4592-8a9a-d68075233a7d")
+	)
+	(label "CS6"
+		(at 212.09 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70b73f72-133e-47cc-999a-2c404072ff35")
+	)
+	(label "CS17"
+		(at 274.32 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "724a80fe-1583-4310-a069-d02278510699")
+	)
+	(label "CS4"
+		(at 58.42 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "739796b7-81a5-4bd1-9c88-2fc3c4d0b141")
+	)
+	(label "CS6"
+		(at 90.17 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "73d4db7a-5663-4bbb-ad48-c51a94c8f2aa")
+	)
+	(label "CS1"
+		(at 161.29 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "74b25adc-8740-43c8-9cec-fe15b6bb02f2")
+	)
+	(label "CS5"
+		(at 59.69 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "78256095-46c8-4b70-ac3a-a910fd796967")
+	)
+	(label "SW5"
+		(at 168.91 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a6c9f60-a2c2-4cff-98f2-91c5009c56e3")
+	)
+	(label "CS7"
+		(at 90.17 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b45f6bb-2ab4-4ac7-92e1-debb0fdf33f1")
+	)
+	(label "CS3"
+		(at 59.69 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7de37c98-473d-414e-96ea-f0a7683d372b")
+	)
+	(label "CS13"
+		(at 229.87 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e79e975-5b77-4e86-b491-5a50186c5f5c")
+	)
+	(label "CS2"
+		(at 39.37 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e990e6f-7eae-4ed5-8603-1fdcdfc9dba2")
+	)
+	(label "SW7"
+		(at 19.05 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "86af400e-7667-4822-ba89-a8e59a97796c")
+	)
+	(label "CS0"
+		(at 40.64 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8900444f-63c2-4506-b018-b293d70361ba")
+	)
+	(label "CS15"
+		(at 234.95 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "898eff40-fd48-4016-8ece-cfd0e5a1440c")
+	)
+	(label "CS5"
+		(at 182.88 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c9920fb-9778-4c98-8e82-e611444c84b1")
+	)
+	(label "CS7"
+		(at 214.63 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ea556a5-3421-4db9-b243-285556ad4497")
 	)
 	(label "CS10"
 		(at 95.25 38.1 0)
@@ -4206,17 +3755,437 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fba1350e-34cd-428b-90c4-e544370625d7")
+		(uuid "8f071a8a-658d-40e4-8fa0-778e1b9892fe")
 	)
-	(label "SW5"
-		(at 168.91 24.13 0)
+	(label "CS11"
+		(at 224.79 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d920a20-88fd-4a1d-9eaa-e63d14dab1f4")
+	)
+	(label "CS2"
+		(at 160.02 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2d504c4-f797-4203-ad55-79655f6fe37a")
+	)
+	(label "CS0"
+		(at 39.37 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3884ae7-68d5-4540-ab32-588304468049")
+	)
+	(label "CS7"
+		(at 203.2 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4fd488e-c777-41fc-92d6-d16ee9446c77")
+	)
+	(label "SW7"
+		(at 168.91 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fca445bb-2025-4aca-9874-66d6c57abd67")
+		(uuid "a6f38e4c-88e2-486c-94ae-8ccb6f8ed5f3")
+	)
+	(label "CS3"
+		(at 204.47 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a724a071-71ca-4f98-a6f4-f24199df58bf")
+	)
+	(label "CS11"
+		(at 95.25 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8adaa19-2ca2-4ed5-a00f-1f639c17bbdc")
+	)
+	(label "CS6"
+		(at 77.47 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "acde59b0-02ab-4a89-bb00-fcef864e63c8")
+	)
+	(label "CS5"
+		(at 58.42 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b08977c3-cb47-4a3e-8048-b72c4a88b012")
+	)
+	(label "SW5"
+		(at 16.51 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b25e2b81-237d-4e5a-852f-f5ba78bf91d9")
+	)
+	(label "CS1"
+		(at 39.37 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b2a706-b086-464e-9eb2-c28b99a17beb")
+	)
+	(label "CS2"
+		(at 161.29 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5bad20d-7b0b-4208-b514-2bf50448d98f")
+	)
+	(label "CS1"
+		(at 199.39 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7d3dba5-f272-49f6-b8f9-9f6aa3d176bc")
+	)
+	(label "CS17"
+		(at 130.81 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8fcf06e-eeaa-4b1d-8df2-cf07c938b344")
+	)
+	(label "CS1"
+		(at 39.37 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9859aa5-1a5d-4890-a967-b0bd69a682b5")
+	)
+	(label "CS17"
+		(at 240.03 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba11224d-3197-447a-bf36-821936ea3d93")
+	)
+	(label "SW6"
+		(at 135.89 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcbe61cc-e5e9-4fa3-8d96-83258282a3a9")
+	)
+	(label "CS0"
+		(at 161.29 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd711a4d-eaf5-4a0d-9c42-010f393d944f")
+	)
+	(label "CS14"
+		(at 114.3 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "be338d29-a877-4adc-81aa-d9d4f57ef726")
+	)
+	(label "CS10"
+		(at 115.57 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c144c1f4-80ac-4f86-bd3c-a662157e89f7")
+	)
+	(label "CS15"
+		(at 274.32 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2579da0-3787-4df8-b21c-c5b61de1fe87")
+	)
+	(label "CS5"
+		(at 181.61 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3415d8e-0c02-4e55-aa4c-69735d638bc5")
+	)
+	(label "CS9"
+		(at 219.71 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4ec2067-4f16-4ae8-acb1-91999e9f262a")
+	)
+	(label "CS3"
+		(at 181.61 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccaabd47-3dbd-4e71-905e-9d118bcf8d1d")
+	)
+	(label "CS16"
+		(at 130.81 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce3c0cd1-7233-4b2a-980f-b69d85926f87")
+	)
+	(label "CS11"
+		(at 95.25 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6ec10e4-897b-44e4-b79b-1a66c66b5ba7")
+	)
+	(label "CS4"
+		(at 64.77 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8bc65d4-2a86-4a7b-8041-ac5c3e00853d")
+	)
+	(label "CS6"
+		(at 203.2 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9cc0f48-4b94-4e3f-8365-88b1ce46866f")
+	)
+	(label "CS3"
+		(at 58.42 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd04521c-8381-40d6-a837-fdfaad0f1ff5")
+	)
+	(label "CS3"
+		(at 182.88 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd54dcdf-dbac-4430-83bb-d4d700e9e2b4")
+	)
+	(label "CS9"
+		(at 224.79 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfd9ef77-32b0-4836-80d4-056b70c2eeda")
+	)
+	(label "CS7"
+		(at 200.66 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0ed3e38-eda4-4811-a7f9-cde56af8847e")
+	)
+	(label "CS15"
+		(at 133.35 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e37e94f3-3460-4a2f-a7a3-56bd084c9491")
+	)
+	(label "CS14"
+		(at 232.41 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5d24046-bc90-4790-a493-3845625c020c")
+	)
+	(label "CS12"
+		(at 113.03 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea9bcf0d-7938-4c0f-8731-de508059d087")
+	)
+	(label "CS13"
+		(at 248.92 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebc42db4-a7df-4b0d-b045-ec85aa56ba68")
+	)
+	(label "CS11"
+		(at 224.79 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecff167f-bf31-4de8-b3c7-500d1fad8ccb")
 	)
 	(label "CS12"
 		(at 114.3 33.02 0)
@@ -4228,20 +4197,145 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fd1cb409-84d0-4ef9-b051-ac3697cabde6")
+		(uuid "ee3e3ac3-f4d8-4858-9e0a-7e518efac621")
 	)
-	(hierarchical_label "SW[5..9]"
-		(shape input)
-		(at 149.86 21.59 180)
+	(label "CS4"
+		(at 207.01 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee9bd283-5e92-4298-9b55-04ac7dd00261")
+	)
+	(label "CS13"
+		(at 250.19 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "4fc1d497-2d53-4622-aa4f-eea170aa4760")
+		(uuid "f04c2c34-d420-4e40-afc3-7b79132f5170")
+	)
+	(label "CS5"
+		(at 209.55 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1bef5e1-c30f-4662-90f5-170195226dc7")
+	)
+	(label "CS8"
+		(at 90.17 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2477366-f559-45db-add0-7210e2eae2cb")
+	)
+	(label "CS0"
+		(at 39.37 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f49cfa34-3bf0-48c0-89e9-ab6c99c3b7eb")
+	)
+	(label "CS17"
+		(at 275.59 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f559624c-f701-456a-8ba1-51c4357e68e3")
+	)
+	(label "CS13"
+		(at 114.3 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f608ecc7-dda4-4fb6-a0da-82b263de71a3")
+	)
+	(label "CS12"
+		(at 250.19 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7279d02-d844-4303-b7a9-aac96ab6018a")
+	)
+	(label "CS4"
+		(at 182.88 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f734930d-d342-4747-b8a9-f3d5e93056ad")
+	)
+	(label "CS7"
+		(at 77.47 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f78c4fba-5494-4093-9060-a4b2da465257")
+	)
+	(label "CS11"
+		(at 115.57 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcb74105-098b-447f-a1cc-a1ff043bd831")
+	)
+	(label "CS0"
+		(at 196.85 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd9ee570-6f55-448a-b379-d544ec3a39eb")
 	)
 	(hierarchical_label "CS[0..17]"
 		(shape output)
@@ -4254,1402 +4348,20 @@
 			)
 			(justify right)
 		)
-		(uuid "5ecf3466-b802-4f7b-b5f7-13ad28d3e14a")
+		(uuid "7385fd2f-6c4c-4b0f-9a06-b03604e334e8")
 	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 107.95 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08de4376-9eff-4bd9-a484-870a9f05d216")
-		(property "Reference" "D28"
-			(at 107.0991 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 107.0991 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 107.442 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 107.95 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 107.95 187.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 107.95 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 107.95 183.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 107.696 189.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 108.204 173.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 107.696 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 108.204 184.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 107.95 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18192793-57ad-4764-a16b-7417f33322a7")
-		)
-		(pin "2"
-			(uuid "a39802bb-96e9-4980-9b3c-c6116ffa0dae")
-		)
-		(pin "3"
-			(uuid "ddf4e89e-ee3d-4248-98b1-4d6439e36169")
-		)
-		(pin "4"
-			(uuid "3228febc-dc8a-4f37-ac9f-cfe2f39a5036")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 242.57 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "140a9fbe-23ee-44ff-81f7-0e09352a530c")
-		(property "Reference" "D23"
-			(at 241.7191 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 241.7191 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 242.062 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 242.57 162.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 242.57 152.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 242.57 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 242.316 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 242.824 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 242.316 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 242.824 159.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 242.57 150.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dff6180-1bc5-41a1-a556-f80aca9537c2")
-		)
-		(pin "2"
-			(uuid "5d714856-d944-49f6-8ee9-533979d95135")
-		)
-		(pin "3"
-			(uuid "b6891413-c506-42df-94b4-e66465d1a200")
-		)
-		(pin "4"
-			(uuid "7a640549-150c-4dbd-bdd6-9617f1f6b9bc")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 52.07 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14873374-653e-4a78-b08b-6729d3cd3cc6")
-		(property "Reference" "D2"
-			(at 51.2191 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 51.2191 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 51.562 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 52.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 52.07 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 52.07 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 52.07 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 51.816 65.278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 52.324 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 51.816 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 52.324 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 52.07 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da12356b-574f-4a0e-b8bc-1e5e268a9928")
-		)
-		(pin "2"
-			(uuid "dacb037e-b75b-40aa-8a2a-29c523f7dd3f")
-		)
-		(pin "3"
-			(uuid "55c04c1b-6837-40c7-8c06-c9a552de5b3f")
-		)
-		(pin "4"
-			(uuid "5caabdcf-b022-44fb-85f3-8b4f42e1d847")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 125.73 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "236b45bf-df1a-4cb2-8b0a-497d5a206b7b")
-		(property "Reference" "D6"
-			(at 124.8791 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 124.8791 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 125.222 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 125.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 125.73 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 125.73 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 125.73 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 125.476 65.278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 125.984 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 125.476 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 125.984 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 125.73 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d80a4fc3-7a41-4fb6-ad45-2be3c40e28e1")
-		)
-		(pin "2"
-			(uuid "053e45e4-c414-47a9-b406-e41277fc94fb")
-		)
-		(pin "3"
-			(uuid "6d89c9c0-519a-4a11-975a-c21b701d80cc")
-		)
-		(pin "4"
-			(uuid "7e94c95f-e682-47cc-bef7-538e55ab883f")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 267.97 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2aff3816-9ff4-4957-816c-96356e7f7c4f")
-		(property "Reference" "D24"
-			(at 267.1191 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 267.1191 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 267.462 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 267.97 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 267.97 162.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 267.97 152.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 267.97 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 267.716 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 268.224 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 267.716 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 268.224 159.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 267.97 150.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab7f8d9b-ac02-40cf-b537-eac098baccd9")
-		)
-		(pin "2"
-			(uuid "0bbc229e-88b8-44c6-bd12-420a12f2aa2f")
-		)
-		(pin "3"
-			(uuid "99ebea66-0ec5-41ec-bb00-311288b4c97e")
-		)
-		(pin "4"
-			(uuid "57222104-e3f3-46d3-84e5-0a1f4eb2768f")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 175.26 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b85454c-bb40-4cb9-a740-e6033d921944")
-		(property "Reference" "D20"
-			(at 174.4091 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 174.4091 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 174.752 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 175.26 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 175.26 162.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 175.26 152.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 175.26 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 175.006 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 175.514 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 175.006 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 175.514 159.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 175.26 150.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6daedf34-2e04-4c21-b3a0-610a839b5fc4")
-		)
-		(pin "2"
-			(uuid "db05a472-c41d-4b3f-9d91-3314d8016769")
-		)
-		(pin "3"
-			(uuid "da9bda9b-c6bd-4607-9f30-6d204c3e8ea0")
-		)
-		(pin "4"
-			(uuid "d9f34076-32e7-4d9d-b12d-63accb38c925")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 69.85 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34c600e2-a43e-4f67-965f-1ce02ba84afb")
-		(property "Reference" "D3"
-			(at 68.9991 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 68.9991 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 69.342 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 69.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 69.85 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 69.85 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 69.85 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 69.596 65.278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 70.104 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 69.596 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 70.104 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 69.85 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed188764-6cf8-44ae-a38f-02853e663709")
-		)
-		(pin "2"
-			(uuid "80e8e9c6-10e4-48b2-9966-2d580b9bbcad")
-		)
-		(pin "3"
-			(uuid "94dd7344-fc7b-4501-b7c9-7565d2530e5f")
-		)
-		(pin "4"
-			(uuid "cac3f535-f768-49a9-b60f-d0dece26d8b6")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 195.58 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39efc40a-d613-45f2-ae18-8ecea1d25eb0")
-		(property "Reference" "D21"
-			(at 194.7291 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 194.7291 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 195.072 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 195.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 195.58 162.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 195.58 152.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 195.58 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 195.326 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 195.834 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 195.326 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 195.834 159.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 195.58 150.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72c91441-989a-463d-ac87-85172b278778")
-		)
-		(pin "2"
-			(uuid "1b3a5867-745a-455a-ba79-1b19e65142bf")
-		)
-		(pin "3"
-			(uuid "de7a118f-c703-4968-9364-cb0c96f480de")
-		)
-		(pin "4"
-			(uuid "abfd2eea-cf47-4747-a693-510e5a803516")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 31.75 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46d3180f-5685-44e0-a907-25c6d9e2b787")
-		(property "Reference" "D13"
-			(at 30.8991 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 30.8991 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 31.242 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 31.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 31.75 127.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 31.75 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 31.75 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 31.496 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 32.004 113.538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 31.496 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 32.004 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 31.75 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c746903-86d2-461a-b819-192aba573856")
-		)
-		(pin "2"
-			(uuid "6e59a498-c537-4375-8370-accbdb41591c")
-		)
-		(pin "3"
-			(uuid "7832de61-ea8d-4944-a050-af4892b95672")
-		)
-		(pin "4"
-			(uuid "2df4f7d7-6df2-436e-bbce-bbc8f6d129f3")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
+	(hierarchical_label "SW[5..9]"
+		(shape input)
+		(at 149.86 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "c2ae9d09-b6a9-493c-aa5d-b27a6bac7968")
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
@@ -5660,7 +4372,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "48490b03-e3a4-4758-ad4f-70148a7004c8")
+		(uuid "017a0e4a-a285-47f2-a56c-239ab3df4c06")
 		(property "Reference" "D1"
 			(at 33.4391 24.13 0)
 			(effects
@@ -5808,16 +4520,16 @@
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 152.4 73.66 0)
+		(at 173.99 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4b26f3b0-18a3-4876-b02b-11021ddc9cff")
-		(property "Reference" "D7"
-			(at 151.5491 59.69 0)
+		(uuid "05a40406-be78-44fc-a683-b6d4b9d06d9e")
+		(property "Reference" "D8"
+			(at 173.1391 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +4537,7 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 151.5491 62.23 0)
+			(at 173.1391 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +4545,7 @@
 			)
 		)
 		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 151.892 91.694 0)
+			(at 173.482 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +4555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 73.66 0)
+			(at 173.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +4564,7 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 152.4 73.66 0)
+			(at 173.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +4573,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 152.4 98.552 0)
+			(at 173.99 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +4583,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 152.4 89.408 0)
+			(at 173.99 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +4593,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 152.4 94.234 0)
+			(at 173.99 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +4603,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 152.146 100.838 0)
+			(at 173.736 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +4613,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 152.654 84.328 0)
+			(at 174.244 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +4623,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 152.146 61.214 0)
+			(at 173.736 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +4633,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 152.654 96.012 0)
+			(at 174.244 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +4643,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 152.4 86.868 0)
+			(at 173.99 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,21 +4653,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "669e525e-81bc-4b94-bea3-90db0c50f3bd")
+			(uuid "5b9d457f-b801-4e6b-b1b8-a0aac2bf9b6f")
 		)
 		(pin "2"
-			(uuid "a1d05cc2-c146-47fc-9154-d12793dd9db4")
+			(uuid "e411a24d-1843-4b14-9fa5-5ffbc61ab9cf")
 		)
 		(pin "3"
-			(uuid "a5fc2de7-66fe-4cbd-adee-defbe81552d1")
+			(uuid "35a12c56-07a0-467d-bab5-653571249a99")
 		)
 		(pin "4"
-			(uuid "d1ea6a5b-3d2a-4a9a-989f-5b0f8ddb789c")
+			(uuid "7b746de4-531b-4a2c-bfda-04c997049846")
 		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5963,16 +4675,16 @@
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 217.17 137.16 0)
+		(at 31.75 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4be3a94f-36c1-4ff5-9868-a0ce095bcf70")
-		(property "Reference" "D22"
-			(at 216.3191 123.19 0)
+		(uuid "1fef93dd-064b-4918-bc1c-f4f5b42ff6fa")
+		(property "Reference" "D13"
+			(at 30.8991 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +4692,7 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 216.3191 125.73 0)
+			(at 30.8991 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +4700,7 @@
 			)
 		)
 		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 216.662 155.194 0)
+			(at 31.242 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +4710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 137.16 0)
+			(at 31.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +4719,7 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 217.17 137.16 0)
+			(at 31.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,7 +4728,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 217.17 162.052 0)
+			(at 31.75 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +4738,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 217.17 152.908 0)
+			(at 31.75 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +4748,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 217.17 157.734 0)
+			(at 31.75 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +4758,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 216.916 164.338 0)
+			(at 31.496 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +4768,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 217.424 147.828 0)
+			(at 32.004 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +4778,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 216.916 124.714 0)
+			(at 31.496 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +4788,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 217.424 159.512 0)
+			(at 32.004 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +4798,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 217.17 150.368 0)
+			(at 31.75 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,21 +4808,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "38f54e8d-954c-4324-9601-94fd0480edec")
+			(uuid "1c746903-86d2-461a-b819-192aba573856")
 		)
 		(pin "2"
-			(uuid "d19f33ab-e3b6-4feb-ab9d-35a6f3759014")
+			(uuid "6e59a498-c537-4375-8370-accbdb41591c")
 		)
 		(pin "3"
-			(uuid "228e2cb7-db0d-42e7-84d0-fcadb6f1e12f")
+			(uuid "7832de61-ea8d-4944-a050-af4892b95672")
 		)
 		(pin "4"
-			(uuid "158d4eb2-2399-4593-aa0f-42e502b9bf29")
+			(uuid "2df4f7d7-6df2-436e-bbce-bbc8f6d129f3")
 		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D22")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6118,16 +4830,16 @@
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 193.04 73.66 0)
+		(at 82.55 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4db2ae55-9f3f-4e3d-b0db-65afc757e9bc")
-		(property "Reference" "D9"
-			(at 192.1891 59.69 0)
+		(uuid "22688e9f-efbd-411e-8001-8e8a050e07cc")
+		(property "Reference" "D27"
+			(at 81.6991 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +4847,7 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 192.1891 62.23 0)
+			(at 81.6991 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +4855,7 @@
 			)
 		)
 		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 192.532 91.694 0)
+			(at 82.042 180.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +4865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 73.66 0)
+			(at 82.55 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +4874,7 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 193.04 73.66 0)
+			(at 82.55 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +4883,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 193.04 98.552 0)
+			(at 82.55 187.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +4893,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 193.04 89.408 0)
+			(at 82.55 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +4903,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 193.04 94.234 0)
+			(at 82.55 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +4913,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 192.786 100.838 0)
+			(at 82.296 189.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +4923,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 193.294 84.328 0)
+			(at 82.804 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +4933,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 192.786 61.214 0)
+			(at 82.296 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +4943,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 193.294 96.012 0)
+			(at 82.804 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +4953,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 193.04 86.868 0)
+			(at 82.55 175.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,21 +4963,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c1fa6a4-26c8-4afc-9d97-837ffc73ff36")
+			(uuid "82768b71-5516-4c25-b7ec-8e509b088586")
 		)
 		(pin "2"
-			(uuid "72be26f1-8476-469d-918b-8eed9c63f545")
+			(uuid "51f9796f-4792-4a56-8fa1-4c38ce4dcce0")
 		)
 		(pin "3"
-			(uuid "8dda06a2-076d-48ff-81a2-255838497565")
+			(uuid "2dba5953-fabf-4544-87c2-47aed16167e0")
 		)
 		(pin "4"
-			(uuid "ec5e6cb8-963a-4019-ab89-fff3cf9ab49e")
+			(uuid "5d6b82fe-3fe4-4591-9505-789852b4e972")
 		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D9")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -6273,16 +4985,15 @@
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 31.75 162.56 0)
+		(at 123.19 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5072104e-48f2-4f9e-ab70-92054eeb38c6")
-		(property "Reference" "D25"
-			(at 30.8991 148.59 0)
+		(uuid "261db4f9-b451-43e4-a0f4-547e5e271cd6")
+		(property "Reference" "D18"
+			(at 122.3391 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +5001,7 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 30.8991 151.13 0)
+			(at 122.3391 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +5009,7 @@
 			)
 		)
 		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 31.242 180.594 0)
+			(at 122.682 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +5019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 162.56 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +5028,7 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 31.75 162.56 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +5037,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 31.75 187.452 0)
+			(at 123.19 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +5047,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 31.75 178.308 0)
+			(at 123.19 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6346,7 +5057,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 31.75 183.134 0)
+			(at 123.19 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +5067,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 31.496 189.738 0)
+			(at 122.936 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +5077,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 32.004 173.228 0)
+			(at 123.444 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +5087,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 31.496 150.114 0)
+			(at 122.936 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +5097,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 32.004 184.912 0)
+			(at 123.444 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +5107,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 31.75 175.768 0)
+			(at 123.19 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,21 +5117,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ad79b8f-c7e9-4da2-99a0-35c10a1fc4ed")
+			(uuid "1414d324-7b1a-4362-9385-be8a61f18626")
 		)
 		(pin "2"
-			(uuid "7094beaf-bf1d-4d9e-ba23-ea3114fa45cc")
+			(uuid "9bfbab4d-a675-4728-9574-e5c946292abc")
 		)
 		(pin "3"
-			(uuid "c30e9ee4-ab50-41a1-a3ad-d4c697046c31")
+			(uuid "ab41630e-2130-4fab-a149-af28c19b6b7b")
 		)
 		(pin "4"
-			(uuid "9b0d34cd-1248-44a6-8721-98b386597fae")
+			(uuid "4ad91b8e-febd-4ee3-880a-53317e5e58df")
 		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D25")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -6435,7 +5146,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "511314e7-07a5-4e26-b63b-54619f8c3e18")
+		(uuid "3396a32b-a933-44ee-a5a3-64006427dad0")
 		(property "Reference" "D5"
 			(at 105.8291 24.13 0)
 			(effects
@@ -6582,6 +5293,452 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35dd0216-d520-4e0b-a49d-a15959240a4f")
+		(property "Reference" "TP24"
+			(at 151.13 113.5379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 114.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64116afc-f3a3-43bd-b393-cbd9da372533")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 175.26 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d158ba2-9f32-4f17-a93a-f37e8bd9e3bb")
+		(property "Reference" "D20"
+			(at 174.4091 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 174.4091 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 174.752 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 175.26 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 175.26 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 175.26 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 175.006 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 175.514 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 175.006 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 175.514 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 175.26 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6daedf34-2e04-4c21-b3a0-610a839b5fc4")
+		)
+		(pin "2"
+			(uuid "db05a472-c41d-4b3f-9d91-3314d8016769")
+		)
+		(pin "3"
+			(uuid "da9bda9b-c6bd-4607-9f30-6d204c3e8ea0")
+		)
+		(pin "4"
+			(uuid "d9f34076-32e7-4d9d-b12d-63accb38c925")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 87.63 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4597665f-ad1e-47c3-9d52-d7ce563ce9e0")
+		(property "Reference" "D4"
+			(at 86.7791 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 86.7791 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 87.122 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 87.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 87.63 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 87.63 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 87.63 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 87.376 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 87.884 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 87.376 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 87.884 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 87.63 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aef78f98-4da6-48f4-862d-da791919ed84")
+		)
+		(pin "2"
+			(uuid "abd8f3dd-7ea1-42a9-a0b8-e97e33832312")
+		)
+		(pin "3"
+			(uuid "67ba3681-eb3b-4d49-afc9-3149297ce36e")
+		)
+		(pin "4"
+			(uuid "3ca00ac0-c70e-49f4-aae3-dbe55a37e9f3")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 26.67 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5135711d-eb79-40a4-b093-f6edc1c34fa2")
+		(property "Reference" "TP23"
+			(at 29.21 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.21 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 26.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adc6cef4-87b5-4d52-81ba-d4ab6e4382b8")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
 		(at 57.15 162.56 0)
 		(unit 1)
@@ -6590,7 +5747,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63390da1-851a-48d6-9a05-2928f1e88fbd")
+		(uuid "56d026cf-c503-4279-a9ff-5d07fcf6e803")
 		(property "Reference" "D26"
 			(at 56.2991 148.59 0)
 			(effects
@@ -6738,6 +5895,1227 @@
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 125.73 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59204f4a-bc5e-4afc-93df-a3a87cff0650")
+		(property "Reference" "D6"
+			(at 124.8791 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 124.8791 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 125.222 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 125.73 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 125.73 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 125.73 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 125.73 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 125.476 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 125.984 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 125.476 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 125.984 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 125.73 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d80a4fc3-7a41-4fb6-ad45-2be3c40e28e1")
+		)
+		(pin "2"
+			(uuid "053e45e4-c414-47a9-b406-e41277fc94fb")
+		)
+		(pin "3"
+			(uuid "6d89c9c0-519a-4a11-975a-c21b701d80cc")
+		)
+		(pin "4"
+			(uuid "7e94c95f-e682-47cc-bef7-538e55ab883f")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 242.57 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "602790c4-3fff-4e91-bc59-97330d2d363b")
+		(property "Reference" "D23"
+			(at 241.7191 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 241.7191 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 242.062 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 242.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 242.57 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 242.57 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 242.57 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 242.316 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 242.824 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 242.316 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 242.824 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 242.57 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dff6180-1bc5-41a1-a556-f80aca9537c2")
+		)
+		(pin "2"
+			(uuid "5d714856-d944-49f6-8ee9-533979d95135")
+		)
+		(pin "3"
+			(uuid "b6891413-c506-42df-94b4-e66465d1a200")
+		)
+		(pin "4"
+			(uuid "7a640549-150c-4dbd-bdd6-9617f1f6b9bc")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 24.13 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "602d69cc-b6d6-4241-af9b-211907f808da")
+		(property "Reference" "TP21"
+			(at 26.67 14.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 26.67 15.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 29.21 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 24.13 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99767798-3e0f-495c-a50d-1b04e0f8330c")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 52.07 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67032b7e-a7f3-4c55-b28f-78692507a590")
+		(property "Reference" "D2"
+			(at 51.2191 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 51.2191 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 51.562 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 52.07 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 52.07 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 52.07 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 51.816 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 52.324 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 51.816 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 52.324 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 52.07 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da12356b-574f-4a0e-b8bc-1e5e268a9928")
+		)
+		(pin "2"
+			(uuid "dacb037e-b75b-40aa-8a2a-29c523f7dd3f")
+		)
+		(pin "3"
+			(uuid "55c04c1b-6837-40c7-8c06-c9a552de5b3f")
+		)
+		(pin "4"
+			(uuid "5caabdcf-b022-44fb-85f3-8b4f42e1d847")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 152.4 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ce95968-c2e1-4140-8f69-98007d87955a")
+		(property "Reference" "D7"
+			(at 151.5491 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 151.5491 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 151.892 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 152.4 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 152.4 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 152.4 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 152.146 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 152.654 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 152.146 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 152.654 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 152.4 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "669e525e-81bc-4b94-bea3-90db0c50f3bd")
+		)
+		(pin "2"
+			(uuid "a1d05cc2-c146-47fc-9154-d12793dd9db4")
+		)
+		(pin "3"
+			(uuid "a5fc2de7-66fe-4cbd-adee-defbe81552d1")
+		)
+		(pin "4"
+			(uuid "d1ea6a5b-3d2a-4a9a-989f-5b0f8ddb789c")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7319ef7c-53e0-4a9e-9b1f-1c1ee38bf27a")
+		(property "Reference" "TP22"
+			(at 144.78 47.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32d8abe0-8f2d-4a91-9484-40c2de08a82e")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 69.85 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81669d0a-358d-4a37-bb27-46b5880e9a72")
+		(property "Reference" "D15"
+			(at 68.9991 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 68.9991 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 69.342 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 69.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 69.85 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 69.85 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 69.85 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 69.596 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 70.104 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 69.596 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 70.104 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 69.85 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8303f489-bdae-4068-8726-45f563c5fb07")
+		)
+		(pin "2"
+			(uuid "71395cdf-68a4-4da6-ab49-264e942455cd")
+		)
+		(pin "3"
+			(uuid "c7fca8ca-b6fd-4e1f-bb5c-5e432be4f763")
+		)
+		(pin "4"
+			(uuid "9f9df414-1e5b-4d09-b572-2db7ae410e56")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 217.17 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "880e39ef-70c1-49fd-80c9-a745b2f53681")
+		(property "Reference" "D22"
+			(at 216.3191 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 216.3191 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 216.662 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 217.17 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 217.17 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 217.17 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 216.916 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 217.424 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 216.916 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 217.424 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 217.17 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38f54e8d-954c-4324-9601-94fd0480edec")
+		)
+		(pin "2"
+			(uuid "d19f33ab-e3b6-4feb-ab9d-35a6f3759014")
+		)
+		(pin "3"
+			(uuid "228e2cb7-db0d-42e7-84d0-fcadb6f1e12f")
+		)
+		(pin "4"
+			(uuid "158d4eb2-2399-4593-aa0f-42e502b9bf29")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 107.95 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9907d1-f5e1-43d1-a405-c7c509d612fb")
+		(property "Reference" "D28"
+			(at 107.0991 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 107.0991 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 107.442 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 107.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 107.95 187.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 107.95 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 107.95 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 107.696 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 108.204 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 107.696 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 108.204 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 107.95 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18192793-57ad-4764-a16b-7417f33322a7")
+		)
+		(pin "2"
+			(uuid "a39802bb-96e9-4980-9b3c-c6116ffa0dae")
+		)
+		(pin "3"
+			(uuid "ddf4e89e-ee3d-4248-98b1-4d6439e36169")
+		)
+		(pin "4"
+			(uuid "3228febc-dc8a-4f37-ac9f-cfe2f39a5036")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
 		(at 50.8 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6745,7 +7123,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "67d3c3a8-b488-4d26-a83e-627630446640")
+		(uuid "92e8b35a-166c-4c2d-a6ba-621769b7108f")
 		(property "Reference" "D14"
 			(at 49.9491 88.9 0)
 			(effects
@@ -6900,7 +7278,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b55c47d-0ad0-4a98-ae07-b90d106ac85b")
+		(uuid "94c259c1-baa7-4cab-a7af-e14fa998fdc8")
 		(property "Reference" "D12"
 			(at 265.8491 59.69 0)
 			(effects
@@ -7048,16 +7426,16 @@
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 241.3 73.66 0)
+		(at 267.97 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d216739-4c90-4dbc-a64b-13aabb6baaa0")
-		(property "Reference" "D11"
-			(at 240.4491 59.69 0)
+		(uuid "9f51226e-bdc5-488f-a457-1cc1cd85b6f8")
+		(property "Reference" "D24"
+			(at 267.1191 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,7 +7443,7 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 240.4491 62.23 0)
+			(at 267.1191 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7451,7 @@
 			)
 		)
 		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 240.792 91.694 0)
+			(at 267.462 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 73.66 0)
+			(at 267.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7470,7 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 241.3 73.66 0)
+			(at 267.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +7479,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 241.3 98.552 0)
+			(at 267.97 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7489,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 241.3 89.408 0)
+			(at 267.97 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7499,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 241.3 94.234 0)
+			(at 267.97 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7509,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 241.046 100.838 0)
+			(at 267.716 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7519,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 241.554 84.328 0)
+			(at 268.224 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7529,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 241.046 61.214 0)
+			(at 267.716 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +7539,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 241.554 96.012 0)
+			(at 268.224 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7549,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 241.3 86.868 0)
+			(at 267.97 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,21 +7559,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "82cf5492-1f7f-4867-b54a-2d7f2c4ac853")
+			(uuid "ab7f8d9b-ac02-40cf-b537-eac098baccd9")
 		)
 		(pin "2"
-			(uuid "e44149e3-ca22-4c99-a75b-eccf8e42659b")
+			(uuid "0bbc229e-88b8-44c6-bd12-420a12f2aa2f")
 		)
 		(pin "3"
-			(uuid "e916ce7a-dc09-4ce5-a762-7345692938cb")
+			(uuid "99ebea66-0ec5-41ec-bb00-311288b4c97e")
 		)
 		(pin "4"
-			(uuid "e75f9a33-c350-4cc6-96fe-ce1fbfa5b818")
+			(uuid "57222104-e3f3-46d3-84e5-0a1f4eb2768f")
 		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D11")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -7210,7 +7588,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e439875-f16d-438e-a5c8-ce809b20afe7")
+		(uuid "a49ebfd8-b5e1-49e2-bd55-bb7459119643")
 		(property "Reference" "D19"
 			(at 152.8191 123.19 0)
 			(effects
@@ -7357,43 +7735,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 215.9 73.66 0)
+		(lib_id "Connector:TestPoint")
+		(at 26.67 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85639a46-189c-482b-8c38-9670fee3192a")
-		(property "Reference" "D10"
-			(at 215.0491 59.69 0)
+		(uuid "a83cfbb2-7581-4dec-9bb6-5ce945baebdd")
+		(property "Reference" "TP25"
+			(at 29.21 140.2079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "150044M155220"
-			(at 215.0491 62.23 0)
+		(property "Value" "TestPoint"
+			(at 29.21 141.4779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 215.392 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 215.9 73.66 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 31.75 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,8 +7772,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 215.9 73.66 0)
+		(property "Datasheet" "~"
+			(at 31.75 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,102 +7781,22 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Wurth Elektronik"
-			(at 215.9 98.552 0)
+		(property "Description" "test point"
+			(at 26.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 215.9 89.408 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 215.9 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 215.646 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 216.154 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 215.646 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 216.154 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 215.9 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "c0917f64-8609-44b3-9966-97fb1628c9b1")
-		)
-		(pin "2"
-			(uuid "af293c33-f844-47d9-a538-3a999ca75c73")
-		)
-		(pin "3"
-			(uuid "8223699b-ffd7-4291-8204-f74088359b17")
-		)
-		(pin "4"
-			(uuid "e84eed7d-b169-47ea-b1ad-5c2574c15487")
+			(uuid "db1d3295-655f-4ad2-8195-c50ecc2690e3")
 		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D10")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -7513,324 +7804,16 @@
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 123.19 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94cce14f-cd65-41c0-9a72-5d7b0ee5586d")
-		(property "Reference" "D18"
-			(at 122.3391 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 122.3391 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 122.682 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 123.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 123.19 127.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 123.19 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 123.19 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 122.936 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 123.444 113.538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 122.936 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 123.444 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 123.19 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1414d324-7b1a-4362-9385-be8a61f18626")
-		)
-		(pin "2"
-			(uuid "9bfbab4d-a675-4728-9574-e5c946292abc")
-		)
-		(pin "3"
-			(uuid "ab41630e-2130-4fab-a149-af28c19b6b7b")
-		)
-		(pin "4"
-			(uuid "4ad91b8e-febd-4ee3-880a-53317e5e58df")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 87.63 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94f2d247-a67d-4e3d-9492-f5554a6a43fb")
-		(property "Reference" "D16"
-			(at 86.7791 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 86.7791 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 87.122 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 87.63 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 87.63 127.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 87.63 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 87.63 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 87.376 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 87.884 113.538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 87.376 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 87.884 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 87.63 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c845d7a8-68c7-4dc8-8f47-cd1a521af585")
-		)
-		(pin "2"
-			(uuid "4bb5066d-7018-4088-a569-15076d962330")
-		)
-		(pin "3"
-			(uuid "9296964f-d39b-40eb-a796-d767aa5a4baa")
-		)
-		(pin "4"
-			(uuid "2f6a605b-8ea1-4258-8d24-314890b0f585")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 87.63 38.1 0)
+		(at 69.85 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ace939ec-1172-4b7f-9f6e-051662867a00")
-		(property "Reference" "D4"
-			(at 86.7791 24.13 0)
+		(uuid "b0839cba-8999-46ef-aa18-3189e37ba3ab")
+		(property "Reference" "D3"
+			(at 68.9991 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +7821,7 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 86.7791 26.67 0)
+			(at 68.9991 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7846,7 +7829,7 @@
 			)
 		)
 		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 87.122 56.134 0)
+			(at 69.342 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +7839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 38.1 0)
+			(at 69.85 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +7848,7 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 87.63 38.1 0)
+			(at 69.85 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +7857,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 87.63 62.992 0)
+			(at 69.85 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +7867,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 87.63 53.848 0)
+			(at 69.85 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +7877,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 87.63 58.674 0)
+			(at 69.85 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +7887,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 87.376 65.278 0)
+			(at 69.596 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,7 +7897,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 87.884 48.768 0)
+			(at 70.104 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +7907,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 87.376 25.654 0)
+			(at 69.596 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +7917,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 87.884 60.452 0)
+			(at 70.104 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +7927,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 87.63 51.308 0)
+			(at 69.85 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,176 +7937,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "aef78f98-4da6-48f4-862d-da791919ed84")
+			(uuid "ed188764-6cf8-44ae-a38f-02853e663709")
 		)
 		(pin "2"
-			(uuid "abd8f3dd-7ea1-42a9-a0b8-e97e33832312")
+			(uuid "80e8e9c6-10e4-48b2-9966-2d580b9bbcad")
 		)
 		(pin "3"
-			(uuid "67ba3681-eb3b-4d49-afc9-3149297ce36e")
+			(uuid "94dd7344-fc7b-4501-b7c9-7565d2530e5f")
 		)
 		(pin "4"
-			(uuid "3ca00ac0-c70e-49f4-aae3-dbe55a37e9f3")
+			(uuid "cac3f535-f768-49a9-b60f-d0dece26d8b6")
 		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 173.99 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b93018ef-e724-4275-89af-671ee920a3a2")
-		(property "Reference" "D8"
-			(at 173.1391 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150044M155220"
-			(at 173.1391 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 173.482 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 173.99 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 173.99 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 173.99 89.408 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 173.99 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 173.736 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 174.244 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150044M155220"
-			(at 173.736 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 174.244 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 173.99 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b9d457f-b801-4e6b-b1b8-a0aac2bf9b6f")
-		)
-		(pin "2"
-			(uuid "e411a24d-1843-4b14-9fa5-5ffbc61ab9cf")
-		)
-		(pin "3"
-			(uuid "35a12c56-07a0-467d-bab5-653571249a99")
-		)
-		(pin "4"
-			(uuid "7b746de4-531b-4a2c-bfda-04c997049846")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D8")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8137,7 +7965,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c21da404-3b91-4551-bf62-2dcbe7b1514c")
+		(uuid "b3536f84-1866-461e-ae9d-04a1dd393739")
 		(property "Reference" "D17"
 			(at 104.5591 88.9 0)
 			(effects
@@ -8285,16 +8113,16 @@
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 82.55 162.56 0)
+		(at 193.04 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dfbc7909-276a-49a2-b150-8bf8616469d2")
-		(property "Reference" "D27"
-			(at 81.6991 148.59 0)
+		(uuid "bc049dcc-e7ac-4b16-b61d-8dd3dcdd4965")
+		(property "Reference" "D9"
+			(at 192.1891 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,7 +8130,7 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 81.6991 151.13 0)
+			(at 192.1891 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +8138,7 @@
 			)
 		)
 		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 82.042 180.594 0)
+			(at 192.532 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8320,7 +8148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 162.56 0)
+			(at 193.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +8157,7 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 82.55 162.56 0)
+			(at 193.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8166,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 82.55 187.452 0)
+			(at 193.04 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8176,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 82.55 178.308 0)
+			(at 193.04 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +8186,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 82.55 183.134 0)
+			(at 193.04 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8196,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 82.296 189.738 0)
+			(at 192.786 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8206,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 82.804 173.228 0)
+			(at 193.294 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8216,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 82.296 150.114 0)
+			(at 192.786 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8398,7 +8226,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 82.804 184.912 0)
+			(at 193.294 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8408,7 +8236,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 82.55 175.768 0)
+			(at 193.04 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,21 +8246,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "82768b71-5516-4c25-b7ec-8e509b088586")
+			(uuid "1c1fa6a4-26c8-4afc-9d97-837ffc73ff36")
 		)
 		(pin "2"
-			(uuid "51f9796f-4792-4a56-8fa1-4c38ce4dcce0")
+			(uuid "72be26f1-8476-469d-918b-8eed9c63f545")
 		)
 		(pin "3"
-			(uuid "2dba5953-fabf-4544-87c2-47aed16167e0")
+			(uuid "8dda06a2-076d-48ff-81a2-255838497565")
 		)
 		(pin "4"
-			(uuid "5d6b82fe-3fe4-4591-9505-789852b4e972")
+			(uuid "ec5e6cb8-963a-4019-ab89-fff3cf9ab49e")
 		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D27")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8440,16 +8268,15 @@
 	)
 	(symbol
 		(lib_id "Hourglass_symbol_library:150044M155220")
-		(at 69.85 102.87 0)
+		(at 87.63 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd90a66e-cc6d-4676-add6-da5cf273e096")
-		(property "Reference" "D15"
-			(at 68.9991 88.9 0)
+		(uuid "d10d7b80-f401-41e9-b992-8f145773ac44")
+		(property "Reference" "D16"
+			(at 86.7791 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +8284,7 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 68.9991 91.44 0)
+			(at 86.7791 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8292,7 @@
 			)
 		)
 		(property "Footprint" "Hourglass_footprint_library:150044M155220"
-			(at 69.342 120.904 0)
+			(at 87.122 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 102.87 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +8311,7 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 69.85 102.87 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,7 +8320,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 69.85 127.762 0)
+			(at 87.63 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +8330,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 69.85 118.618 0)
+			(at 87.63 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +8340,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 69.85 123.444 0)
+			(at 87.63 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8350,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 69.596 130.048 0)
+			(at 87.376 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +8360,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 70.104 113.538 0)
+			(at 87.884 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,7 +8370,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 69.596 90.424 0)
+			(at 87.376 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,7 +8380,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 70.104 125.222 0)
+			(at 87.884 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,7 +8390,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 69.85 116.078 0)
+			(at 87.63 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8573,21 +8400,641 @@
 			)
 		)
 		(pin "1"
-			(uuid "8303f489-bdae-4068-8726-45f563c5fb07")
+			(uuid "c845d7a8-68c7-4dc8-8f47-cd1a521af585")
 		)
 		(pin "2"
-			(uuid "71395cdf-68a4-4da6-ab49-264e942455cd")
+			(uuid "4bb5066d-7018-4088-a569-15076d962330")
 		)
 		(pin "3"
-			(uuid "c7fca8ca-b6fd-4e1f-bb5c-5e432be4f763")
+			(uuid "9296964f-d39b-40eb-a796-d767aa5a4baa")
 		)
 		(pin "4"
-			(uuid "9f9df414-1e5b-4d09-b572-2db7ae410e56")
+			(uuid "2f6a605b-8ea1-4258-8d24-314890b0f585")
 		)
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
-					(reference "D15")
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 31.75 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d499a0f3-e554-42b3-a06c-7660b50ea1cd")
+		(property "Reference" "D25"
+			(at 30.8991 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 30.8991 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 31.242 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 31.75 187.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 31.75 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 31.75 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 31.496 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 32.004 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 31.496 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 32.004 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 31.75 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ad79b8f-c7e9-4da2-99a0-35c10a1fc4ed")
+		)
+		(pin "2"
+			(uuid "7094beaf-bf1d-4d9e-ba23-ea3114fa45cc")
+		)
+		(pin "3"
+			(uuid "c30e9ee4-ab50-41a1-a3ad-d4c697046c31")
+		)
+		(pin "4"
+			(uuid "9b0d34cd-1248-44a6-8721-98b386597fae")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 241.3 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee5f18f8-a386-45a2-a36a-dfa229329388")
+		(property "Reference" "D11"
+			(at 240.4491 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 240.4491 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 240.792 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 241.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 241.3 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 241.3 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 241.3 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 241.046 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 241.554 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 241.046 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 241.554 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 241.3 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82cf5492-1f7f-4867-b54a-2d7f2c4ac853")
+		)
+		(pin "2"
+			(uuid "e44149e3-ca22-4c99-a75b-eccf8e42659b")
+		)
+		(pin "3"
+			(uuid "e916ce7a-dc09-4ce5-a762-7345692938cb")
+		)
+		(pin "4"
+			(uuid "e75f9a33-c350-4cc6-96fe-ce1fbfa5b818")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 195.58 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f06aa188-47c9-44e4-bfea-1394f92d65d7")
+		(property "Reference" "D21"
+			(at 194.7291 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 194.7291 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 195.072 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 195.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 195.58 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 195.58 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 195.58 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 195.326 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 195.834 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 195.326 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 195.834 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 195.58 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72c91441-989a-463d-ac87-85172b278778")
+		)
+		(pin "2"
+			(uuid "1b3a5867-745a-455a-ba79-1b19e65142bf")
+		)
+		(pin "3"
+			(uuid "de7a118f-c703-4968-9364-cb0c96f480de")
+		)
+		(pin "4"
+			(uuid "abfd2eea-cf47-4747-a693-510e5a803516")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:150044M155220")
+		(at 215.9 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9232aa9-a351-42e0-941d-6925e11ea354")
+		(property "Reference" "D10"
+			(at 215.0491 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150044M155220"
+			(at 215.0491 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:150044M155220"
+			(at 215.392 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
+			(at 215.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 215.9 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
+			(at 215.9 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 215.9 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 215.646 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
+			(at 216.154 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150044M155220"
+			(at 215.646 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 216.154 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
+			(at 215.9 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0917f64-8609-44b3-9966-97fb1628c9b1")
+		)
+		(pin "2"
+			(uuid "af293c33-f844-47d9-a538-3a999ca75c73")
+		)
+		(pin "3"
+			(uuid "8223699b-ffd7-4291-8204-f74088359b17")
+		)
+		(pin "4"
+			(uuid "e84eed7d-b169-47ea-b1ad-5c2574c15487")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/1fa20d35-601e-473f-95b5-1a61e832d90c"
+					(reference "D10")
 					(unit 1)
 				)
 			)
