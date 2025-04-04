@@ -113,6 +113,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Hourglass_symbol_library:CC0402KRX7R6BB104"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -239,7 +242,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name ""
@@ -257,7 +260,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name ""
@@ -397,7 +400,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "LSM6DSOXTR"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsox.pdf"
 				(at 0 -35.052 0)
 				(effects
 					(font
@@ -519,24 +522,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -25.4 19.05 0)
-					(length 7.62)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -25.4 6.35 0)
 					(length 7.62)
@@ -548,24 +533,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -25.4 3.81 0)
-					(length 7.62)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -602,42 +569,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -25.4 -22.86 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -25.4 -25.4 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -736,9 +667,86 @@
 					)
 				)
 			)
+			(symbol "LSM6DSOXTR_1_1"
+				(pin input line
+					(at -25.4 19.05 0)
+					(length 7.62)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 3.81 0)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 -22.86 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 -25.4 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "Hourglass_symbol_library:RMCF0805FT10K0"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -828,7 +836,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,364 +854,7 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RMCF0805FT10K0_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RMCF0805FT10K0"
-				(at 0 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Hourglass_footprint_library:RMCF0805FT10K0"
-				(at 0.762 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-				(at 0.762 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 10K OHM 1% 1/8W 0805"
-				(at 1.27 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RMCF0805FT10K0_1_1_1"
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "10k"
-					(at 0 -2.286 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RMCF0805FT10K0_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RMCF0805FT10K0"
-				(at 0 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Hourglass_footprint_library:RMCF0805FT10K0"
-				(at 0.762 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-				(at 0.762 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 10K OHM 1% 1/8W 0805"
-				(at 1.27 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RMCF0805FT10K0_2_1_1"
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "10k"
-					(at 0 -2.286 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RMCF0805FT10K0_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RMCF0805FT10K0"
-				(at 0 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Hourglass_footprint_library:RMCF0805FT10K0"
-				(at 0.762 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-				(at 0.762 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 10K OHM 1% 1/8W 0805"
-				(at 1.27 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RMCF0805FT10K0_3_1_1"
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "10k"
-					(at 0 -2.286 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2011,7 +1662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0089faaa-4b87-4512-a3ec-9718b10b572b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR20"
 			(at 85.09 55.88 0)
 			(effects
 				(font
@@ -2061,14 +1712,13 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR020")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "RMCF0805FT10K0_3")
 		(lib_id "Hourglass_symbol_library:RMCF0805FT10K0")
 		(at 90.17 60.96 90)
 		(unit 1)
@@ -2123,10 +1773,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "4dea5b4e-ee43-4272-9c15-63ed46633c97")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "0e350d3e-8a44-430e-805b-f2575b25d622")
 		)
 		(instances
@@ -2147,7 +1797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ac3c9b4-9dc6-4a8e-885d-833149d70186")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR21"
 			(at 102.87 55.88 0)
 			(effects
 				(font
@@ -2197,7 +1847,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR021")
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -2213,7 +1863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31410145-15d6-4d56-87e7-64789311d9dd")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR19"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -2263,7 +1913,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR019")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -2278,7 +1928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36887bb6-a6e3-4408-9105-68fe6fac7d3c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR22"
 			(at 114.3 55.88 0)
 			(effects
 				(font
@@ -2328,7 +1978,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -2389,10 +2039,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "99a24edb-164d-4036-beb4-f8236b3e4b4b")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "a5b93bd3-d904-4428-b3b7-94f78297522b")
 		)
 		(instances
@@ -2486,7 +2136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fecac85-27ef-4eb3-8fa5-c83f04b28f28")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 146.05 25.4 0)
 			(effects
 				(font
@@ -2536,7 +2186,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -2688,7 +2338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "937efc4f-d7e9-4364-8c3a-7bb026634e08")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR18"
 			(at 132.08 44.45 0)
 			(effects
 				(font
@@ -2738,7 +2388,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR018")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -2753,7 +2403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1dfd082-6bef-4a87-89bd-34c651b52bf1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 132.08 25.4 0)
 			(effects
 				(font
@@ -2803,7 +2453,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -2892,7 +2542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4843352-f0be-4058-93b6-73d9c2590538")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR24"
 			(at 170.18 125.73 0)
 			(effects
 				(font
@@ -2942,7 +2592,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR024")
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -2984,7 +2634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LSM6DSOXTR"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsox.pdf"
 			(at 129.032 121.412 0)
 			(effects
 				(font
@@ -3064,7 +2714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2ebd826-487e-4af2-96d0-fdbbbf9563ef")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR23"
 			(at 114.3 125.73 0)
 			(effects
 				(font
@@ -3114,14 +2764,13 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR023")
+					(reference "#PWR23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "RMCF0805FT10K0_1")
 		(lib_id "Hourglass_symbol_library:RMCF0805FT10K0")
 		(at 78.74 60.96 90)
 		(unit 1)
@@ -3176,10 +2825,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "8239f25a-4b96-495f-aaf2-5637376791b1")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "4949f987-cdfe-47d3-b1ec-bc80c346be5d")
 		)
 		(instances
@@ -3258,7 +2907,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RMCF0805FT10K0_2")
 		(lib_id "Hourglass_symbol_library:RMCF0805FT10K0")
 		(at 170.18 111.76 90)
 		(unit 1)
@@ -3314,10 +2962,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "5595b48e-116e-41f0-9496-014c87d80347")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "0d29bf2d-5d9b-409e-9914-478bd5576a83")
 		)
 		(instances

@@ -1,4 +1,4 @@
-24786207680327132
+24787951500724653
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58447,8 +58447,8 @@ Hourglass_footprint_library
 
 
 0
-0
-0
+10
+10
 Hourglass_footprint_library
 BQ25185
 
@@ -58598,6 +58598,13 @@ RCS0805300RFKEA
 2
 Hourglass_footprint_library
 RES 5.1K OHM 1% 1_8W 0805
+
+
+0
+2
+2
+Hourglass_footprint_library
+RESC2012X55N
 
 
 0

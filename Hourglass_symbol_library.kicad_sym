@@ -1268,7 +1268,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 1.27 0)
 				(length 5.08)
 				(name "1"
@@ -1286,7 +1286,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -1.27 0)
 				(length 5.08)
 				(name "2"
@@ -1498,7 +1498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "BQ25185DLHR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25185.pdf?ts=1701339761812&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ25185"
 			(at -11.684 -20.066 0)
 			(effects
 				(font
@@ -1674,7 +1674,27 @@
 					)
 				)
 			)
-			(pin power_out line
+		)
+		(symbol "BQ25185_1_1"
+			(pin power_in line
+				(at -25.4 17.78 0)
+				(length 7.62)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -25.4 -12.7 0)
 				(length 7.62)
 				(name "GND"
@@ -1692,7 +1712,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at 25.4 17.78 180)
 				(length 7.62)
 				(name "STAT1"
@@ -1710,7 +1730,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at 25.4 15.24 180)
 				(length 7.62)
 				(name "STAT2"
@@ -1721,44 +1741,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 25.4 -12.7 180)
-				(length 7.62)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BQ25185_1_1"
-			(pin power_in line
-				(at -25.4 17.78 0)
-				(length 7.62)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1784,10 +1766,31 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 25.4 -12.7 180)
+				(length 7.62)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
 	(symbol "CC0402KRX7R6BB104"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -1914,7 +1917,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
 				(name ""
@@ -1932,7 +1935,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 3.81 0 180)
 				(length 2.54)
 				(name ""
@@ -2292,6 +2295,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "CRCW080518K0FKEAHP"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -2404,7 +2410,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2422,7 +2428,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2707,6 +2713,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "GRM155Z71A105KE01D"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -2833,7 +2842,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
 				(name ""
@@ -2851,7 +2860,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 3.81 0 180)
 				(length 2.54)
 				(name ""
@@ -2959,6 +2968,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "GRM21BR71A475KE51L"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -3085,7 +3097,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
 				(name ""
@@ -3103,7 +3115,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 3.81 0 180)
 				(length 2.54)
 				(name ""
@@ -3211,6 +3223,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "GRM21BZ71E106KE15L"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -3337,7 +3352,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
 				(name ""
@@ -3355,7 +3370,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 3.81 0 180)
 				(length 2.54)
 				(name ""
@@ -4003,7 +4018,7 @@
 			)
 		)
 		(symbol "KMR221NGLFS_1_1"
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 2.54 0)
 				(length 2.54)
 				(name "1"
@@ -4021,7 +4036,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "2"
@@ -4039,7 +4054,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "4"
@@ -4057,7 +4072,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "3"
@@ -4215,24 +4230,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -22.86 33.02 0)
-				(length 5.08)
-				(name "VLED"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -22.86 27.94 0)
 				(length 5.08)
@@ -4305,24 +4302,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -22.86 -16.51 0)
-				(length 5.08)
-				(name "ADDR0_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -22.86 -19.05 0)
 				(length 5.08)
@@ -4334,24 +4313,6 @@
 					)
 				)
 				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -22.86 -33.02 0)
-				(length 5.08)
-				(name "VCAP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4413,7 +4374,63 @@
 					)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "LP5860_1_1"
+			(pin power_in line
+				(at -22.86 33.02 0)
+				(length 5.08)
+				(name "VLED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -16.51 0)
+				(length 5.08)
+				(name "ADDR0_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 -33.02 0)
+				(length 5.08)
+				(name "VCAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
 				(at 22.86 38.1 180)
 				(length 5.08)
 				(name "SW0"
@@ -4431,7 +4448,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 35.56 180)
 				(length 5.08)
 				(name "SW1"
@@ -4449,7 +4466,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 33.02 180)
 				(length 5.08)
 				(name "SW2"
@@ -4467,7 +4484,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 30.48 180)
 				(length 5.08)
 				(name "SW3"
@@ -4485,7 +4502,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 27.94 180)
 				(length 5.08)
 				(name "SW4"
@@ -4503,7 +4520,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 25.4 180)
 				(length 5.08)
 				(name "SW5"
@@ -4521,7 +4538,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 22.86 180)
 				(length 5.08)
 				(name "SW6"
@@ -4539,7 +4556,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 20.32 180)
 				(length 5.08)
 				(name "SW7"
@@ -4557,7 +4574,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 17.78 180)
 				(length 5.08)
 				(name "SW8"
@@ -4575,7 +4592,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 15.24 180)
 				(length 5.08)
 				(name "SW9"
@@ -4593,7 +4610,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 12.7 180)
 				(length 5.08)
 				(name "SW10"
@@ -4611,7 +4628,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 7.62 180)
 				(length 5.08)
 				(name "CS0"
@@ -4629,7 +4646,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 5.08 180)
 				(length 5.08)
 				(name "CS1"
@@ -4647,7 +4664,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 2.54 180)
 				(length 5.08)
 				(name "CS2"
@@ -4665,7 +4682,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 0 180)
 				(length 5.08)
 				(name "CS3"
@@ -4683,7 +4700,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -2.54 180)
 				(length 5.08)
 				(name "CS4"
@@ -4701,7 +4718,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -5.08 180)
 				(length 5.08)
 				(name "CS5"
@@ -4719,7 +4736,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -7.62 180)
 				(length 5.08)
 				(name "CS6"
@@ -4737,7 +4754,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -10.16 180)
 				(length 5.08)
 				(name "CS7"
@@ -4755,7 +4772,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -12.7 180)
 				(length 5.08)
 				(name "CS8"
@@ -4773,7 +4790,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -15.24 180)
 				(length 5.08)
 				(name "CS9"
@@ -4791,7 +4808,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -17.78 180)
 				(length 5.08)
 				(name "CS10"
@@ -4809,7 +4826,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -20.32 180)
 				(length 5.08)
 				(name "CS11"
@@ -4827,7 +4844,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -22.86 180)
 				(length 5.08)
 				(name "CS12"
@@ -4845,7 +4862,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -25.4 180)
 				(length 5.08)
 				(name "CS13"
@@ -4863,7 +4880,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -27.94 180)
 				(length 5.08)
 				(name "CS14"
@@ -4881,7 +4898,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -30.48 180)
 				(length 5.08)
 				(name "CS15"
@@ -4899,7 +4916,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -33.02 180)
 				(length 5.08)
 				(name "CS16"
@@ -4917,7 +4934,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 22.86 -35.56 180)
 				(length 5.08)
 				(name "CS17"
@@ -4971,7 +4988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LSM6DSOXTR"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsox.pdf"
 			(at 0 -35.052 0)
 			(effects
 				(font
@@ -5093,24 +5110,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -25.4 19.05 0)
-				(length 7.62)
-				(name "CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -25.4 6.35 0)
 				(length 7.62)
@@ -5122,24 +5121,6 @@
 					)
 				)
 				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -25.4 3.81 0)
-				(length 7.62)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5176,42 +5157,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -25.4 -22.86 0)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -25.4 -25.4 0)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5310,9 +5255,86 @@
 				)
 			)
 		)
+		(symbol "LSM6DSOXTR_1_1"
+			(pin input line
+				(at -25.4 19.05 0)
+				(length 7.62)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -25.4 3.81 0)
+				(length 7.62)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -22.86 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -25.4 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "LTST-C193KGKT-5A"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -5619,7 +5641,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
@@ -5629,7 +5651,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5637,7 +5659,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name ""
@@ -5647,7 +5669,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6231,7 +6253,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
@@ -6249,7 +6271,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name ""
@@ -6843,7 +6865,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
@@ -6861,7 +6883,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name ""
@@ -7268,114 +7290,6 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 5.08 0)
-				(length 7.62)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -31.75 2.54 0)
-				(length 7.62)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -31.75 0 0)
-				(length 7.62)
-				(name "*SHDN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -31.75 -2.54 0)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 34.29 5.08 180)
-				(length 7.62)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 34.29 2.54 180)
-				(length 7.62)
-				(name "SENSE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 34.29 0 180)
 				(length 7.62)
 				(name "CDELAY"
@@ -7393,7 +7307,117 @@
 					)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "MCP1727T-3302E_SN_1_1"
+			(pin power_in line
+				(at -31.75 5.08 0)
+				(length 7.62)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -31.75 2.54 0)
+				(length 7.62)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -31.75 0 0)
+				(length 7.62)
+				(name "*SHDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -31.75 -2.54 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 34.29 5.08 180)
+				(length 7.62)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 34.29 2.54 180)
+				(length 7.62)
+				(name "SENSE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
 				(at 34.29 -2.54 180)
 				(length 7.62)
 				(name "PWRGD"
@@ -7415,6 +7439,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "MCU08050C6000FP500"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7434,7 +7461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Hourglass_footprint_library:MCU08050C6000FP500"
+		(property "Footprint" "Hourglass_footprint_library:RESC2012X55N"
 			(at 0.254 -6.096 0)
 			(effects
 				(font
@@ -7443,7 +7470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7504,7 +7531,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7522,7 +7549,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7534,6 +7561,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "RC0603JR-07300RL"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -7646,7 +7676,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7664,7 +7694,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7798,6 +7828,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "RC0805FR-07442RL"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7887,7 +7920,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7905,7 +7938,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7917,6 +7950,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "RC0805FR-075K1L"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8006,7 +8042,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8024,7 +8060,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8036,6 +8072,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "RCS080513K0FKEA"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 1.016)
 		)
@@ -8131,7 +8170,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8149,7 +8188,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8161,6 +8200,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "RCS0805300RFKEA"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8250,7 +8292,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8268,7 +8310,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8280,6 +8322,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "RMCF0805FT10K0"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8369,7 +8414,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8387,7 +8432,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8399,6 +8444,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "SH05B102K251DC"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -8525,7 +8573,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
 				(name ""
@@ -8543,7 +8591,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 3.81 0 180)
 				(length 2.54)
 				(name ""

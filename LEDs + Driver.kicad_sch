@@ -113,6 +113,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Hourglass_symbol_library:GRM155Z71A105KE01D"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -239,7 +242,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name ""
@@ -257,7 +260,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name ""
@@ -501,24 +504,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -22.86 33.02 0)
-					(length 5.08)
-					(name "VLED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -22.86 27.94 0)
 					(length 5.08)
@@ -591,24 +576,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -22.86 -16.51 0)
-					(length 5.08)
-					(name "ADDR0_MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -22.86 -19.05 0)
 					(length 5.08)
@@ -620,24 +587,6 @@
 						)
 					)
 					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -33.02 0)
-					(length 5.08)
-					(name "VCAP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -699,7 +648,63 @@
 						)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "LP5860_1_1"
+				(pin power_in line
+					(at -22.86 33.02 0)
+					(length 5.08)
+					(name "VLED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -16.51 0)
+					(length 5.08)
+					(name "ADDR0_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -22.86 -33.02 0)
+					(length 5.08)
+					(name "VCAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
 					(at 22.86 38.1 180)
 					(length 5.08)
 					(name "SW0"
@@ -717,7 +722,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 35.56 180)
 					(length 5.08)
 					(name "SW1"
@@ -735,7 +740,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 33.02 180)
 					(length 5.08)
 					(name "SW2"
@@ -753,7 +758,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 30.48 180)
 					(length 5.08)
 					(name "SW3"
@@ -771,7 +776,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 27.94 180)
 					(length 5.08)
 					(name "SW4"
@@ -789,7 +794,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 25.4 180)
 					(length 5.08)
 					(name "SW5"
@@ -807,7 +812,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 22.86 180)
 					(length 5.08)
 					(name "SW6"
@@ -825,7 +830,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 20.32 180)
 					(length 5.08)
 					(name "SW7"
@@ -843,7 +848,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 17.78 180)
 					(length 5.08)
 					(name "SW8"
@@ -861,7 +866,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 15.24 180)
 					(length 5.08)
 					(name "SW9"
@@ -879,7 +884,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 12.7 180)
 					(length 5.08)
 					(name "SW10"
@@ -897,7 +902,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 7.62 180)
 					(length 5.08)
 					(name "CS0"
@@ -915,7 +920,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 5.08 180)
 					(length 5.08)
 					(name "CS1"
@@ -933,7 +938,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 2.54 180)
 					(length 5.08)
 					(name "CS2"
@@ -951,7 +956,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 0 180)
 					(length 5.08)
 					(name "CS3"
@@ -969,7 +974,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -2.54 180)
 					(length 5.08)
 					(name "CS4"
@@ -987,7 +992,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -5.08 180)
 					(length 5.08)
 					(name "CS5"
@@ -1005,7 +1010,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -7.62 180)
 					(length 5.08)
 					(name "CS6"
@@ -1023,7 +1028,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -10.16 180)
 					(length 5.08)
 					(name "CS7"
@@ -1041,7 +1046,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -12.7 180)
 					(length 5.08)
 					(name "CS8"
@@ -1059,7 +1064,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -15.24 180)
 					(length 5.08)
 					(name "CS9"
@@ -1077,7 +1082,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -17.78 180)
 					(length 5.08)
 					(name "CS10"
@@ -1095,7 +1100,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -20.32 180)
 					(length 5.08)
 					(name "CS11"
@@ -1113,7 +1118,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -22.86 180)
 					(length 5.08)
 					(name "CS12"
@@ -1131,7 +1136,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -25.4 180)
 					(length 5.08)
 					(name "CS13"
@@ -1149,7 +1154,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -27.94 180)
 					(length 5.08)
 					(name "CS14"
@@ -1167,7 +1172,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -30.48 180)
 					(length 5.08)
 					(name "CS15"
@@ -1185,7 +1190,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -33.02 180)
 					(length 5.08)
 					(name "CS16"
@@ -1203,7 +1208,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 22.86 -35.56 180)
 					(length 5.08)
 					(name "CS17"
@@ -1225,6 +1230,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Hourglass_symbol_library:SH05B102K251DC"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1351,7 +1359,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name ""
@@ -1369,7 +1377,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name ""
@@ -3683,18 +3691,6 @@
 		)
 		(uuid "e6825186-5b78-4083-9a38-8aa32d06ed04")
 	)
-	(label "I2C{SDA SCL}"
-		(at 40.64 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8992d79-acfb-4a1c-8644-d7a41897e3aa")
-	)
 	(label "CS0"
 		(at 38.1 181.61 270)
 		(effects
@@ -3768,7 +3764,7 @@
 		)
 		(uuid "3260d0ad-abb5-40bc-8a4d-f4ee49abcb9a")
 	)
-	(hierarchical_label "I2C"
+	(hierarchical_label "I2C{SDA SCL}"
 		(shape bidirectional)
 		(at 40.64 83.82 180)
 		(effects
@@ -3975,7 +3971,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baed")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -3996,7 +3992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "267cb4b8-407b-4341-92f2-3c7f85579d4b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 100.33 154.94 0)
 			(effects
 				(font
@@ -4046,7 +4042,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -4108,7 +4104,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baee")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -4175,7 +4171,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baef")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -4242,7 +4238,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf0")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -4450,7 +4446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b8dbbf7-e0cf-44dc-afeb-e8b85ce74132")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 63.5 153.67 0)
 			(effects
 				(font
@@ -4500,7 +4496,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -4562,7 +4558,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf1")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -4629,7 +4625,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf2")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -4696,7 +4692,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf3")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -4787,7 +4783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78e20a15-fa9a-45ed-bd4d-ec352cb7635a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 64.77 41.91 0)
 			(effects
 				(font
@@ -4837,7 +4833,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -4925,7 +4921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "921e9ccc-f824-4797-91e7-38a73c5ae4e8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 62.23 81.28 0)
 			(effects
 				(font
@@ -4975,7 +4971,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -5104,7 +5100,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf4")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -5171,7 +5167,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf5")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -5238,7 +5234,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf6")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -5305,7 +5301,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf7")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -5372,7 +5368,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf8")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -5460,7 +5456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d67fb65f-f9dd-44bf-a8c0-6213a45a6f99")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 69.85 153.67 0)
 			(effects
 				(font
@@ -5510,7 +5506,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -5643,7 +5639,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baf9")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -5710,7 +5706,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0bafa")
 		)
 		(instances
 			(project "Hourglass_PCBA"
@@ -5777,7 +5773,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69b9cc2c-e63d-4738-a572-e45647f0baec")
+			(uuid "69b9cc2c-e63d-4738-a572-e45647f0bafb")
 		)
 		(instances
 			(project "Hourglass_PCBA"

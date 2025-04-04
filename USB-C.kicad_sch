@@ -6,6 +6,9 @@
 	(paper "A4")
 	(lib_symbols
 		(symbol "Hourglass_symbol_library:RC0805FR-075K1L"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -95,7 +98,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -113,7 +116,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -728,125 +731,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RC0805FR-075K1L_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RC0805FR-075K1L"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Hourglass_footprint_library:RC0805FR-075K1L"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC0805FR-075K1L_1_1_1"
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "5.1k\n"
-					(at 0 -2.286 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -948,6 +832,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Placing PD (pull-down)\nresistors to indicate UPSTREAMS device"
 		(exclude_from_sim yes)
@@ -1013,6 +998,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "beadeb51-bf33-49bd-aed2-c0d4524bf940")
+	)
+	(junction
+		(at 158.75 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c32dce41-34aa-4b43-992b-44641bfa14e1")
 	)
 	(junction
 		(at 152.4 130.81)
@@ -1214,7 +1205,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 50.8) (xy 165.1 50.8)
+			(xy 154.94 50.8) (xy 158.75 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1374,6 +1365,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d633c02f-a4ed-4212-a21c-586c87a3710d")
+	)
+	(wire
+		(pts
 			(xy 147.32 115.57) (xy 152.4 115.57)
 		)
 		(stroke
@@ -1403,7 +1404,7 @@
 		(uuid "e959bc92-b9f9-44be-8cbe-88e62fc0f025")
 	)
 	(hierarchical_label "Vin"
-		(shape input)
+		(shape output)
 		(at 165.1 50.8 0)
 		(effects
 			(font
@@ -1423,7 +1424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "298dc0ff-08d5-49a8-87bc-a7d9d86953cc")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR48"
 			(at 171.45 137.16 0)
 			(effects
 				(font
@@ -1473,7 +1474,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88/d02d7f80-2025-419a-a5a1-91ce46aa8a95"
-					(reference "#PWR048")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -1489,7 +1490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88309864-2020-40e0-8511-283f91c26006")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR47"
 			(at 152.4 137.16 0)
 			(effects
 				(font
@@ -1539,7 +1540,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88/d02d7f80-2025-419a-a5a1-91ce46aa8a95"
-					(reference "#PWR047")
+					(reference "#PWR47")
 					(unit 1)
 				)
 			)
@@ -1601,10 +1602,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "36835957-0d46-4101-bafd-90bb8741d693")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "5c738616-0075-4383-bafa-ed4b96008eb6")
 		)
 		(instances
@@ -1617,7 +1618,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RC0805FR-075K1L_1")
 		(lib_id "Hourglass_symbol_library:RC0805FR-075K1L")
 		(at 177.8 106.68 90)
 		(unit 1)
@@ -1673,10 +1673,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "eca1c4a4-43d7-4134-bdda-d6ebb6a163f3")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "c7d29ac8-e267-4a5b-81bd-e1e18e560b60")
 		)
 		(instances
@@ -1860,6 +1860,72 @@
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88/d02d7f80-2025-419a-a5a1-91ce46aa8a95"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 158.75 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef4813ae-c049-4771-a258-7249942c0779")
+		(property "Reference" "#FLG1"
+			(at 158.75 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86d82f99-a6f8-407c-9b45-b0dd10c0c298")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88/d02d7f80-2025-419a-a5a1-91ce46aa8a95"
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)
