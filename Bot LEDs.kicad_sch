@@ -3051,7 +3051,7 @@
 		)
 		(uuid "02d391b7-81b1-4df2-ad9e-dd1484cbba35")
 	)
-	(label "SW6"
+	(label "SW1"
 		(at 168.91 26.67 0)
 		(effects
 			(font
@@ -3073,7 +3073,7 @@
 		)
 		(uuid "03b6cb9a-9cb0-4f59-91ce-f69dd1a3bb99")
 	)
-	(label "SW8"
+	(label "SW3"
 		(at 143.51 116.84 0)
 		(effects
 			(font
@@ -3109,7 +3109,7 @@
 		)
 		(uuid "09dbe2ba-dbaa-408b-93d6-f19b368b9e54")
 	)
-	(label "SW9"
+	(label "SW4"
 		(at 168.91 34.29 0)
 		(effects
 			(font
@@ -3199,7 +3199,7 @@
 		)
 		(uuid "21853e07-6d6f-4488-88ae-4898a72e2822")
 	)
-	(label "SW9"
+	(label "SW4"
 		(at 17.78 143.51 0)
 		(effects
 			(font
@@ -3269,7 +3269,7 @@
 		)
 		(uuid "390f18fa-3f58-486d-a605-f12eff9772b7")
 	)
-	(label "SW8"
+	(label "SW3"
 		(at 168.91 31.75 0)
 		(effects
 			(font
@@ -3633,7 +3633,7 @@
 		)
 		(uuid "78256095-46c8-4b70-ac3a-a910fd796967")
 	)
-	(label "SW5"
+	(label "SW0"
 		(at 168.91 24.13 0)
 		(effects
 			(font
@@ -3689,7 +3689,7 @@
 		)
 		(uuid "7e990e6f-7eae-4ed5-8603-1fdcdfc9dba2")
 	)
-	(label "SW7"
+	(label "SW2"
 		(at 19.05 83.82 0)
 		(effects
 			(font
@@ -3805,7 +3805,7 @@
 		)
 		(uuid "a4fd488e-c777-41fc-92d6-d16ee9446c77")
 	)
-	(label "SW7"
+	(label "SW2"
 		(at 168.91 29.21 0)
 		(effects
 			(font
@@ -3861,7 +3861,7 @@
 		)
 		(uuid "b08977c3-cb47-4a3e-8048-b72c4a88b012")
 	)
-	(label "SW5"
+	(label "SW0"
 		(at 16.51 17.78 0)
 		(effects
 			(font
@@ -3941,7 +3941,7 @@
 		)
 		(uuid "ba11224d-3197-447a-bf36-821936ea3d93")
 	)
-	(label "SW6"
+	(label "SW1"
 		(at 135.89 50.8 0)
 		(effects
 			(font
@@ -4350,7 +4350,7 @@
 		)
 		(uuid "7385fd2f-6c4c-4b0f-9a06-b03604e334e8")
 	)
-	(hierarchical_label "SW[5..9]"
+	(hierarchical_label "SW[0..4]"
 		(shape input)
 		(at 149.86 21.59 180)
 		(effects

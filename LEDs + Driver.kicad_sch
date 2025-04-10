@@ -5837,9 +5837,9 @@
 				(justify left)
 			)
 		)
-		(pin "SW[5..9]" input
+		(pin "SW[0..4]" input
 			(at 195.58 41.91 180)
-			(uuid "604da90f-8d15-43d6-85b3-826e00f24986")
+			(uuid "edb2d90b-f895-4f1b-8813-1a0b565a892c")
 			(effects
 				(font
 					(size 1.27 1.27)
