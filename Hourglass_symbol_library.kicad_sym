@@ -2561,7 +2561,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "FerriteBead_Small"
+	(symbol "FCM 1608KF-601T03"
 		(pin_numbers
 			(hide yes)
 		)
@@ -2580,7 +2580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "FCM 1608KF-601T03"
 			(at 1.905 -1.27 0)
 			(effects
 				(font
@@ -2607,7 +2607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FERRITE BEAD 600 OHM 0603 1LN"
+		(property "Description" "600 Ohms @ 100 MHz 1 Ferrite Bead 0603 (1608 Metric) 350mA 500mOhm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2616,7 +2616,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Ferrrite Bead"
+		(property "ki_keywords" "FERRITE BEAD 600 OHM 0603 1LN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2634,7 +2634,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "FerriteBead_Small_0_1"
+		(symbol "FCM 1608KF-601T03_0_1"
 			(polyline
 				(pts
 					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
@@ -2672,7 +2672,7 @@
 				)
 			)
 		)
-		(symbol "FerriteBead_Small_1_1"
+		(symbol "FCM 1608KF-601T03_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
