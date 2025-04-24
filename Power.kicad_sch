@@ -6497,7 +6497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07f8a406-9c3e-49c1-aec8-688b099eed37")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR46"
 			(at 48.26 191.77 0)
 			(effects
 				(font
@@ -6547,7 +6547,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR046")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -6698,7 +6698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15051e8d-89d9-4f5f-a6e4-72647184bf56")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 270.51 104.14 0)
 			(effects
 				(font
@@ -6748,7 +6748,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -7040,7 +7040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2126909f-ec89-4adc-9998-21e61e2bcf11")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR39"
 			(at 121.92 148.59 0)
 			(effects
 				(font
@@ -7090,7 +7090,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR039")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
@@ -7369,7 +7369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a267824-b264-4c64-9e3e-45d03015f73d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR33"
 			(at 146.05 80.01 0)
 			(effects
 				(font
@@ -7419,7 +7419,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR033")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -7507,7 +7507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c6e79d1-9442-4553-ba7c-8e0c902f43f8")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR43"
 			(at 259.08 148.59 0)
 			(effects
 				(font
@@ -7557,7 +7557,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR043")
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
@@ -7645,7 +7645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ead557d-4dc0-4848-a236-78b4530e0afd")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR36"
 			(at 30.48 148.59 0)
 			(effects
 				(font
@@ -7695,7 +7695,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -7711,7 +7711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "403febd8-49ab-4109-aae1-697933caa74f")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR48"
 			(at 68.58 191.77 0)
 			(effects
 				(font
@@ -7761,7 +7761,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR048")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -7777,7 +7777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "443bd30a-3ad5-4d2e-bedf-97b7e655b8c8")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR40"
 			(at 128.27 148.59 0)
 			(effects
 				(font
@@ -7827,7 +7827,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR040")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
@@ -7843,7 +7843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e08209e-1632-40d6-b35a-ac8acd12421f")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR47"
 			(at 58.42 191.77 0)
 			(effects
 				(font
@@ -7893,7 +7893,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR047")
+					(reference "#PWR47")
 					(unit 1)
 				)
 			)
@@ -7977,7 +7977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e793671-ce75-414e-9fcf-0a0c61ec3731")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR37"
 			(at 50.8 148.59 0)
 			(effects
 				(font
@@ -8027,7 +8027,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR037")
+					(reference "#PWR37")
 					(unit 1)
 				)
 			)
@@ -8324,7 +8324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f1f8482-9ed5-4b58-b4ff-d0334c540a48")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG2"
 			(at 31.75 116.205 0)
 			(effects
 				(font
@@ -8374,7 +8374,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#FLG02")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -8532,7 +8532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "909c7284-18f0-4585-9f2a-0acddaa88564")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR29"
 			(at 124.46 48.26 0)
 			(effects
 				(font
@@ -8582,7 +8582,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR029")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -8598,7 +8598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91ae08ea-ec37-4f94-a3a0-16b0959ebd8b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR34"
 			(at 63.5 82.55 0)
 			(effects
 				(font
@@ -8648,7 +8648,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -8664,7 +8664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e63c03a-ab4b-4391-aeb6-2ab67ac5fd37")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR28"
 			(at 111.76 48.26 0)
 			(effects
 				(font
@@ -8714,7 +8714,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR028")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -8798,7 +8798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a60b3d20-9de0-4b04-ac54-df764752a82d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR27"
 			(at 60.96 29.21 0)
 			(effects
 				(font
@@ -8848,7 +8848,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR027")
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -9002,7 +9002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acd0a29a-5ab5-4985-85f9-d178a5f68f06")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR44"
 			(at 270.51 148.59 0)
 			(effects
 				(font
@@ -9052,7 +9052,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR044")
+					(reference "#PWR44")
 					(unit 1)
 				)
 			)
@@ -9068,7 +9068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad1ce9fd-2c0b-4c42-9f38-2ce4017e92e0")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR32"
 			(at 128.27 80.01 0)
 			(effects
 				(font
@@ -9118,7 +9118,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR032")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -9134,7 +9134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad9a3195-8cf1-4081-9e63-c64095912661")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR45"
 			(at 38.1 191.77 0)
 			(effects
 				(font
@@ -9184,7 +9184,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR045")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
@@ -9200,7 +9200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b746fb8e-7b41-4e85-9cbc-27332bab1b04")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR38"
 			(at 68.58 148.59 0)
 			(effects
 				(font
@@ -9250,7 +9250,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -9544,7 +9544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c3c274-5f8a-41e8-9083-d0edbd73f754")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR30"
 			(at 165.1 49.53 0)
 			(effects
 				(font
@@ -9594,7 +9594,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR030")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -9610,7 +9610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c57bae76-f968-45cb-8791-2d1c9d0a1af7")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR42"
 			(at 176.53 148.59 0)
 			(effects
 				(font
@@ -9660,7 +9660,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR042")
+					(reference "#PWR42")
 					(unit 1)
 				)
 			)
@@ -10057,7 +10057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0bce21d-03ef-4f72-a928-93efb1dd73f1")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR41"
 			(at 168.91 148.59 0)
 			(effects
 				(font
@@ -10107,7 +10107,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR041")
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
@@ -10279,7 +10279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5e7cbd3-c410-4c95-8561-51a071c05a44")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR31"
 			(at 177.8 49.53 0)
 			(effects
 				(font
@@ -10329,7 +10329,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88"
-					(reference "#PWR031")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
