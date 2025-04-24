@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "3eee524f-4313-4d74-bad4-d774df15cbd6")
 	(paper "A4")
+	(title_block
+		(title "Hourglass")
+		(date "2025-04-23")
+		(rev "01")
+	)
 	(lib_symbols
 		(symbol "Hourglass_symbol_library:RC0805FR-075K1L"
 			(pin_numbers
@@ -1424,7 +1429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "298dc0ff-08d5-49a8-87bc-a7d9d86953cc")
-		(property "Reference" "#PWR48"
+		(property "Reference" "#PWR050"
 			(at 171.45 137.16 0)
 			(effects
 				(font
@@ -1474,7 +1479,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88/d02d7f80-2025-419a-a5a1-91ce46aa8a95"
-					(reference "#PWR48")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1490,7 +1495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88309864-2020-40e0-8511-283f91c26006")
-		(property "Reference" "#PWR47"
+		(property "Reference" "#PWR049"
 			(at 152.4 137.16 0)
 			(effects
 				(font
@@ -1540,7 +1545,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88/d02d7f80-2025-419a-a5a1-91ce46aa8a95"
-					(reference "#PWR47")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -1556,7 +1561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5200ed8-bd15-43ef-bf0c-2c2bc4f96b40")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 170.18 106.6798 90)
 			(effects
 				(font
@@ -1611,7 +1616,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88/d02d7f80-2025-419a-a5a1-91ce46aa8a95"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1627,7 +1632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aad044a8-0c8d-4419-a637-073603a6a97b")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 182.88 106.6798 90)
 			(effects
 				(font
@@ -1682,7 +1687,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88/d02d7f80-2025-419a-a5a1-91ce46aa8a95"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1875,7 +1880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef4813ae-c049-4771-a258-7249942c0779")
-		(property "Reference" "#FLG1"
+		(property "Reference" "#FLG03"
 			(at 158.75 48.895 0)
 			(effects
 				(font
@@ -1925,7 +1930,7 @@
 		(instances
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/b64ac316-366b-4dad-aacf-d60ea5acbc88/d02d7f80-2025-419a-a5a1-91ce46aa8a95"
-					(reference "#FLG1")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

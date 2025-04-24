@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "Hourglass")
-		(date "2025-02-01")
+		(date "2025-04-23")
 		(rev "01")
 	)
 	(lib_symbols)

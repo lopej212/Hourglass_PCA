@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "771d1f9d-7f7f-44a3-ac87-3769b2295d8b")
 	(paper "A4")
+	(title_block
+		(title "Hourglass")
+		(date "2025-04-23")
+		(rev "01")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -4373,7 +4378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0143e550-3ddc-4466-9425-410b3b31c307")
-		(property "Reference" "TP26"
+		(property "Reference" "TP29"
 			(at 26.67 14.4779 0)
 			(effects
 				(font
@@ -4425,7 +4430,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
-					(reference "TP26")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -4906,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21dcece2-f816-41f9-9136-9c533bbdaa8c")
-		(property "Reference" "TP29"
+		(property "Reference" "TP32"
 			(at 151.13 113.5379 0)
 			(effects
 				(font
@@ -4958,7 +4963,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
-					(reference "TP29")
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -5749,7 +5754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a065fe1-f6fc-44d4-ac37-f151d72f6c87")
-		(property "Reference" "TP27"
+		(property "Reference" "TP30"
 			(at 144.78 47.4979 0)
 			(effects
 				(font
@@ -5801,7 +5806,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
-					(reference "TP27")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -8140,7 +8145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e0358f0-d563-4e8f-8660-1328df898d22")
-		(property "Reference" "TP30"
+		(property "Reference" "TP33"
 			(at 29.21 140.2079 0)
 			(effects
 				(font
@@ -8192,7 +8197,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
-					(reference "TP30")
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -8982,7 +8987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fed2e15b-6318-4a55-9a9f-5c8bddf8be23")
-		(property "Reference" "TP28"
+		(property "Reference" "TP31"
 			(at 29.21 80.5179 0)
 			(effects
 				(font
@@ -9034,7 +9039,7 @@
 		(instances
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/9c708963-e8cc-42a5-9c83-1e957695e1ca/b9a46344-017d-4264-848c-625aefba8eb9"
-					(reference "TP28")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
