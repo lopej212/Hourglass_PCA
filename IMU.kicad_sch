@@ -1129,18 +1129,6 @@
 		(uuid "f6f59859-27f2-493f-b114-f42b0446683e")
 	)
 	(junction
-		(at 78.74 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30ba27a9-9f43-4afc-b294-ca36fdd03a48")
-	)
-	(junction
-		(at 90.17 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59b3cbed-6f21-49c0-909b-90f4f90c51bd")
-	)
-	(junction
 		(at 114.3 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1153,22 +1141,16 @@
 		(uuid "7dea164c-ba8c-4050-a147-85a3ac2470a1")
 	)
 	(junction
-		(at 85.09 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8808868e-ce83-411a-9a0b-eafe27d03927")
-	)
-	(junction
 		(at 102.87 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88292b7a-0b1d-48b1-87ab-127c94eff919")
 	)
 	(junction
-		(at 190.5 63.5)
+		(at 172.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b94ddb2-9f76-42da-9784-c261789b9d33")
+		(uuid "d01d8699-5afe-4804-9c68-fa0e60d87154")
 	)
 	(junction
 		(at 114.3 109.22)
@@ -1226,26 +1208,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 58.42) (xy 90.17 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04e110b3-dd7e-4d57-8364-a30d6fad9e1a")
-	)
-	(wire
-		(pts
-			(xy 85.09 52.07) (xy 90.17 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a301166-1c0f-4b71-8cea-790084dd6493")
-	)
-	(wire
-		(pts
 			(xy 114.3 63.5) (xy 114.3 60.96)
 		)
 		(stroke
@@ -1266,7 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 82.55) (xy 90.17 82.55)
+			(xy 66.04 82.55) (xy 115.57 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1258,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 63.5) (xy 190.5 63.5)
+			(xy 166.37 63.5) (xy 172.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1306,13 +1268,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 80.01) (xy 115.57 80.01)
+			(xy 172.72 58.42) (xy 172.72 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22b0023b-0851-415b-a995-d9116ce2e884")
+		(uuid "1ae949f3-65b1-4074-89a3-19717c35f4d5")
 	)
 	(wire
 		(pts
@@ -1346,16 +1308,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 63.5) (xy 78.74 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ccbfe59-9176-4e46-8bf8-d0fa5c49039f")
-	)
-	(wire
-		(pts
 			(xy 170.18 109.22) (xy 170.18 101.6)
 		)
 		(stroke
@@ -1363,16 +1315,6 @@
 			(type default)
 		)
 		(uuid "34bbd05e-111d-4378-8abe-3064674d57ad")
-	)
-	(wire
-		(pts
-			(xy 78.74 52.07) (xy 85.09 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb894a2-bcd8-48ab-920c-9195aa6b4e1a")
 	)
 	(wire
 		(pts
@@ -1386,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 80.01) (xy 78.74 80.01)
+			(xy 66.04 80.01) (xy 115.57 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1403,16 +1345,6 @@
 			(type default)
 		)
 		(uuid "72375639-b98a-43e9-86df-f33a8db406f8")
-	)
-	(wire
-		(pts
-			(xy 190.5 63.5) (xy 195.58 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74dbfa1c-d6f8-4643-a8b4-619826e7a641")
 	)
 	(wire
 		(pts
@@ -1466,16 +1398,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 78.74 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b982934-ddbd-464a-95a1-5944b0bb85c0")
-	)
-	(wire
-		(pts
 			(xy 115.57 63.5) (xy 114.3 63.5)
 		)
 		(stroke
@@ -1506,13 +1428,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 82.55) (xy 115.57 82.55)
+			(xy 167.64 58.42) (xy 167.64 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6ad0c66-3431-4cce-a73e-de5047032fa4")
+		(uuid "a620d4cc-326d-4293-930d-cbc5f9030847")
+	)
+	(wire
+		(pts
+			(xy 172.72 63.5) (xy 181.61 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccde40e-068d-4bc1-9779-be45b71c3802")
 	)
 	(wire
 		(pts
@@ -1536,23 +1468,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 60.96) (xy 167.64 60.96)
+			(xy 181.61 60.96) (xy 167.64 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dde0380d-aea4-4c68-adaa-ae7e683bc556")
-	)
-	(wire
-		(pts
-			(xy 90.17 63.5) (xy 90.17 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5d344c3-25b2-4eb0-aa39-a1f78b3653f1")
 	)
 	(wire
 		(pts
@@ -1616,7 +1538,7 @@
 	)
 	(hierarchical_label "LSM6DSOX_INT2"
 		(shape output)
-		(at 170.18 60.96 0)
+		(at 181.61 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1642,7 +1564,7 @@
 	)
 	(hierarchical_label "LSM6DSOX_INT1"
 		(shape output)
-		(at 195.58 63.5 0)
+		(at 181.61 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1652,141 +1574,6 @@
 			(justify left)
 		)
 		(uuid "f72f914d-4cd5-4af4-b0ba-f012bb5d1731")
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 85.09 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0089faaa-4b87-4512-a3ec-9718b10b572b")
-		(property "Reference" "#PWR20"
-			(at 85.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 85.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 85.09 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81f42f07-6ad6-433c-8437-59fd5036bf05")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "#PWR20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:RMCF0805FT10K0")
-		(at 90.17 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "178bc3dd-1cfe-426a-b757-06ca7203d14d")
-		(property "Reference" "R3"
-			(at 84.328 60.9598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RMCF0805FT10K0"
-			(at 95.25 62.2298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:RMCF0805FT10K0"
-			(at 94.488 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 96.266 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 83.566 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dea5b4e-ee43-4272-9c15-63ed46633c97")
-		)
-		(pin "2"
-			(uuid "0e350d3e-8a44-430e-805b-f2575b25d622")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -2194,16 +1981,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 167.64 60.96 0)
+		(at 167.64 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61569db9-d77c-4c16-80e6-091aae9ecc02")
 		(property "Reference" "TP31"
-			(at 170.18 57.6579 0)
+			(at 167.64 53.5939 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +1998,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 170.18 58.9279 0)
+			(at 170.18 56.3879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2008,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 172.72 60.96 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2017,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 60.96 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2026,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 167.64 60.96 0)
+			(at 167.64 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,16 +2048,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 63.5 0)
+		(at 172.72 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8dd0b853-3337-42ff-ac2a-10d10803f94e")
 		(property "Reference" "TP32"
-			(at 193.04 60.1979 0)
+			(at 172.72 53.8479 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2065,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 193.04 61.4679 0)
+			(at 175.26 56.3879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2075,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 195.58 63.5 0)
+			(at 177.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2084,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 63.5 0)
+			(at 177.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2093,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 63.5 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,76 +2550,6 @@
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
 					(reference "#PWR23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hourglass_symbol_library:RMCF0805FT10K0")
-		(at 78.74 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e17eceb4-c247-4989-8372-46cc1d6e1826")
-		(property "Reference" "R2"
-			(at 72.898 60.9598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RMCF0805FT10K0"
-			(at 83.82 62.2298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Hourglass_footprint_library:RMCF0805FT10K0"
-			(at 83.058 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 84.836 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 72.136 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8239f25a-4b96-495f-aaf2-5637376791b1")
-		)
-		(pin "2"
-			(uuid "4949f987-cdfe-47d3-b1ec-bc80c346be5d")
-		)
-		(instances
-			(project "Hourglass_PCBA"
-				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/e8095abd-2da6-4096-a23d-04399ef236ae"
-					(reference "R2")
 					(unit 1)
 				)
 			)

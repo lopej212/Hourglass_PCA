@@ -634,6 +634,273 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Hourglass_symbol_library:CRGCQ0805F4K7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CRGCQ0805F4K7"
+				(at 0.762 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Hourglass_footprint_library:CRGCQ0805F4K7"
+				(at -2.286 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/usa-en/product-3-2176341-3.datasheet.pdf"
+				(at -2.54 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 4.7K OHM 1% 1/8W 0805"
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CRGCQ0805F4K7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_CRCW_0805_VIS RES_CRCW_0805_VIS-M RES_CRCW_0805_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRGCQ0805F4K7_1_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "4.7k\n"
+					(at 0 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CRGCQ0805F4K7_1_2"
+				(polyline
+					(pts
+						(xy -1.27 8.255) (xy 1.27 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.715) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 9.525) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.985) (xy -1.27 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy -1.27 5.715)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Hourglass_symbol_library:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
@@ -2968,6 +3235,18 @@
 		(uuid 809f2fd4-bc2e-4a84-aee5-36b68b82cef8)
 	)
 	(rectangle
+		(start 241.3 66.04)
+		(end 278.13 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f0a4a48-7879-44b9-ba32-e1f86af3613a)
+	)
+	(rectangle
 		(start 20.32 123.19)
 		(end 44.45 142.24)
 		(stroke
@@ -3040,6 +3319,16 @@
 		)
 		(uuid "d05c2edb-af7b-4c3b-bc60-9e6940307087")
 	)
+	(text "I2C Pull-ups & TPs"
+		(exclude_from_sim yes)
+		(at 251.206 65.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7391e49-96bf-4d4f-a5ec-55bc028321e7")
+	)
 	(text "PH3 is for BOOT option "
 		(exclude_from_sim no)
 		(at 105.918 72.136 0)
@@ -3095,6 +3384,12 @@
 		(uuid "80a1b93b-15c1-4a30-b09c-f8364eb110f9")
 	)
 	(junction
+		(at 257.81 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8303a7c3-6d7a-44de-a1d7-e520c4b15634")
+	)
+	(junction
 		(at 49.53 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3125,6 +3420,12 @@
 		(uuid "a0565270-ce6d-4063-8c88-a0264092e712")
 	)
 	(junction
+		(at 252.73 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad3ac30c-bcd3-417e-b9ac-0142fab8df46")
+	)
+	(junction
 		(at 124.46 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3135,6 +3436,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8886608-f9ce-4194-94bd-12a280919de8")
+	)
+	(junction
+		(at 262.89 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb78b4ae-8bcc-4e09-8164-f02931f3efb6")
 	)
 	(junction
 		(at 124.46 22.86)
@@ -3209,7 +3516,7 @@
 		(uuid "e99891d5-90fc-40df-b483-a5160955da68")
 	)
 	(bus_entry
-		(at 193.04 90.17)
+		(at 190.5 90.17)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3218,7 +3525,7 @@
 		(uuid "bb12b277-d95e-446a-b1c4-121ab2466718")
 	)
 	(bus_entry
-		(at 193.04 87.63)
+		(at 190.5 87.63)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3238,6 +3545,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 85.09) (xy 252.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09db8521-a46f-4188-b53f-fffbc1edd10b")
+	)
+	(wire
+		(pts
 			(xy 22.86 74.93) (xy 35.56 74.93)
 		)
 		(stroke
@@ -3245,6 +3562,16 @@
 			(type default)
 		)
 		(uuid "0caaf5eb-e82d-4469-94c2-d2bd2b88e55a")
+	)
+	(wire
+		(pts
+			(xy 257.81 73.66) (xy 252.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1047c68c-fda2-4608-93ed-fdacf7766772")
 	)
 	(wire
 		(pts
@@ -3318,7 +3645,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 91.44) (xy 237.49 91.44)
+			(xy 243.84 91.44) (xy 262.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3518,6 +3845,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 73.66) (xy 262.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cff4be7-0e75-4146-8ce2-c7cdd84f4259")
+	)
+	(wire
+		(pts
 			(xy 35.56 80.01) (xy 40.64 80.01)
 		)
 		(stroke
@@ -3528,7 +3865,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 90.17) (xy 162.56 90.17)
+			(xy 187.96 90.17) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3555,6 +3892,16 @@
 			(type default)
 		)
 		(uuid "6a86e303-564a-469b-8dc3-d7795995c2fa")
+	)
+	(wire
+		(pts
+			(xy 257.81 73.66) (xy 262.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad12981-6b78-48d6-a744-4eb955e1b1fb")
 	)
 	(wire
 		(pts
@@ -3588,7 +3935,7 @@
 	)
 	(bus
 		(pts
-			(xy 193.04 87.63) (xy 196.85 87.63)
+			(xy 190.5 87.63) (xy 194.31 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3628,7 +3975,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 190.5 92.71)
+			(xy 162.56 92.71) (xy 187.96 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3698,6 +4045,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 73.66) (xy 252.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4be822-0c23-4a68-97ae-5785b2601d04")
+	)
+	(wire
+		(pts
 			(xy 119.38 67.31) (xy 137.16 67.31)
 		)
 		(stroke
@@ -3758,7 +4115,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 88.9) (xy 237.49 88.9)
+			(xy 243.84 88.9) (xy 252.73 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3788,6 +4145,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 91.44) (xy 266.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacf7fe5-f6dd-4933-8dfe-b4780aaaaa17")
+	)
+	(wire
+		(pts
 			(xy 119.38 72.39) (xy 137.16 72.39)
 		)
 		(stroke
@@ -3795,6 +4162,16 @@
 			(type default)
 		)
 		(uuid "cb8fb6c9-0470-481b-8fb8-fec3890b42cb")
+	)
+	(wire
+		(pts
+			(xy 262.89 85.09) (xy 262.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1cef77c-df4e-4f15-8645-5d87eb13a31c")
 	)
 	(wire
 		(pts
@@ -3858,13 +4235,23 @@
 	)
 	(bus
 		(pts
-			(xy 193.04 87.63) (xy 193.04 90.17)
+			(xy 190.5 87.63) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7f8cf39-6953-4c8d-9045-c3b9aef6e40f")
+	)
+	(wire
+		(pts
+			(xy 252.73 88.9) (xy 266.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6512ee5-777c-473f-b24b-0cbd1a8bcf92")
 	)
 	(wire
 		(pts
@@ -3887,7 +4274,7 @@
 		(uuid "0a569a28-5a7f-4e75-86c9-64b375b1cc8d")
 	)
 	(label "I2C.SDA"
-		(at 228.6 91.44 0)
+		(at 243.84 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3907,7 +4294,7 @@
 		(uuid "682938a9-5542-488b-9bdb-a6614154faa1")
 	)
 	(label "I2C.SCL"
-		(at 228.6 88.9 0)
+		(at 243.84 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4017,7 +4404,7 @@
 	)
 	(hierarchical_label "I2C{SDA SCL}"
 		(shape bidirectional)
-		(at 196.85 87.63 0)
+		(at 194.31 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4080,7 +4467,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 237.49 88.9 270)
+		(at 266.7 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4088,7 +4475,7 @@
 		(dnp no)
 		(uuid "08d41c46-29db-4592-a3ca-3fc3c697ed8b")
 		(property "Reference" "TP48"
-			(at 242.3161 88.9 90)
+			(at 271.5261 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4484,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 239.5221 91.44 0)
+			(at 268.7321 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4494,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 237.49 93.98 0)
+			(at 266.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 93.98 0)
+			(at 266.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4512,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 237.49 88.9 0)
+			(at 266.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4611,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 237.49 91.44 270)
+		(at 266.7 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4232,7 +4619,7 @@
 		(dnp no)
 		(uuid "1a9a29ae-321f-474d-83dc-f95566b4a3be")
 		(property "Reference" "TP49"
-			(at 242.3161 91.44 90)
+			(at 271.5261 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4628,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 239.5221 93.98 0)
+			(at 268.7321 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4638,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 237.49 96.52 0)
+			(at 266.7 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 96.52 0)
+			(at 266.7 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4656,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 237.49 91.44 0)
+			(at 266.7 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,6 +5465,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Hourglass_symbol_library:CRGCQ0805F4K7")
+		(at 262.89 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dc1c25b-3107-4ec2-a30d-7ec8270d6319")
+		(property "Reference" "R3"
+			(at 259.334 80.7718 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRGCQ0805F4K7"
+			(at 267.97 83.8198 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:CRGCQ0805F4K7"
+			(at 252.73 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-3-2176341-3.datasheet.pdf"
+			(at 257.048 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/8W 0805"
+			(at 262.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d006fab3-6a0a-48ef-a77e-62764a882a5f")
+		)
+		(pin "2"
+			(uuid "d6323447-17eb-4d10-bca7-0438c7c40b21")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 149.86 49.53 0)
 		(unit 1)
@@ -5204,6 +5663,72 @@
 			(project ""
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
 					(reference "#PWR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 257.81 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dddbfb0-b983-4610-bb4d-21cdc355a579")
+		(property "Reference" "#PWR020"
+			(at 257.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 257.81 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b7f3196-ccd8-404b-9f9c-76777c221712")
+		)
+		(instances
+			(project "Hourglass_PCBA"
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5744,6 +6269,78 @@
 			(project "Hourglass_PCBA"
 				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
 					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hourglass_symbol_library:CRGCQ0805F4K7")
+		(at 252.73 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d27f9075-f674-4e8e-badc-6272e6c6a5dc")
+		(property "Reference" "R2"
+			(at 248.412 80.7718 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRGCQ0805F4K7"
+			(at 257.81 83.8198 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hourglass_footprint_library:CRGCQ0805F4K7"
+			(at 242.57 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-3-2176341-3.datasheet.pdf"
+			(at 246.888 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/8W 0805"
+			(at 252.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57b30c68-b7d9-4a7a-a58a-a58cd99e7576")
+		)
+		(pin "2"
+			(uuid "f5ba30b2-42c8-467f-994a-bdb8f280141c")
+		)
+		(instances
+			(project ""
+				(path "/a75630d2-15a7-42bc-8ce0-7846cbd1da6b/c8d454a4-a64d-492c-9043-c9910b58426e"
+					(reference "R2")
 					(unit 1)
 				)
 			)
