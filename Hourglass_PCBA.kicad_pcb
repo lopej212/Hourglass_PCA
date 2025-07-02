@@ -188,12 +188,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "01f06271-abc8-4555-872f-5a73c4872f04")
-		(at 285.12 185.25)
+		(at 214 167.915 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D44"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "07b1aae0-c917-48ce-8d27-9ebc25cc4eec")
+			(uuid "f64e7646-a871-4637-92aa-2507ce6d558d")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -202,9 +202,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "391676f7-ffc1-47f5-b486-722785bf2b64")
+			(uuid "6a08b904-53d4-4d98-87d7-35940e25d8cf")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -213,10 +213,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c87d1955-4afb-4c83-af01-97aa94d33ebe")
+			(uuid "0cd97fc4-8f2e-49e8-a5fe-29801106611c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -225,10 +225,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ebba84e-abd9-40e1-8ef8-f2f2642aed72")
+			(uuid "1c399073-7991-4dde-a44f-4224ae8d12f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,7 +237,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -250,7 +250,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -263,7 +263,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -276,7 +276,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -289,7 +289,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -302,7 +302,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -315,7 +315,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -328,7 +328,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -357,26 +357,6 @@
 			(uuid "4d917920-a708-4971-94b6-67283eb27194")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "12c0ff46-9c7d-40f1-af88-692ba48f78fc")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0e7368a9-3c89-4555-ad9f-2c74903d9a4e")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -396,8 +376,28 @@
 			(layer "F.Fab")
 			(uuid "8a73a832-5682-492c-987b-03d7ae4ae445")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "12c0ff46-9c7d-40f1-af88-692ba48f78fc")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e7368a9-3c89-4555-ad9f-2c74903d9a4e")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "e1d36957-3035-4c96-bb5b-5ec004cfc897")
 			(effects
@@ -408,7 +408,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "09ee460d-2c45-4490-9608-ac0c5e3bfc12")
 			(effects
@@ -419,7 +419,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "/LED Driver +  LEDs/SW7")
@@ -428,7 +428,7 @@
 			(uuid "58572fc7-81e1-43c8-8cbc-c2b434dc3bcc")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "/LED Driver +  LEDs/CS9")
@@ -437,7 +437,7 @@
 			(uuid "7d777494-3aec-4726-8d3f-816320b5ef73")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "/LED Driver +  LEDs/CS10")
@@ -446,7 +446,7 @@
 			(uuid "36409449-daef-4eff-99bf-a276a9333e2e")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "/LED Driver +  LEDs/CS11")
@@ -459,12 +459,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "02045f22-abbf-4c76-b1ea-7b81fdc15b49")
-		(at 279.72 182.55)
+		(at 200 197.49 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D29"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "57998d04-2830-4565-9afa-c3186b733375")
+			(uuid "c2941307-c292-46e5-990e-5304b3bde4a5")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -473,9 +473,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "92209cf1-4d74-49e6-a1d9-2b7c86010aff")
+			(uuid "feef1cc5-8aa1-4f5b-ba00-cd3d5b5ab79c")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -484,10 +484,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150044M155220.pdf"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1473474-b4db-4084-b7c7-1df4382670dd")
+			(uuid "0d8116f7-cf1e-40b3-98cb-95005e895307")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -496,10 +496,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c4b82f9-c815-4eaa-9c09-88e2d740a3b0")
+			(uuid "9c8d1458-877c-4d7f-9db0-cb23996048dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,7 +508,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -521,7 +521,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -534,7 +534,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -547,7 +547,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -560,7 +560,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -573,7 +573,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -586,7 +586,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -599,7 +599,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -628,26 +628,6 @@
 			(uuid "06754f48-e340-4304-8792-45a5d6df81e0")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "383a5820-b28d-4471-b466-0cfebff4e9d5")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "141791a8-f549-4e33-8447-a1e5ff3c0a76")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -667,8 +647,28 @@
 			(layer "F.Fab")
 			(uuid "b6a56cb6-2814-4625-804b-e35ed388f2b5")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "383a5820-b28d-4471-b466-0cfebff4e9d5")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "141791a8-f549-4e33-8447-a1e5ff3c0a76")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "85ec6070-1ca2-4f4c-ad89-87c37961cbe9")
 			(effects
@@ -679,7 +679,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "bfb90310-5a56-40d9-bf8b-c6b166d9aabc")
 			(effects
@@ -690,7 +690,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "/LED Driver +  LEDs/SW5")
@@ -699,7 +699,7 @@
 			(uuid "14df9657-5c97-4de9-871c-4992c63e323c")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "/LED Driver +  LEDs/CS0")
@@ -708,7 +708,7 @@
 			(uuid "575ee37a-587e-47a9-859d-aa4cae913d86")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "/LED Driver +  LEDs/CS1")
@@ -717,7 +717,7 @@
 			(uuid "591b4f06-981a-4b9d-9d87-defab3fc83a5")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "/LED Driver +  LEDs/CS2")
@@ -1032,7 +1032,7 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "03a8a92d-71cc-4686-b4b0-dfd956f1731d")
-		(at 201.82 204.45 -45)
+		(at 202.8 208.425 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D3"
 			(at 0 -1.4064 135)
@@ -3842,12 +3842,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "10215728-bdd7-4134-b0ce-7b5be6354e5c")
-		(at 287.82 190.65)
+		(at 200 162 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D53"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "00b7d429-40ce-4627-aa26-6b1bdaa2dedd")
+			(uuid "5f6f6ca7-caab-4bab-9174-a686a447696b")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -3856,9 +3856,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "cbedead4-34b0-447a-ab20-eccb0de8080d")
+			(uuid "a5c2f008-1f6f-4609-b9fe-bf1b7287c9a4")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -3867,10 +3867,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85b3cb89-5d06-4ae6-9cbd-0aa309e4ec5f")
+			(uuid "677eb975-8daa-4a35-9b8e-3f2540c0aa32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,10 +3879,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0667deb-7394-485c-bf90-11024a9442e8")
+			(uuid "a637f047-d2e1-480a-a393-82769f063a03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3891,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3904,7 +3904,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3917,7 +3917,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3930,7 +3930,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3943,7 +3943,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3956,7 +3956,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3969,7 +3969,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3982,7 +3982,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4011,26 +4011,6 @@
 			(uuid "37769de2-dda8-4de9-a949-7b3b659adec2")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b2fb61fd-570b-4ac4-8a3d-7f2955ee46a4")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4a30b83c-8f43-487a-9b48-91099c333535")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -4050,8 +4030,28 @@
 			(layer "F.Fab")
 			(uuid "fb7dfe90-2357-4c31-8479-ebbc30acabba")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2fb61fd-570b-4ac4-8a3d-7f2955ee46a4")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4a30b83c-8f43-487a-9b48-91099c333535")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "00d29b0f-90ca-4133-b502-1886249e1fbe")
 			(effects
@@ -4062,7 +4062,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "0889fadf-fc51-4445-b12b-7a8219cd27f9")
 			(effects
@@ -4073,7 +4073,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "/LED Driver +  LEDs/SW9")
@@ -4082,7 +4082,7 @@
 			(uuid "faf7a625-61a6-4e24-b3a1-76e6a82dc2cb")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "/LED Driver +  LEDs/CS0")
@@ -4091,7 +4091,7 @@
 			(uuid "1648a2a6-927a-486a-8439-d9bd14b306a8")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "/LED Driver +  LEDs/CS1")
@@ -4100,7 +4100,7 @@
 			(uuid "6564fa3c-3cd2-4d3d-9df3-4b231f50e7f3")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "/LED Driver +  LEDs/CS2")
@@ -4113,12 +4113,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "1176fbf3-af06-4943-a71d-c371d9417214")
-		(at 287.82 196.05)
+		(at 188.8 162 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D55"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "2e412982-2285-41e9-8b4f-f09a2840b49f")
+			(uuid "f8adb628-7e16-4640-95f2-88f6d2d1f40a")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -4127,9 +4127,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "da933c8d-8be8-408a-b7ba-5c214641e74b")
+			(uuid "cfdcaefd-a3b6-48db-9682-e327bad56796")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -4138,10 +4138,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de30477e-4b3a-4c7f-bb4a-976fd8f43940")
+			(uuid "55a79da7-6ac5-46df-8080-6d0a910b9262")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,10 +4150,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54897216-dde5-4555-852e-556dc277149c")
+			(uuid "d960b972-0da8-4126-b8b1-78f80c42766a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4162,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4175,7 +4175,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4188,7 +4188,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4201,7 +4201,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4214,7 +4214,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4227,7 +4227,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4240,7 +4240,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4253,7 +4253,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4282,26 +4282,6 @@
 			(uuid "dbe35352-5b1d-4862-acf8-cae378e60fe5")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ed866700-391a-4e79-abe0-b757206ba0b5")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1ce37727-0cb4-4d95-89ed-27eaf84d8a9c")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -4321,8 +4301,28 @@
 			(layer "F.Fab")
 			(uuid "d2e53c9b-6e68-4f24-b4fe-d189efa9243b")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ed866700-391a-4e79-abe0-b757206ba0b5")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1ce37727-0cb4-4d95-89ed-27eaf84d8a9c")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "d8d83cc8-5c60-4913-930b-2a78424e8c2d")
 			(effects
@@ -4333,7 +4333,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "bbf7b67b-7953-47b7-a3f9-c648ef1fff9b")
 			(effects
@@ -4344,7 +4344,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "/LED Driver +  LEDs/SW9")
@@ -4353,7 +4353,7 @@
 			(uuid "f23b398a-6d08-4dce-8d61-5478d1e9a593")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "/LED Driver +  LEDs/CS6")
@@ -4362,7 +4362,7 @@
 			(uuid "fa3ad8c7-39da-4c73-9573-6cf54e8fe601")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "/LED Driver +  LEDs/CS7")
@@ -4371,7 +4371,7 @@
 			(uuid "73f2c12e-de10-4cb9-9930-67c694bbf8c6")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "/LED Driver +  LEDs/CS8")
@@ -5055,7 +5055,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "1bf2d1df-752d-4c2e-9b72-a5f4eeca3cc5")
-		(at 284.365 203.625)
+		(at 232.365 186.225)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP31"
@@ -5158,12 +5158,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "1d3842da-b267-46ac-b915-b5d5da6c1a75")
-		(at 279.72 190.65)
+		(at 205.6 185.66 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D32"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "49f52d50-4736-4439-9867-c235bed90d97")
+			(uuid "5b97050c-798a-43aa-b28e-8628fd5244c9")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -5172,9 +5172,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "ecbc4a36-3ad2-4eac-8fdd-3cd0a1bf1fe8")
+			(uuid "94be602a-34e2-4254-92e7-b092ff8b18ad")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -5183,10 +5183,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b72df70-419f-496b-a56b-dd4f08ac2f5b")
+			(uuid "787017d8-2d13-4f02-8a25-4d3f74a56e89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,10 +5195,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e6b0e6e-8b9b-424f-bed0-c4d977b3f4ae")
+			(uuid "dba03aad-aa9a-414b-a80e-62fcd6b4eb5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5207,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5220,7 +5220,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5233,7 +5233,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5246,7 +5246,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5259,7 +5259,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5272,7 +5272,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5285,7 +5285,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5298,7 +5298,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5327,26 +5327,6 @@
 			(uuid "b7e59e12-18c4-465a-8b48-440fdd378bd7")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3186e8ea-9b5b-400f-8c3f-c9f729e87da8")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4e9f506f-b84f-48ae-aa81-888e5ea31a09")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -5366,8 +5346,28 @@
 			(layer "F.Fab")
 			(uuid "47767862-eb7e-46a9-89b7-91bd3459e304")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3186e8ea-9b5b-400f-8c3f-c9f729e87da8")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4e9f506f-b84f-48ae-aa81-888e5ea31a09")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "5522fa1c-e490-4360-ad0c-9ce4357a93d0")
 			(effects
@@ -5378,7 +5378,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "3b33f78e-8fd5-4670-a7a3-88d883b39aaf")
 			(effects
@@ -5389,7 +5389,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "/LED Driver +  LEDs/SW5")
@@ -5398,7 +5398,7 @@
 			(uuid "37668d4a-5229-4f9e-bdaf-14f6cb7a817d")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "/LED Driver +  LEDs/CS9")
@@ -5407,7 +5407,7 @@
 			(uuid "69178eea-6623-4d1c-bff3-b4e9d8dc7a00")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "/LED Driver +  LEDs/CS10")
@@ -5416,7 +5416,7 @@
 			(uuid "4661ed2a-9045-46c5-b920-29c7de8c2176")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "/LED Driver +  LEDs/CS11")
@@ -5635,12 +5635,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "1f80447b-7032-4219-81ef-c620c44192c7")
-		(at 203.62 211.65 -45)
+		(at 205.6 226.17 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D14"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "1ccbdb2d-e60b-427f-a96f-4651d4fb85e8")
+			(uuid "b3a73ceb-48f0-4dcd-bba4-d62b2bb90a1c")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -5651,7 +5651,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "60442169-7796-4211-841e-5dc03143eb3b")
+			(uuid "d93e0a80-1fda-4590-94e5-3468c7727a95")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -5663,7 +5663,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e50a8dee-1387-4b40-a580-73308f948b93")
+			(uuid "71c222cd-f2ab-477c-8c67-c2f96f0bdaaa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5675,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "954164c0-70b7-480d-926e-a326aca1e3c0")
+			(uuid "e3753c1b-87d4-439e-80fa-5ad23a908f61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,12 +5906,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "216b7cde-74eb-4631-8f06-a1678d105e35")
-		(at 287.82 198.75)
+		(at 183.2 162 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D56"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "6504ad55-076e-4ea9-841c-92c25645f148")
+			(uuid "c3722c58-f95b-40c3-82e8-5ba8a66a9dcc")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -5920,9 +5920,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "720c1668-73f2-4358-b5c6-ce1fe07738e2")
+			(uuid "fc4735af-c1ee-40f5-b153-67d0f75947ef")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -5931,10 +5931,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27577ee7-64ca-4ecf-95ea-c21d546fcaf5")
+			(uuid "f5f300c2-779e-46ff-9fd4-03c09ad525b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,10 +5943,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d00fee15-83d0-4b3f-ae51-23bdcc46ba2e")
+			(uuid "9dd5264a-0727-4db5-85ff-480b71c9aa20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +5955,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5968,7 +5968,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5981,7 +5981,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5994,7 +5994,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6007,7 +6007,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6020,7 +6020,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6033,7 +6033,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6046,7 +6046,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6075,26 +6075,6 @@
 			(uuid "da4c1a22-161a-4421-a870-d1bb53edd725")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "01dc7769-c43e-44c4-ae06-6e895d8c062f")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "17e24826-ac91-4c52-8e7a-caf207bbd0df")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -6114,8 +6094,28 @@
 			(layer "F.Fab")
 			(uuid "b3cc12ac-7d4d-4147-9ebb-382eb74bdbec")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01dc7769-c43e-44c4-ae06-6e895d8c062f")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "17e24826-ac91-4c52-8e7a-caf207bbd0df")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "ae7387bd-c3e7-4c01-a8d1-0433f82483ee")
 			(effects
@@ -6126,7 +6126,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "6ce865c6-2d8f-4d1b-9322-2bc42044c265")
 			(effects
@@ -6137,7 +6137,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "/LED Driver +  LEDs/SW9")
@@ -6146,7 +6146,7 @@
 			(uuid "bd26b55f-2372-4b52-a1c2-610cb8b82e53")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "/LED Driver +  LEDs/CS9")
@@ -6155,7 +6155,7 @@
 			(uuid "1c343ffc-16f2-4936-b445-11c3ee1474ad")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "/LED Driver +  LEDs/CS10")
@@ -6164,7 +6164,7 @@
 			(uuid "d015339f-7b71-4bfc-8e48-db55638218f6")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "/LED Driver +  LEDs/CS11")
@@ -6177,12 +6177,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "22005a08-2351-462e-a0ae-650833e60999")
-		(at 282.42 190.65)
+		(at 211.2 173.83 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D39"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "2bface2e-7acf-4ff7-a7b1-8d1568bf30f8")
+			(uuid "1d97ea3a-1017-4181-932f-8e5f2d58160f")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -6191,9 +6191,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "946d6d25-4360-4039-9411-9c87f65c5b98")
+			(uuid "61312694-cd52-45fe-9e3f-e6cde4986d51")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -6202,10 +6202,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d663d9a-4ecb-4bd6-9c78-a0ad6f8252bd")
+			(uuid "8757e05d-5517-47d7-a145-ee6b61d174bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,10 +6214,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68e71d9a-32c2-4c02-951c-8c5101fb90b9")
+			(uuid "ef26ccac-2c5a-43f5-9211-a7e2d18faec5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6226,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6239,7 +6239,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6252,7 +6252,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6265,7 +6265,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6278,7 +6278,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6291,7 +6291,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6304,7 +6304,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6317,7 +6317,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6346,26 +6346,6 @@
 			(uuid "e55df24a-361d-4a8b-a6f2-673ebcdf59d4")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c0b66a40-3e81-48b5-beb2-613a1437ae5d")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e2d73c89-991b-4572-9582-6c399db81d0a")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -6385,8 +6365,28 @@
 			(layer "F.Fab")
 			(uuid "69d6e823-aa9e-4182-8285-271a3d99fb83")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c0b66a40-3e81-48b5-beb2-613a1437ae5d")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e2d73c89-991b-4572-9582-6c399db81d0a")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "338b819e-be43-4f48-8241-aaf8f68f4cd7")
 			(effects
@@ -6397,7 +6397,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "59ca7579-a4ff-45f6-9fdb-416a78477fff")
 			(effects
@@ -6408,7 +6408,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "/LED Driver +  LEDs/SW6")
@@ -6417,7 +6417,7 @@
 			(uuid "0d892894-5fef-4f8f-b9b7-da933a0fc40d")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "/LED Driver +  LEDs/CS12")
@@ -6426,7 +6426,7 @@
 			(uuid "f1ec43f9-1dc8-4a71-8386-f6e1f8f2c435")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "/LED Driver +  LEDs/CS13")
@@ -6435,7 +6435,7 @@
 			(uuid "23b0d79d-3cd9-4b91-a40f-076f2c70c24c")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "/LED Driver +  LEDs/CS14")
@@ -7173,12 +7173,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "24dceba8-5734-4ab8-a5de-392054f0ddae")
-		(at 203.62 216.45 -45)
+		(at 205.6 238 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D26"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "58305256-dea3-4699-b25a-7290a705a1c5")
+			(uuid "06f6db31-c7e1-4180-9547-20738e311644")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -7189,7 +7189,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "d7ace070-99ff-45c8-847f-d02b7308c560")
+			(uuid "f422cdd4-a1be-4023-b7d2-39bf5c44926a")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -7201,7 +7201,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13d56b52-3a7a-40c6-bb17-e40be47745d2")
+			(uuid "41487ced-035a-4823-a391-bf1b10c858a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +7213,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69247726-002f-4e9f-8a2b-975e846cc842")
+			(uuid "71b4bcca-ec4c-419a-961b-4d9f3e98e24b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,7 +7765,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "284600c1-c151-48a4-89d7-851c1af8dfe6")
-		(at 290.695 194.925)
+		(at 227.445 178.475)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP30"
@@ -8042,12 +8042,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "2ce042dd-85ab-4420-9c4f-bed3f7e3d0f2")
-		(at 196.42 216.45 -45)
+		(at 194.4 238 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D24"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "cd34b928-f4bc-42a5-accf-59fff4e40d96")
+			(uuid "fb5c252d-d7bb-4d48-8f2c-15a42d1f1ed4")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -8058,7 +8058,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "651ad28e-9bbb-4577-b235-4119b2f2eefa")
+			(uuid "72e01bf0-6a5e-49bb-9a24-01ea0b615036")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -8070,7 +8070,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19a9ebe8-00f5-4f84-829a-69f9bd08780b")
+			(uuid "d452d43d-4cda-4cdd-8552-1eecacced83d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +8082,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cf337f6-ad42-4031-b456-a54adbb218a2")
+			(uuid "e5aec377-54cb-4685-b5f6-1dec4d5cc598")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,12 +8313,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "2d2128b2-50c1-4b22-b1e3-bcadde30e37b")
-		(at 287.82 185.25)
+		(at 211.2 162 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D51"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "8b23b325-84a9-4aae-a707-c7c7f7c0922b")
+			(uuid "dd7d58dd-4d37-4b53-aa05-c691449a6a0e")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -8327,9 +8327,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "1c722b31-9448-4aa0-b07d-0aa25743af25")
+			(uuid "f4eb2133-c360-49c1-b505-5eed11dbe0ec")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -8338,10 +8338,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09fe2cf4-b965-4fd3-80d7-a3a4d359ad97")
+			(uuid "6a0a2cdd-fdcc-495e-9caf-e9520e4cbfbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,10 +8350,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14719529-dc85-4310-8055-000fc2628f9f")
+			(uuid "6a2f7ea5-8f3b-4c49-9e91-be2565fe5cdc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +8362,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8375,7 +8375,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8388,7 +8388,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8401,7 +8401,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8414,7 +8414,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8427,7 +8427,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8440,7 +8440,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8453,7 +8453,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8482,26 +8482,6 @@
 			(uuid "98117c0c-4291-4c2e-9978-8c9f439dc651")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "64f28781-07b6-4afd-811f-ba942f7f7af9")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "300ba156-7512-4cf7-a32b-42b8f6147080")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -8521,8 +8501,28 @@
 			(layer "F.Fab")
 			(uuid "24de46bf-178d-45b7-a7b6-0f10744499ad")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "64f28781-07b6-4afd-811f-ba942f7f7af9")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "300ba156-7512-4cf7-a32b-42b8f6147080")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "e9b6fbc4-50d1-425f-86d6-5444adf0488f")
 			(effects
@@ -8533,7 +8533,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "4a6947d6-1c27-4f07-bce6-ea4ff18fd87b")
 			(effects
@@ -8544,7 +8544,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "/LED Driver +  LEDs/SW8")
@@ -8553,7 +8553,7 @@
 			(uuid "108fcbc9-1fd8-4c6b-9128-75e0b26ad0cf")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "/LED Driver +  LEDs/CS12")
@@ -8562,7 +8562,7 @@
 			(uuid "17d77765-6bfd-44d0-9829-99cc6ee1b7eb")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "/LED Driver +  LEDs/CS13")
@@ -8571,7 +8571,7 @@
 			(uuid "a17768d8-3228-48dd-bc17-482e0a4dcda5")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "/LED Driver +  LEDs/CS14")
@@ -8758,7 +8758,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "344c6143-abda-49e0-9346-e6c1ee4b3549")
-		(at 284.365 206.675)
+		(at 232.365 189.275)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP32"
@@ -9172,12 +9172,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "37470d6e-21c4-4fad-a38b-d670d12bc5f2")
-		(at 282.42 198.75)
+		(at 194.4 173.83 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D42"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "e1a4f74b-2aa2-4d45-9a55-a525e780c351")
+			(uuid "b417af96-2548-4a46-841e-568f1d18b0c3")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -9186,9 +9186,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "52f6f1f3-316a-4664-a618-94c01eba7fa3")
+			(uuid "336c1feb-0855-403c-9d5e-eef08fcde2cf")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -9197,10 +9197,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f3a93c3-b581-45e8-a30e-1ab3a9db58d0")
+			(uuid "addea27f-950a-45d8-954a-a3f2264f3287")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9209,10 +9209,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "335e217a-3afa-435a-a3b0-d9c93b71ff03")
+			(uuid "d3cc4775-5917-4148-a523-0732c5133535")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9221,7 +9221,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9234,7 +9234,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9247,7 +9247,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9260,7 +9260,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9273,7 +9273,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9286,7 +9286,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9299,7 +9299,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9312,7 +9312,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9341,26 +9341,6 @@
 			(uuid "e4a9d9c4-ac5e-4a9c-b224-7699c42b7c6e")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5ed412d8-22c0-4626-be0f-d91c0341e47a")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "62404e38-bbf9-4793-af4b-6b96d3ba5ec7")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -9380,8 +9360,28 @@
 			(layer "F.Fab")
 			(uuid "ea65caf4-3993-4c45-9b3b-0e0552f1f45c")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5ed412d8-22c0-4626-be0f-d91c0341e47a")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "62404e38-bbf9-4793-af4b-6b96d3ba5ec7")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "49451a67-226c-4c34-9d00-db627ea2cb0f")
 			(effects
@@ -9392,7 +9392,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "cefbbb64-d06c-487a-a530-95641dab281a")
 			(effects
@@ -9403,7 +9403,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "/LED Driver +  LEDs/SW7")
@@ -9412,7 +9412,7 @@
 			(uuid "0c506838-c827-4c1c-bca6-49595cd0a2a6")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "/LED Driver +  LEDs/CS3")
@@ -9421,7 +9421,7 @@
 			(uuid "03ba2b23-2fe8-4313-b270-e68cbc91735a")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "/LED Driver +  LEDs/CS4")
@@ -9430,7 +9430,7 @@
 			(uuid "e9be01f5-70d0-4dc4-98af-0979020a2324")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "/LED Driver +  LEDs/CS5")
@@ -9443,12 +9443,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "3a975a6b-b1f9-4662-b526-5af085d1c743")
-		(at 285.12 198.75)
+		(at 186 167.915 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D49"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "91d6d8dd-ba38-4dfd-a0c1-905cc072580a")
+			(uuid "02299781-aa23-441f-a06b-95d83acb04f7")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -9457,9 +9457,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "ba135084-9c59-4430-a87b-77bbe960d135")
+			(uuid "bd6b629c-cb0e-4bdd-8364-c9ceb1e291fa")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -9468,10 +9468,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a35934c-e2c8-49e7-9ac6-66d673fd30d7")
+			(uuid "fb232e30-b9b3-4810-9b02-d2bfe635c2d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9480,10 +9480,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e10f3b04-f31f-42b9-9529-8ba08758f0e0")
+			(uuid "44ce1846-fde8-4e0f-9aa9-075dfe738fe7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9492,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9505,7 +9505,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9518,7 +9518,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9531,7 +9531,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9544,7 +9544,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9557,7 +9557,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9570,7 +9570,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9583,7 +9583,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9612,26 +9612,6 @@
 			(uuid "5af4f555-f306-4e05-8c61-aa3cf4580c8d")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "18ceeb42-636e-4379-ad9e-96b5ab7a6b6d")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "64ec0a61-5139-4aa9-b5cc-535d90771ecd")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -9651,8 +9631,28 @@
 			(layer "F.Fab")
 			(uuid "99ce0622-caf4-4851-a2d4-2438a157e470")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "18ceeb42-636e-4379-ad9e-96b5ab7a6b6d")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "64ec0a61-5139-4aa9-b5cc-535d90771ecd")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "890192b1-4ee1-4fe9-8b5a-e0544db9810e")
 			(effects
@@ -9663,7 +9663,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "2cf22cb0-9f75-4b98-83c2-efd9e2f995cd")
 			(effects
@@ -9674,7 +9674,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "/LED Driver +  LEDs/SW8")
@@ -9683,7 +9683,7 @@
 			(uuid "dd7b5589-c1cc-4547-9e20-f7f78de08ba3")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "/LED Driver +  LEDs/CS6")
@@ -9692,7 +9692,7 @@
 			(uuid "4c16acc1-e79f-4b19-907e-cbd472408a9f")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "/LED Driver +  LEDs/CS7")
@@ -9701,7 +9701,7 @@
 			(uuid "01568771-e7ce-4c0c-84eb-a23748eae3a3")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "/LED Driver +  LEDs/CS8")
@@ -9714,12 +9714,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "3aa3323a-db95-469b-8567-553592a2d3bd")
-		(at 282.42 187.95)
+		(at 191.6 179.745 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D38"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "b934c377-1953-423a-82cd-17b9eb0246fa")
+			(uuid "8f9a7b42-c0e8-4f4c-a85c-5bde2c970e50")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -9728,9 +9728,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "ee166006-559c-4d59-a4a4-b2747531ff30")
+			(uuid "05fe30e0-8114-4871-a929-ce167863ec50")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -9739,10 +9739,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "355d1bf6-2746-4c90-abaa-c7e47f60d255")
+			(uuid "c3703738-bbcc-4799-8ba0-e9cf3f2dd581")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,10 +9751,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f4781e0-d06c-4fb8-9366-0f82a9a2bc3d")
+			(uuid "e69b05a8-767d-4936-a69c-be554d8e1f90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,7 +9763,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9776,7 +9776,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9789,7 +9789,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9802,7 +9802,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9815,7 +9815,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9828,7 +9828,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9841,7 +9841,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9854,7 +9854,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9883,26 +9883,6 @@
 			(uuid "57f805d8-99c0-4a57-9a73-d2e55b77f944")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a121652b-e11d-4bc8-98e5-ccc415aa94a1")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f036b611-4b4f-481d-ba1e-4f71f9485e90")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -9922,8 +9902,28 @@
 			(layer "F.Fab")
 			(uuid "b48a55de-62f6-4333-8ae2-b949321769f6")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a121652b-e11d-4bc8-98e5-ccc415aa94a1")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f036b611-4b4f-481d-ba1e-4f71f9485e90")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "22f41b6f-2134-426c-812c-cc2e36ab4cfa")
 			(effects
@@ -9934,7 +9934,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "3bc3fde2-2097-4c57-9921-4f8b2ca6b384")
 			(effects
@@ -9945,7 +9945,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "/LED Driver +  LEDs/SW6")
@@ -9954,7 +9954,7 @@
 			(uuid "7e9e1f0c-2fb7-4ef4-a910-5d1f440e3d6d")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "/LED Driver +  LEDs/CS9")
@@ -9963,7 +9963,7 @@
 			(uuid "eefc01fb-fcde-4b5b-9ba1-749cd669680e")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "/LED Driver +  LEDs/CS10")
@@ -9972,7 +9972,7 @@
 			(uuid "94861772-051a-4405-93b5-1197b190babb")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "/LED Driver +  LEDs/CS11")
@@ -10287,12 +10287,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "3afc3ebd-a62e-46fc-b070-799a7ee67645")
-		(at 285.12 196.05)
+		(at 191.6 167.915 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D48"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "0ff95493-79b8-4cb6-b2ea-53718b1f349b")
+			(uuid "7e4309fd-d449-4416-a3fc-00e512630a93")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -10301,9 +10301,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "a762ecb8-fd0e-4a0d-9297-5c9d09e16426")
+			(uuid "0f4212f9-6e9e-4f06-8f77-1ab9f41893e5")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -10312,10 +10312,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b1caa0b-964c-41ee-91ad-742115b7f189")
+			(uuid "80aa4be5-a0d7-4a42-a82b-54a3771a6c29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10324,10 +10324,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "481413d0-239b-4e26-a4e1-3e05c1ddfbdb")
+			(uuid "d38b08ad-54b0-47c3-bd83-315ec5bd737d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10336,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10349,7 +10349,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10362,7 +10362,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10375,7 +10375,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10388,7 +10388,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10401,7 +10401,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10414,7 +10414,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10427,7 +10427,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10456,26 +10456,6 @@
 			(uuid "df80bc4c-a731-40a0-b9d1-115fada52604")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "75563380-d088-4a85-98ef-8547433a64e5")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "098d156a-7d00-4d6b-9bec-e14a3984ad52")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -10495,8 +10475,28 @@
 			(layer "F.Fab")
 			(uuid "a2d39be0-9dbb-4bec-8cbd-fa3638389ba9")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "75563380-d088-4a85-98ef-8547433a64e5")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "098d156a-7d00-4d6b-9bec-e14a3984ad52")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "28e02b36-f895-4bf6-8e80-d594bdbf59f7")
 			(effects
@@ -10507,7 +10507,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "1925578a-2f24-4072-8113-d38ff661dd8d")
 			(effects
@@ -10518,7 +10518,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "/LED Driver +  LEDs/SW8")
@@ -10527,7 +10527,7 @@
 			(uuid "cba4ed2e-fba3-419e-8eba-7874217b5559")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "/LED Driver +  LEDs/CS3")
@@ -10536,7 +10536,7 @@
 			(uuid "c6d5590e-549c-4f2b-92bc-fb8dc33a865b")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "/LED Driver +  LEDs/CS4")
@@ -10545,7 +10545,7 @@
 			(uuid "c05e4aea-f734-4a63-8d6d-171b4dcfde0a")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "/LED Driver +  LEDs/CS5")
@@ -10558,12 +10558,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "3d9343ef-0f03-450f-a14f-7cb27fcca186")
-		(at 279.72 185.25)
+		(at 202.8 191.575 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D30"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "467ec4f6-7a35-4ecd-b820-02095b8be2da")
+			(uuid "cff5f482-9d82-4dc9-88bc-66f710074292")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -10572,9 +10572,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "1944aafb-7f54-4b32-8ede-624783598282")
+			(uuid "261eaf59-582a-48df-ae3b-bb2b9c2afef9")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -10583,10 +10583,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1c9d094-0516-4b26-94bb-d5425798cdff")
+			(uuid "f8907004-2b15-48b5-9cd5-b18b4e3c36ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,10 +10595,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f681a356-70ea-4318-95ba-c836ace36913")
+			(uuid "ec194827-d117-428d-88bb-307569f42e8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +10607,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10620,7 +10620,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10633,7 +10633,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10646,7 +10646,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10659,7 +10659,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10672,7 +10672,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10685,7 +10685,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10698,7 +10698,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10727,26 +10727,6 @@
 			(uuid "fc5f343e-b852-4e71-be2b-7cd9926a71cb")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "522e5665-4ef9-44ce-b4ca-2ceb6e92fb50")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b35aa867-7a98-4b5e-8e0e-16480aa87ba8")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -10766,8 +10746,28 @@
 			(layer "F.Fab")
 			(uuid "ec6db0b0-fb60-40b5-9d78-f0841f04a7ad")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "522e5665-4ef9-44ce-b4ca-2ceb6e92fb50")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b35aa867-7a98-4b5e-8e0e-16480aa87ba8")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "f825929e-44f5-4027-8d82-aa23c5a886dd")
 			(effects
@@ -10778,7 +10778,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "aaa9c314-4b64-49e6-8c94-b92f5b7be326")
 			(effects
@@ -10789,7 +10789,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "/LED Driver +  LEDs/SW5")
@@ -10798,7 +10798,7 @@
 			(uuid "9b332734-94b1-4e33-9500-002fbd133f16")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "/LED Driver +  LEDs/CS3")
@@ -10807,7 +10807,7 @@
 			(uuid "d3ed8ca9-63c2-4cf9-b344-bef19ad238b6")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "/LED Driver +  LEDs/CS4")
@@ -10816,7 +10816,7 @@
 			(uuid "b3910ad3-a462-4d3a-924b-3f1a5c9fc08b")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "/LED Driver +  LEDs/CS5")
@@ -11502,7 +11502,7 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "493aac3e-68e0-488f-8a01-9dfdd18162f6")
-		(at 207.22 211.65 -45)
+		(at 211.2 226.17 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D15"
 			(at 0 -1.4064 135)
@@ -12260,12 +12260,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "53ffa4e8-b9bb-4233-be2b-e3a94a4edc54")
-		(at 200 202.4 -45)
+		(at 200 202.51 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D1"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "15adc162-8be6-4932-b8c5-0f5e3b5dbf65")
+			(uuid "1171d882-2c4a-42a5-a02f-f76e61ec2eb6")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -12276,7 +12276,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "9020e774-836f-40cf-91dc-f1abb2f445b6")
+			(uuid "08b2390c-9a58-43fe-8bff-61b020d2efd3")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -12288,7 +12288,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "317679a0-0fe4-4c60-9822-d3869ce7036b")
+			(uuid "f7da1c70-aab0-41b1-ba04-70742412edc7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,7 +12300,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39731f68-986a-4512-bd2a-c696e5928ab6")
+			(uuid "adf64eba-8619-46fd-97d3-d183785fe698")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12634,12 +12634,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "55684e4a-52f5-4d1f-9f20-323df9004d4f")
-		(at 200.02 206.85 -45)
+		(at 200 214.34 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D5"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "57c1601a-04bb-4104-ae04-d28c059e1f5a")
+			(uuid "5f1b24e0-1f34-41c3-a67a-517ecf8449d2")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -12650,7 +12650,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "5aad7dd3-8d10-4eb0-9aa0-59b7ae97c807")
+			(uuid "1a817b74-5472-4d23-9777-518ce0adb8ff")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -12662,7 +12662,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f88ac042-2f6b-42b2-ac06-7321e6f58758")
+			(uuid "c0c3853b-0bdb-41a2-9851-22a66db936a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,7 +12674,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e07fef8d-298e-4aad-a459-6aef382b2b55")
+			(uuid "8a43dd4b-0cfb-41be-9206-f7e97556b8f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12905,12 +12905,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "56bc8902-e342-4a4d-9a80-9b6ca1a210bf")
-		(at 192.82 216.45 -45)
+		(at 188.8 238 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D23"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "cbf5bb6e-012c-456c-ac5b-db7fd74e631b")
+			(uuid "11fd9ca9-ab2a-4baf-8636-1c5a93089f81")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -12921,7 +12921,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "4f0ecd89-7c07-4d4c-bcf4-d19f5b6407b5")
+			(uuid "18091861-2fdd-4a19-b336-bd955c7c2489")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -12933,7 +12933,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4748ac91-5ad9-43ce-915b-34128421291c")
+			(uuid "fdc67f65-c431-473c-a524-370ad026512e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12945,7 +12945,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78b79797-a683-4a2a-991a-b10781615f44")
+			(uuid "c5f2d521-9e77-4975-8137-c5d1581222fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13176,7 +13176,7 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "59467889-abf9-46cd-a729-6bfe93751b3b")
-		(at 196.42 206.85 -45)
+		(at 194.4 214.34 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D4"
 			(at 0 -1.4064 135)
@@ -13447,12 +13447,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "5aa96e36-3d61-408e-bceb-cd758aad5c03")
-		(at 194.62 209.25 -45)
+		(at 191.6 220.255 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D7"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "4d3b06c9-b98a-46e3-84e2-acd67203b118")
+			(uuid "fc389073-70c5-487f-a78b-73811c5ee5c8")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -13463,7 +13463,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "08819671-63d2-4019-b2f4-2e7dc6224024")
+			(uuid "8bf648e4-9bb4-4794-820e-89c0dc17ea69")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -13475,7 +13475,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a39a7b58-8398-4da2-8cb8-4de3c64164df")
+			(uuid "64a61792-c2f5-4f59-861d-0924c8b679e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13487,7 +13487,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "870c716a-deff-4447-a1c3-8a67f8b186b9")
+			(uuid "f7268167-456c-479d-8fd0-00b6b8c92210")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14027,12 +14027,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "63fe3779-4751-42ad-b1f1-0c2540f7c768")
-		(at 198.22 204.45 -45)
+		(at 197.2 208.425 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D2"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "808be836-6deb-49d1-a1b0-039443cd1436")
+			(uuid "b3f88d11-54e8-40cc-954b-1da9ee5c4e0d")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -14043,7 +14043,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "4974286c-7429-4d5a-839b-61efa212f3dc")
+			(uuid "fabfa807-1ca3-45a9-8163-0818e705bc9d")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -14055,7 +14055,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9e17e3d-8400-436f-bc0f-02ed1e07dca6")
+			(uuid "98888893-a8ed-468a-81c8-45f91f2339b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14067,7 +14067,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99e64667-4796-44ce-9f7a-d96f74aeb978")
+			(uuid "4754b913-f9e3-4678-a02c-5997744259ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14298,12 +14298,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "6571d4c4-f42b-4862-8104-1c87c577e3ab")
-		(at 210.82 216.45 -45)
+		(at 216.8 238 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D28"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "fca61418-7e0e-4f89-8508-d92ece03e2ed")
+			(uuid "5596baab-3b94-41e5-a6f8-5be0ca268db1")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -14314,7 +14314,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "5431322c-5934-4576-a7f0-41d1f13f20e1")
+			(uuid "92bbf1f3-6005-419b-8638-f39c8e696ed2")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -14326,7 +14326,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e290e456-eb38-4e5d-af2b-2e824583e9f4")
+			(uuid "f1d5ec4b-c7ca-48c8-919a-cfc442db512f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14338,7 +14338,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0449bbc6-f270-48bf-8481-3485c56778b5")
+			(uuid "7d2d875f-3612-4cb2-ae04-ce80c386e6c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14569,12 +14569,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "65bdaa21-a9cc-4fa7-8fec-f30a94ae243b")
-		(at 192.82 211.65 -45)
+		(at 188.8 226.17 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D11"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "92b30c4d-fd6d-4031-8c54-4463473b7207")
+			(uuid "c7d8f3ab-3f19-4588-9f43-c63c7663aad0")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -14585,7 +14585,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "37e69c39-d535-4c66-a318-882de090597d")
+			(uuid "d5965c2a-b6d5-4f3d-a0d0-b532ea841d52")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -14597,7 +14597,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c36aa44a-6a94-4891-81de-021aa724859f")
+			(uuid "89a11d3a-6f6d-45f8-8011-810c9522425c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14609,7 +14609,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54535099-3a09-4b3c-8fb1-1edefa6de439")
+			(uuid "007241cb-4b48-42eb-bc7f-5fe400d1d2c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14840,7 +14840,7 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "67519c41-cc15-4603-b330-63f45f876e58")
-		(at 200.02 211.65 -45)
+		(at 200 226.17 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D13"
 			(at 0 -1.4064 135)
@@ -15111,12 +15111,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "67cb6dce-7e4f-43c6-9987-f04d94fdc70b")
-		(at 279.72 187.95)
+		(at 197.2 191.575 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D31"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "39440ef6-60e8-4475-9b23-886820804fb5")
+			(uuid "cd8bf7c2-6315-43db-b4f5-f41e22c9b4d9")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -15125,9 +15125,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "7fe0ab20-5d6d-4f50-92d1-2a35c11cecbc")
+			(uuid "486d753b-3652-4ca2-a50a-c4dd815377bb")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -15136,10 +15136,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa467059-ec1a-49a6-99be-5c6aae1b04a7")
+			(uuid "0b788543-973b-4f8b-a19a-208d8bc411b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15148,10 +15148,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abc4fe45-3ec9-46b2-bb11-b8adfa717790")
+			(uuid "5281ab64-3585-4021-ada5-ec79255bb951")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15160,7 +15160,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15173,7 +15173,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15186,7 +15186,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15199,7 +15199,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15212,7 +15212,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15225,7 +15225,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15238,7 +15238,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15251,7 +15251,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15280,26 +15280,6 @@
 			(uuid "968ebd29-08ac-4b18-8918-c6ac9f2be2a5")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5abf2ea9-be6d-4bdc-9dfc-6c0ba4116130")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ca048715-226d-4e4d-aa2f-3630b28861ab")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -15319,8 +15299,28 @@
 			(layer "F.Fab")
 			(uuid "1fde3ad9-e4fa-4db4-a569-8c58b75e4b55")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5abf2ea9-be6d-4bdc-9dfc-6c0ba4116130")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca048715-226d-4e4d-aa2f-3630b28861ab")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "68f86c92-ef6d-407b-add3-3eaa5b001e01")
 			(effects
@@ -15331,7 +15331,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "dcd82e5c-59cd-469a-b397-21b73726b701")
 			(effects
@@ -15342,7 +15342,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "/LED Driver +  LEDs/SW5")
@@ -15351,7 +15351,7 @@
 			(uuid "5eefbb18-c666-4a19-9abc-00767be26382")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "/LED Driver +  LEDs/CS6")
@@ -15360,7 +15360,7 @@
 			(uuid "c95e9a82-fadc-4139-b4e5-84afd0d47ffc")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "/LED Driver +  LEDs/CS7")
@@ -15369,7 +15369,7 @@
 			(uuid "c2e36cde-c68a-4f06-b286-3a09f36b9d7d")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "/LED Driver +  LEDs/CS8")
@@ -15382,12 +15382,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "69974b79-51ec-4e7f-9cfb-7953288e602b")
-		(at 285.12 190.65)
+		(at 202.8 167.915 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D46"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "e615e65f-0943-4fe3-8659-00b4d5413003")
+			(uuid "92463485-fa2c-49f6-88e5-60bdcdd5c63b")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -15396,9 +15396,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "2c7a6839-232b-4111-a78e-c2f04e666990")
+			(uuid "b5d8799d-c843-4eda-8fe5-96773edbddeb")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -15407,10 +15407,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "524c569f-9bbf-4ec8-bf45-18a74d1c379d")
+			(uuid "240cea68-4939-4495-9378-6ee107370934")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15419,10 +15419,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2a12c46-93a1-4021-acf3-d6fa1db6d6f4")
+			(uuid "6935cdb2-ca61-439a-8361-90fea2e93374")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15431,7 +15431,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15444,7 +15444,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15457,7 +15457,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15470,7 +15470,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15483,7 +15483,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15496,7 +15496,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15509,7 +15509,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15522,7 +15522,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15551,26 +15551,6 @@
 			(uuid "16aededb-7e1c-4974-85e0-79998a2e9fa7")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a594524e-e035-4ae0-afa4-ec084d1078d9")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "93894d66-b817-4be7-a574-27055adfa24b")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -15590,8 +15570,28 @@
 			(layer "F.Fab")
 			(uuid "05c37979-7827-4bd6-915b-add1ee3a7759")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a594524e-e035-4ae0-afa4-ec084d1078d9")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "93894d66-b817-4be7-a574-27055adfa24b")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "9b9f96ac-6e8e-47c8-ab1e-dccdf07e2dde")
 			(effects
@@ -15602,7 +15602,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "6ec949d8-42ed-475f-a8e9-c9ad83baff85")
 			(effects
@@ -15613,7 +15613,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "/LED Driver +  LEDs/SW7")
@@ -15622,7 +15622,7 @@
 			(uuid "04575f48-6f39-4c7f-9d1c-f41b97cfe9f4")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "/LED Driver +  LEDs/CS15")
@@ -15631,7 +15631,7 @@
 			(uuid "3583cc3e-851c-4df3-ae1c-49be858e0840")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "/LED Driver +  LEDs/CS16")
@@ -15640,7 +15640,7 @@
 			(uuid "b66bdcf4-580f-40e0-b8f5-4b1273d79e17")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "/LED Driver +  LEDs/CS17")
@@ -15964,12 +15964,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "6d7c9bc3-377e-4de0-a78e-d02df9874533")
-		(at 209.02 214.05 -45)
+		(at 214 232.085 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D21"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "acbc7a67-99d2-4381-a04c-191a590d1538")
+			(uuid "2d88c152-aace-4ca9-95a8-ab9d6ea28cbd")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -15980,7 +15980,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "d724cdb4-4d24-4550-b284-122de1f028e5")
+			(uuid "1c6625e1-3d7f-40cf-a4dc-7f3853d3a603")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -15992,7 +15992,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f12a5ad9-3ec5-43af-bb64-44e524c5f930")
+			(uuid "f704afdf-0d37-43b0-9bf3-10c15009d4a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16004,7 +16004,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f8eac75-44c2-437e-8abf-ce407161f321")
+			(uuid "71e579a1-7649-4e8b-a08a-6bf53c26071d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17651,7 +17651,7 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "7bdc4fa6-c1e4-492e-bbde-3ad7bd2ab1d6")
-		(at 196.42 211.65 -45)
+		(at 194.4 226.17 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D12"
 			(at 0 -1.4064 135)
@@ -18316,7 +18316,7 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "81721815-f797-4f9e-ad07-ed690e245f06")
-		(at 203.62 206.85 -45)
+		(at 205.6 214.34 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D6"
 			(at 0 -1.4064 135)
@@ -18898,7 +18898,7 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "8b08e618-0827-4395-8b84-148c4985a0d9")
-		(at 205.42 209.25 -45)
+		(at 208.4 220.255 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D10"
 			(at 0 -1.4064 135)
@@ -19480,12 +19480,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "8c60a27d-4c24-4c70-b695-ebdd99cd1b67")
-		(at 205.42 214.05 -45)
+		(at 208.4 232.085 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D20"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "366bc7c4-98fd-488a-9657-81902e54f83a")
+			(uuid "8852c66f-7f2e-40a1-b286-9214fe45401b")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -19496,7 +19496,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "6358ccd3-33a9-4d4d-8ac0-a14d7b19f22f")
+			(uuid "2d4ae7ae-938b-411a-981e-6b25183cfe54")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -19508,7 +19508,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d8b3c96-6eda-46bc-9263-ced8d522cc7b")
+			(uuid "1870d504-e940-46fd-9619-3b5d5afaea5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19520,7 +19520,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1e4114c-0beb-41ad-a6c0-e135bd5b5fb8")
+			(uuid "97de0101-3e32-46f3-84de-651c64c73bbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21055,12 +21055,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "90fa28be-8b91-4211-ac99-ef32ff5c9165")
-		(at 198.22 214.05 -45)
+		(at 197.2 232.085 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D18"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "dc248d37-8b1a-4534-9f0c-157c7ddb80f8")
+			(uuid "c8b7697a-2026-42de-84b8-ad1e886e6b25")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -21071,7 +21071,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "7c8e65ae-37ac-4086-87c7-2a76e3415540")
+			(uuid "40c93819-5783-40e4-aa35-52a9331afbfb")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -21083,7 +21083,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "748cc744-8875-4c1d-88a9-aabc58054c9e")
+			(uuid "4caa19a5-94e9-4e87-8d13-eed4756bd8e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21095,7 +21095,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dfe7631-6fd5-479c-bfe8-fab7455d6f1f")
+			(uuid "a89e91f0-7776-4d12-a85c-96e8b175cd17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21617,12 +21617,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "93a13e61-7600-40b8-b207-00f895eb1019")
-		(at 189.22 216.45 -45)
+		(at 183.2 238 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D22"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "4e0129d9-70fc-411f-8cc7-e29bbc955016")
+			(uuid "16ff1db9-2c96-4274-bce5-5cd5d0f29388")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -21633,7 +21633,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "be921ee1-54de-4f79-a639-b8fe095a393c")
+			(uuid "0a94f942-df63-4e42-93a9-a7643abfeef4")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -21645,7 +21645,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ed53d42-9168-4501-aaf6-3683478f0e4a")
+			(uuid "35782d9d-a3a5-424c-8079-edfa1bcf90cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21657,7 +21657,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24efe27a-b8b6-4bbb-a183-284eae3d7bc0")
+			(uuid "b105990a-01a5-4f31-904b-fccb398a801c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21991,12 +21991,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "96a8bbd3-9ad0-4640-ab8c-8d2a5d245ef4")
-		(at 200.02 216.45 -45)
+		(at 200 238 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D25"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "9db79300-459c-4992-94b8-ed1f99e5a922")
+			(uuid "cabc1f43-034e-4727-bf5c-19660d561237")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -22007,7 +22007,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "10b7d51b-752c-4170-843f-55f9b78ba7e0")
+			(uuid "4e683252-bb81-4883-a515-2fa42576f472")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -22019,7 +22019,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95efe38c-5fd5-45d2-be38-6487dbdb90eb")
+			(uuid "40ca6a64-f55b-452b-8539-301364492955")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22031,7 +22031,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1657944f-6b66-4283-9a7b-f184fc38c6e2")
+			(uuid "14f3c544-d132-4e4f-b7e1-b33b9491f7dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22729,12 +22729,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "988f278b-b197-46ea-a24a-1cea7d683c05")
-		(at 191.02 214.05 -45)
+		(at 186 232.085 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D16"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "f611098e-3cb8-4926-a70b-7a50eeb2f958")
+			(uuid "7fc2273f-eec3-4520-98c9-2187f0b1b16b")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -22745,7 +22745,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "295ca661-5da6-4c51-a049-bf5ebc568b08")
+			(uuid "d7575cd1-783f-482a-ba27-1afe9bf8607e")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -22757,7 +22757,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22ea6f34-66cb-40d9-94db-c3d8d2761065")
+			(uuid "d4d49ebd-69ea-468b-b533-53fd240f4481")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22769,7 +22769,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "954da229-eff3-48b1-b542-4d07c2abd0d7")
+			(uuid "af9165d6-29de-413d-ac82-2089416c5122")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23206,12 +23206,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "9c2d4dbf-db43-4bae-8a00-56933c9a855d")
-		(at 279.72 193.35)
+		(at 200 185.66 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D33"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "6ab91c34-fd31-4cb1-8e02-c3d37d653554")
+			(uuid "aaa07aeb-cbf4-4508-8ccd-a8a3861d5235")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -23220,9 +23220,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "93591b25-9299-45ec-9092-73498929345f")
+			(uuid "ee5f068b-7afe-48a1-89b9-09be932b7eb5")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -23231,10 +23231,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "368e0701-cf28-4adc-80c2-16fc7fe3914d")
+			(uuid "619a82b0-523c-44ff-a274-e110014f8508")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23243,10 +23243,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e405bd04-31d7-4019-87e2-7a2dc4622b6e")
+			(uuid "eada9ab1-8da0-4dd9-a7bc-b48133df65cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23255,7 +23255,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23268,7 +23268,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23281,7 +23281,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23294,7 +23294,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23307,7 +23307,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23320,7 +23320,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23333,7 +23333,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23346,7 +23346,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23375,26 +23375,6 @@
 			(uuid "dd7d06b9-0053-4132-b24a-c5c653d166c6")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4b1dfe98-d846-41d8-9dad-806619f8cc77")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7bc72194-f5c2-4191-8be9-ccf45c317070")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -23414,8 +23394,28 @@
 			(layer "F.Fab")
 			(uuid "03fd7bab-de4b-4c27-85a5-9eba6704853f")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b1dfe98-d846-41d8-9dad-806619f8cc77")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7bc72194-f5c2-4191-8be9-ccf45c317070")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "2d11e22b-2674-480e-b9af-d88cc2edba15")
 			(effects
@@ -23426,7 +23426,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "17a919e1-d03d-4159-9868-158e5636c8f8")
 			(effects
@@ -23437,7 +23437,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "/LED Driver +  LEDs/SW5")
@@ -23446,7 +23446,7 @@
 			(uuid "d7d2b943-18eb-4212-a0be-ef9938eeb785")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "/LED Driver +  LEDs/CS12")
@@ -23455,7 +23455,7 @@
 			(uuid "0e988551-3713-495f-9233-16e0cf295115")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "/LED Driver +  LEDs/CS13")
@@ -23464,7 +23464,7 @@
 			(uuid "fcb0060e-71a6-48da-aaa5-d11083efff39")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "/LED Driver +  LEDs/CS14")
@@ -23580,7 +23580,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "9de20896-6c9a-47ae-8e0f-b9e3713ddf19")
-		(at 290.695 191.875)
+		(at 227.445 175.425)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP29"
@@ -23683,12 +23683,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "9e4ca07f-8ee5-4e4b-ad72-51858768a22d")
-		(at 282.42 193.35)
+		(at 205.6 173.83 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D40"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "0f2d6dec-5e35-4654-a167-d097fd8dd76a")
+			(uuid "6fb389f9-f1be-4919-96dd-49e0788bf3fb")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -23697,9 +23697,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "b32c5c2d-8983-4cc7-83ec-7cad5b3c3e07")
+			(uuid "1d2db5bc-5e72-4952-ab7b-fafeb344ad35")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -23708,10 +23708,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f715035-c3ee-4679-bbda-c8a027a21a4e")
+			(uuid "b3bdfcff-0f45-4407-a193-e8313a317991")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23720,10 +23720,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd21467a-03e1-40ba-a8a0-4e4ae3058867")
+			(uuid "358fc5b1-c46d-4c04-b725-ac1247e67c75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23732,7 +23732,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23745,7 +23745,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23758,7 +23758,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23771,7 +23771,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23784,7 +23784,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23797,7 +23797,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23810,7 +23810,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23823,7 +23823,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23852,26 +23852,6 @@
 			(uuid "599cf090-cb04-4add-b678-a0babe37b240")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e3156cef-c4ee-49c8-9380-80cc6c7ec0c7")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "93e96aba-1a4f-4135-9680-1c2970cde8b1")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -23891,8 +23871,28 @@
 			(layer "F.Fab")
 			(uuid "51c41677-7372-40b3-9e58-29c3fe8ca669")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e3156cef-c4ee-49c8-9380-80cc6c7ec0c7")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "93e96aba-1a4f-4135-9680-1c2970cde8b1")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "def9bc1f-b150-4658-8a9c-39a2f56f5d1a")
 			(effects
@@ -23903,7 +23903,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "84fba21d-7669-4784-abe0-ed64dd6e9301")
 			(effects
@@ -23914,7 +23914,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "/LED Driver +  LEDs/SW6")
@@ -23923,7 +23923,7 @@
 			(uuid "4b51c2b3-3aba-47b9-8496-2946ce39a56d")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "/LED Driver +  LEDs/CS15")
@@ -23932,7 +23932,7 @@
 			(uuid "ddd7759c-9ab4-4bf8-bcbe-de81f7753716")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "/LED Driver +  LEDs/CS16")
@@ -23941,7 +23941,7 @@
 			(uuid "db1dac3c-c1ba-4959-8726-188d49f10b1c")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "/LED Driver +  LEDs/CS17")
@@ -24231,12 +24231,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "a35b172d-7e6f-4781-98a1-7ab930d97308")
-		(at 287.82 182.55)
+		(at 216.8 162 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D50"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "34bbb432-057f-4b97-8e63-7e3e25df42bc")
+			(uuid "c61a8500-11d5-430a-946c-d5d311ea42be")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -24245,9 +24245,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "1429f813-29a7-4ede-9e63-c582a20785e5")
+			(uuid "97cf3ff6-4d21-4e42-a832-081cdd2fcdb4")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -24256,10 +24256,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "327b7b79-4fb8-4ddd-a6ef-a86757cfd803")
+			(uuid "aebfb846-9734-43b0-b893-d4608db0e365")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24268,10 +24268,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c4f137c-882c-4341-b8c8-09615adcd86a")
+			(uuid "01f2aff3-82aa-4945-ad1e-1b6a676aa13a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24280,7 +24280,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24293,7 +24293,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24306,7 +24306,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24319,7 +24319,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24332,7 +24332,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24345,7 +24345,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24358,7 +24358,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24371,7 +24371,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24400,26 +24400,6 @@
 			(uuid "78e3a31e-10a6-47f6-bbd7-06444e2d32c9")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6c3d55be-7ed9-4863-9bd2-c7ef4fcd2952")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "89362cad-c3f3-49e3-a6d3-7e65af58bd58")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -24439,8 +24419,28 @@
 			(layer "F.Fab")
 			(uuid "cb55824b-c6b9-4c95-9546-b402acc77b52")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c3d55be-7ed9-4863-9bd2-c7ef4fcd2952")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "89362cad-c3f3-49e3-a6d3-7e65af58bd58")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "a754e704-a8ed-4add-a4ff-19bd2f744483")
 			(effects
@@ -24451,7 +24451,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "34ec6110-56ff-4070-8d5d-149555313fc8")
 			(effects
@@ -24462,7 +24462,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "/LED Driver +  LEDs/SW8")
@@ -24471,7 +24471,7 @@
 			(uuid "297bbbce-9097-41e5-87b1-0e1a3164613c")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "/LED Driver +  LEDs/CS9")
@@ -24480,7 +24480,7 @@
 			(uuid "e074200f-15fc-42c0-9b74-8b0c2e107f2d")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "/LED Driver +  LEDs/CS10")
@@ -24489,7 +24489,7 @@
 			(uuid "9738b6e0-7af7-497f-9fef-afde66199439")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "/LED Driver +  LEDs/CS11")
@@ -24980,12 +24980,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "b3dbf68c-ed99-4566-a53f-686d75985fc6")
-		(at 285.12 187.95)
+		(at 208.4 167.915 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D45"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "e13180a9-6fcf-4002-8fb8-76619c3af040")
+			(uuid "58d1d708-fc2e-4b40-bb59-a4528124d629")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -24994,9 +24994,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "a814cef6-8e8a-43a8-9703-604fa709e9f4")
+			(uuid "7959626d-b851-4cd9-a149-cf232247d994")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -25005,10 +25005,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87d3fc39-b473-403e-a04e-3b16df13aaad")
+			(uuid "4e359316-0110-460c-b645-59a07db4607e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25017,10 +25017,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d020347-c533-418e-84fd-66a0fe58acf6")
+			(uuid "60a41e1d-b305-47af-a800-f4e177c11bda")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25029,7 +25029,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25042,7 +25042,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25055,7 +25055,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25068,7 +25068,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25081,7 +25081,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25094,7 +25094,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25107,7 +25107,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25120,7 +25120,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25149,26 +25149,6 @@
 			(uuid "1b5ef49c-63be-405a-abe1-ce24ff136bae")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c27332df-3548-48e6-b6ec-5e41610416e1")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b5a887ed-af61-425f-8e5d-9fd549420156")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -25188,8 +25168,28 @@
 			(layer "F.Fab")
 			(uuid "be43f4ce-469d-4c31-8c39-4cababc31e86")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c27332df-3548-48e6-b6ec-5e41610416e1")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b5a887ed-af61-425f-8e5d-9fd549420156")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "ea576cbc-f934-4331-92f0-2279aa130780")
 			(effects
@@ -25200,7 +25200,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "8e840115-516d-45a7-9c7c-9b9ef2095edf")
 			(effects
@@ -25211,7 +25211,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "/LED Driver +  LEDs/SW7")
@@ -25220,7 +25220,7 @@
 			(uuid "18e06ce7-83bc-487f-816d-732e774b312d")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "/LED Driver +  LEDs/CS12")
@@ -25229,7 +25229,7 @@
 			(uuid "faff340d-f6b8-47b6-bfe0-92dad13c130a")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "/LED Driver +  LEDs/CS13")
@@ -25238,7 +25238,7 @@
 			(uuid "4a05150e-9931-4779-9575-aa4a8fb08941")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "/LED Driver +  LEDs/CS14")
@@ -26055,12 +26055,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "c05b3e58-1e62-4d09-8fd7-393d92119c64")
-		(at 285.12 193.35)
+		(at 197.2 167.915 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D47"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "6b6843dc-769f-4e5d-88e0-33e63d2ca8a6")
+			(uuid "172f8a3d-99ab-4cbe-b024-375f3b034981")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -26069,9 +26069,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "eeb60790-af5a-4333-8387-0ace0b062a16")
+			(uuid "8c3577dc-eaf3-434b-9394-9a9e2d2c8805")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -26080,10 +26080,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150044M155220.pdf"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "def795bb-03bf-44fc-9a11-ba40fda66ef8")
+			(uuid "28a8cab3-0a64-4499-96ca-3c00690d5cf0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26092,10 +26092,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c67d7ca1-e361-44e3-af8c-3675136d6cc1")
+			(uuid "ded5eb6b-4aae-4887-8329-bd377828623f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26104,7 +26104,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26117,7 +26117,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26130,7 +26130,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26143,7 +26143,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26156,7 +26156,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26169,7 +26169,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26182,7 +26182,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26195,7 +26195,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26224,26 +26224,6 @@
 			(uuid "38be1a15-a773-49ef-a50a-be88732b78d4")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "924fc1b1-0434-4907-9d4d-c38d7f52d167")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d8041c84-4f4a-427d-8d00-16d70978350d")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -26263,8 +26243,28 @@
 			(layer "F.Fab")
 			(uuid "4653857d-97de-4211-a926-af6634361e38")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "924fc1b1-0434-4907-9d4d-c38d7f52d167")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d8041c84-4f4a-427d-8d00-16d70978350d")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "ccd781aa-279b-48b5-b126-2d89b21e36b4")
 			(effects
@@ -26275,7 +26275,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "9a04ae14-9431-453d-a10b-d17913afd5bc")
 			(effects
@@ -26286,7 +26286,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "/LED Driver +  LEDs/SW8")
@@ -26295,7 +26295,7 @@
 			(uuid "3415271b-04cb-4f1b-ad5e-0b3f7fcece35")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "/LED Driver +  LEDs/CS0")
@@ -26304,7 +26304,7 @@
 			(uuid "27e36c31-7d27-4608-890a-72bb8d182128")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "/LED Driver +  LEDs/CS1")
@@ -26313,7 +26313,7 @@
 			(uuid "d98e5312-a6c6-46e5-8b94-48e3695d45b9")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "/LED Driver +  LEDs/CS2")
@@ -26720,12 +26720,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "c34db300-4f73-4e1c-8e15-aabe25066542")
-		(at 285.12 182.55)
+		(at 188.8 173.83 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D43"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "d62e18c3-a37d-4b57-9552-f4264102ca53")
+			(uuid "017af90b-0284-45d8-b6b3-a63b86074fac")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -26734,9 +26734,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "9a5f0efd-fa4e-4af2-9b7b-b9b2b9f93dbe")
+			(uuid "1ec3017b-5435-4791-8453-f82effcef111")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -26745,10 +26745,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a40cd8d-1cc0-412a-b7ef-df82ae4683e6")
+			(uuid "f39c39b1-fd97-4816-905c-5f4cccc1ef26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26757,10 +26757,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "035110dc-4841-4cd5-a26b-2eb84cca3c21")
+			(uuid "8e8a9da6-4ccd-40d3-b36b-737195f23fa8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26769,7 +26769,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26782,7 +26782,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26795,7 +26795,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26808,7 +26808,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26821,7 +26821,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26834,7 +26834,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26847,7 +26847,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26860,7 +26860,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26889,26 +26889,6 @@
 			(uuid "3b8aa46e-f829-47ca-942d-615362e2de30")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "114c9106-1c01-4f24-a240-c498f7ffe106")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a577eeef-03ae-42f2-8085-6cc7cb887670")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -26928,8 +26908,28 @@
 			(layer "F.Fab")
 			(uuid "5e349625-9c67-45de-b59e-ff1ec925bcd5")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "114c9106-1c01-4f24-a240-c498f7ffe106")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a577eeef-03ae-42f2-8085-6cc7cb887670")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "78ea960b-6c07-42aa-b31d-0f827f2ec1b6")
 			(effects
@@ -26940,7 +26940,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "a79eb6c8-be47-4355-b04c-d044a5d3fc4f")
 			(effects
@@ -26951,7 +26951,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "/LED Driver +  LEDs/SW7")
@@ -26960,7 +26960,7 @@
 			(uuid "16086b19-4b7e-4e55-8b97-ea25e8bb6bdd")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "/LED Driver +  LEDs/CS6")
@@ -26969,7 +26969,7 @@
 			(uuid "1aacc0b9-1348-4547-8f2c-88019a4dc2fc")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "/LED Driver +  LEDs/CS7")
@@ -26978,7 +26978,7 @@
 			(uuid "95f01b56-f974-42ef-b33b-a7a193f40df8")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "/LED Driver +  LEDs/CS8")
@@ -26991,12 +26991,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "c3f3dcf0-fc23-481e-9ffa-d950719b97e3")
-		(at 201.82 214.05 -45)
+		(at 202.8 232.085 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D19"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "740dc0de-b87c-40ac-93c3-70677056b8ae")
+			(uuid "8e3441b1-d7d9-4da4-9903-a54064a0ce56")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -27007,7 +27007,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "3d24a13a-e79c-4175-9bde-8f2fd9ffe8b4")
+			(uuid "58f879f9-0ef9-49be-9683-6053ed428be0")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -27019,7 +27019,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a9f81bf-8189-4704-b7ba-630b332cbfcf")
+			(uuid "f294acff-3c10-4675-97fc-e4805e68ec15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27031,7 +27031,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f30cdb8-f6c2-4e94-a609-49309fdab466")
+			(uuid "191d27ad-6266-46a7-b3fb-ebd0e70b0205")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27262,12 +27262,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "c47d916c-483c-4924-a5d4-5e6104104805")
-		(at 282.42 196.05)
+		(at 200 173.83 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D41"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "3fbde647-ca94-47a6-957a-18a5d26412dc")
+			(uuid "e7e5bf36-65dd-42e9-ad4f-81a29a2c070a")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -27276,9 +27276,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "56be80ab-55a3-423a-8626-9984647ec0ca")
+			(uuid "22287665-de42-447f-8883-1abd1b27b58d")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -27287,10 +27287,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fe3df1a-1035-48b5-a44f-cf7668d9c36b")
+			(uuid "57a14608-c6aa-4b15-9edf-464d339204b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27299,10 +27299,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2891a0a-198a-4f69-bb7a-3d3b493dcc84")
+			(uuid "959cf329-af28-45bb-b2c9-0d762db6db89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27311,7 +27311,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27324,7 +27324,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27337,7 +27337,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27350,7 +27350,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27363,7 +27363,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27376,7 +27376,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27389,7 +27389,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27402,7 +27402,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27431,26 +27431,6 @@
 			(uuid "3b938a19-7f31-47dd-af3a-124b354259a6")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "494c6853-a59f-47ae-a23d-5a9774e421b8")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "930e067d-aad3-4f5e-9e62-09121b8ecf24")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -27470,8 +27450,28 @@
 			(layer "F.Fab")
 			(uuid "21f30df3-eae8-4f69-9403-908786ad816d")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "494c6853-a59f-47ae-a23d-5a9774e421b8")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "930e067d-aad3-4f5e-9e62-09121b8ecf24")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "411b9433-798b-4782-9a9a-b653746c6595")
 			(effects
@@ -27482,7 +27482,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "91be3291-4b39-49f1-be33-adaeb8c4de1f")
 			(effects
@@ -27493,7 +27493,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "/LED Driver +  LEDs/SW7")
@@ -27502,7 +27502,7 @@
 			(uuid "3abc959e-948c-4913-99d9-4c821119344a")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "/LED Driver +  LEDs/CS0")
@@ -27511,7 +27511,7 @@
 			(uuid "dae07a3c-81d8-4510-9f22-5f28a19354d6")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "/LED Driver +  LEDs/CS1")
@@ -27520,7 +27520,7 @@
 			(uuid "2143612d-1661-4610-8eef-0168e9949a79")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "/LED Driver +  LEDs/CS2")
@@ -28656,12 +28656,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "d001a7e6-e498-4119-a6fe-5775cc53fd2f")
-		(at 279.72 196.05)
+		(at 194.4 185.66 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D34"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "d1de686d-a4a8-47de-bfae-1e1c3743899a")
+			(uuid "37bbf98b-35a7-4518-a6b3-d5868c7e8f56")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -28670,9 +28670,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "14c9feb1-d90f-4d9a-a909-5f99642632e8")
+			(uuid "081fde15-d585-4c69-bf1c-0d153bd8a86d")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -28681,10 +28681,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5903f5f6-edc2-4707-b18b-64e2b0c2e6b7")
+			(uuid "ab2b5eb3-c397-4cd7-8526-06ebbc9dc846")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28693,10 +28693,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4deb52bd-4670-42f2-9b64-feddcc895a12")
+			(uuid "46263cf4-3303-46ad-b615-0a8d6a9eefb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28705,7 +28705,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28718,7 +28718,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28731,7 +28731,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28744,7 +28744,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28757,7 +28757,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28770,7 +28770,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28783,7 +28783,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28796,7 +28796,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28825,26 +28825,6 @@
 			(uuid "ca1d19f3-6c2a-46e7-b8ed-e5422409d03a")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0ac105b5-44a7-4970-b8dc-f0245533027b")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d9e9bf33-34cf-4b54-a427-15c0ab9606f8")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -28864,8 +28844,28 @@
 			(layer "F.Fab")
 			(uuid "12013703-151e-4b3c-85f5-bdfc7075a349")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0ac105b5-44a7-4970-b8dc-f0245533027b")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d9e9bf33-34cf-4b54-a427-15c0ab9606f8")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "df96c3c0-58f2-4988-bbc5-a38dce88860d")
 			(effects
@@ -28876,7 +28876,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "a48b98b0-b90f-427d-b61b-5087468ed95b")
 			(effects
@@ -28887,7 +28887,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "/LED Driver +  LEDs/SW5")
@@ -28896,7 +28896,7 @@
 			(uuid "3024e924-d0db-4a77-bee6-ae945d7db042")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "/LED Driver +  LEDs/CS15")
@@ -28905,7 +28905,7 @@
 			(uuid "65e78762-0767-4617-a448-3cf688b99813")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "/LED Driver +  LEDs/CS16")
@@ -28914,7 +28914,7 @@
 			(uuid "efdfbf3f-2950-4691-bb1c-573731012581")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "/LED Driver +  LEDs/CS17")
@@ -29276,12 +29276,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "d1cc2269-ac42-4bc9-8f95-0b0ed35b02e3")
-		(at 194.62 214.05 -45)
+		(at 191.6 232.085 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D17"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "4caa4953-84f1-40e7-91cb-665eb9d8ea47")
+			(uuid "d2741491-f759-4869-815a-746621bd8846")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -29292,7 +29292,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "d5da0a4a-00d8-4d21-94b2-608ccbab45df")
+			(uuid "5cfc6dc9-cd34-4887-8e0d-ee80081e2e04")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -29304,7 +29304,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eff8f9ea-1fbf-455f-b819-7205f190f27d")
+			(uuid "67f20177-249f-4daf-99b4-2ae1106713a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29316,7 +29316,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e609088-679b-498a-b4d8-c109752026a0")
+			(uuid "3f09c6c6-33dc-4d7e-a292-61498e221b21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29753,12 +29753,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "d9d054c0-02fa-4f92-824a-a3e0cbb47b7c")
-		(at 207.22 216.45 -45)
+		(at 211.2 238 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D27"
 			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "ce434d4d-f38e-4842-82d8-b795ea373a73")
+			(uuid "e3012772-6099-426a-82eb-0743d37bb5ae")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -29769,7 +29769,7 @@
 		(property "Value" "150044M155220"
 			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "59405dc0-003d-42ca-bb7a-19a4fd456881")
+			(uuid "05b7660d-9a53-445c-bad2-416c3a4e6615")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -29781,7 +29781,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dfe6a6dd-b805-4bb1-ae0c-ef2886e75599")
+			(uuid "7aa7340b-5119-47b1-b0b0-a35eb4e53d51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29793,7 +29793,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c56443bf-9b8f-4bfc-8e49-36050b64a7e4")
+			(uuid "fe3b6016-5955-4148-aabd-a079c8923b32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30024,7 +30024,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "daa38736-7709-4ed3-ac11-9f483b75b2e3")
-		(at 284.365 209.725)
+		(at 232.365 192.325)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP33"
@@ -32349,7 +32349,7 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "e1ea5d47-a610-47dd-9cd9-d1ee680bf743")
-		(at 198.22 209.25 -45)
+		(at 197.2 220.255 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D8"
 			(at 0 -1.4064 135)
@@ -32794,7 +32794,7 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "ebaa1cca-e23e-4f6c-ad81-f19cdd9a8e16")
-		(at 201.82 209.25 -45)
+		(at 202.8 220.255 -45)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D9"
 			(at 0 -1.4064 135)
@@ -33468,12 +33468,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "f27ab60f-b254-4be1-927f-0d93c8680937")
-		(at 287.82 193.35)
+		(at 194.4 162 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D54"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "c7ee52a9-21a2-4902-a33a-ce88142ec7a7")
+			(uuid "c81b66bd-3e77-4129-ad64-f8ea3d1006cf")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -33482,9 +33482,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "a5a55cf2-c708-4c13-8b0b-dea8e90384d0")
+			(uuid "1fe57dbd-67d1-4d2d-adc5-ef33456d4ee8")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -33493,10 +33493,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c596807-25cb-460c-b774-aab4e802919a")
+			(uuid "714e619a-2069-43db-bc8f-2cff4286b0e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33505,10 +33505,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0026da67-f0a6-4fe9-9c13-f643d323906b")
+			(uuid "b87f07bd-921a-4cae-93a6-577941cf6f3c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33517,7 +33517,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -33530,7 +33530,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -33543,7 +33543,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -33556,7 +33556,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -33569,7 +33569,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -33582,7 +33582,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -33595,7 +33595,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -33608,7 +33608,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -33637,26 +33637,6 @@
 			(uuid "58a5d7fe-847f-4473-88e5-1551da23e34d")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ee03c378-816d-4e3e-929a-8a9c2cb54129")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b1633777-b791-467f-ad96-9af5739054ab")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -33676,8 +33656,28 @@
 			(layer "F.Fab")
 			(uuid "92d90daa-a8ca-45fa-bd8e-9691a4501fe5")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee03c378-816d-4e3e-929a-8a9c2cb54129")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1633777-b791-467f-ad96-9af5739054ab")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "04126929-1804-407a-bd52-c5b3def76f82")
 			(effects
@@ -33688,7 +33688,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "fe821fce-8929-4477-85ca-145845cfd437")
 			(effects
@@ -33699,7 +33699,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "/LED Driver +  LEDs/SW9")
@@ -33708,7 +33708,7 @@
 			(uuid "1a51f672-baa7-4174-a64f-52063f14913d")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "/LED Driver +  LEDs/CS3")
@@ -33717,7 +33717,7 @@
 			(uuid "53fcc6e1-3750-4ace-b264-08f9e86fab7c")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "/LED Driver +  LEDs/CS4")
@@ -33726,7 +33726,7 @@
 			(uuid "938ce407-8b9d-40d6-a256-628f6d70fd96")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "/LED Driver +  LEDs/CS5")
@@ -34103,12 +34103,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "f48335e2-a64d-45d7-8ac7-a3238c74f360")
-		(at 282.42 182.55)
+		(at 202.8 179.745 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D36"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "79ec771e-0eee-4e03-8416-e6815dca70af")
+			(uuid "8ae09795-68dc-47cb-9f49-a5136fe72b4a")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -34117,9 +34117,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "751f4818-48ff-4f21-a162-2f215e6f9eb1")
+			(uuid "ceac7d6f-3b97-4aa7-bf55-5e05f823e89f")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -34128,10 +34128,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd556d46-05e7-40b8-9d91-e57137c5106a")
+			(uuid "449992a8-5644-44c3-b628-f4a9da915491")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34140,10 +34140,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16708bc1-b7d2-4b0f-8743-33818d9b37b4")
+			(uuid "355d76b2-2821-45fe-9681-a93e4fe5758b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34152,7 +34152,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34165,7 +34165,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34178,7 +34178,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34191,7 +34191,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34204,7 +34204,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34217,7 +34217,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34230,7 +34230,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34243,7 +34243,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34272,26 +34272,6 @@
 			(uuid "6de43f2a-682c-4892-8235-fb438e90c3ac")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "86c6ff2a-b9df-43be-a87b-1876f745d651")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c1c60e41-2d80-4fa8-b32e-6ddbc9463185")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -34311,8 +34291,28 @@
 			(layer "F.Fab")
 			(uuid "dff26e8c-2c57-4778-a950-9df695563b49")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86c6ff2a-b9df-43be-a87b-1876f745d651")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1c60e41-2d80-4fa8-b32e-6ddbc9463185")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "ceff48e0-7ac0-4e9b-88d8-53f7c0da828c")
 			(effects
@@ -34323,7 +34323,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "9ab25f2a-5d3f-4960-a5f3-56247b1b9d13")
 			(effects
@@ -34334,7 +34334,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "/LED Driver +  LEDs/SW6")
@@ -34343,7 +34343,7 @@
 			(uuid "ba12ab17-6527-4fca-a507-802858bf0a29")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "/LED Driver +  LEDs/CS3")
@@ -34352,7 +34352,7 @@
 			(uuid "5aa672b4-fbec-4f3d-bc46-ebddc9f6437a")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "/LED Driver +  LEDs/CS4")
@@ -34361,7 +34361,7 @@
 			(uuid "03fe6ca6-2a64-4536-8ee4-4ab206404b30")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "/LED Driver +  LEDs/CS5")
@@ -34839,12 +34839,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "fae9cda3-505e-40c2-b9aa-783da6b2e152")
-		(at 282.42 185.25)
+		(at 197.2 179.745 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D37"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "762aaf32-cba0-45e3-be56-609501e25e4d")
+			(uuid "0f05c5d6-2538-49f2-bee7-e05230bb066c")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -34853,9 +34853,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "8802c7eb-5d11-457b-bed0-28a458fbca59")
+			(uuid "93596abc-e0fb-419d-9a43-6189b3be1d49")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -34864,10 +34864,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb81a152-0d35-48df-8151-1bbdd61519fe")
+			(uuid "651b2cf3-bee3-474a-88c5-4b343e7679c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34876,10 +34876,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84bcfcdc-392b-4470-a7d8-6ba58884f540")
+			(uuid "e560cba2-31bb-4461-ae3f-8baa173006f0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34888,7 +34888,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34901,7 +34901,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34914,7 +34914,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34927,7 +34927,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34940,7 +34940,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34953,7 +34953,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34966,7 +34966,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34979,7 +34979,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35008,26 +35008,6 @@
 			(uuid "399ae957-f4f8-482a-9a8a-09c28c823ad2")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1f874bbb-a743-4eb8-9a66-e106e2944ab8")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f1639ca4-99bd-42b1-963b-cf6a65ec4e17")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -35047,8 +35027,28 @@
 			(layer "F.Fab")
 			(uuid "edad0a76-1278-4a3b-986e-f235a3907822")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1f874bbb-a743-4eb8-9a66-e106e2944ab8")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f1639ca4-99bd-42b1-963b-cf6a65ec4e17")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "517a9f80-1ca1-4139-b699-435bdc46e95e")
 			(effects
@@ -35059,7 +35059,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "30d9fe9a-e880-43ee-bbc9-a6f71d6f6109")
 			(effects
@@ -35070,7 +35070,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "/LED Driver +  LEDs/SW6")
@@ -35079,7 +35079,7 @@
 			(uuid "9102a867-bc05-45a2-9913-78fda822485f")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "/LED Driver +  LEDs/CS6")
@@ -35088,7 +35088,7 @@
 			(uuid "5efce849-627d-480e-9528-9ca46a2b5540")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "/LED Driver +  LEDs/CS7")
@@ -35097,7 +35097,7 @@
 			(uuid "7d2b5102-2526-4ef1-a4c0-f80aa0b7c9e6")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "/LED Driver +  LEDs/CS8")
@@ -35213,12 +35213,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "fbb49255-4716-4ba1-9ea4-27485d16d24b")
-		(at 279.72 198.75)
+		(at 208.4 179.745 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D35"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "dad834b6-9979-4eb8-8a52-1f2d9eea8053")
+			(uuid "d3bfb3da-f509-4caa-9481-9ad21b0139a6")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -35227,9 +35227,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "3f3aa0a7-f872-4513-ba66-e859caad427a")
+			(uuid "c535f1bd-5b78-4b9f-ac44-f0b87608d3df")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -35238,10 +35238,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00251c95-d9e6-4d2b-9f19-b4cb3cda7f43")
+			(uuid "13154dad-0e48-4b84-9fe7-9c46e92049d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35250,10 +35250,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7554070-a530-46ed-8152-34ec7ea19397")
+			(uuid "e42cae99-41e9-4a59-b1c9-60f6cf837b91")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35262,7 +35262,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35275,7 +35275,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35288,7 +35288,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35301,7 +35301,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35314,7 +35314,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35327,7 +35327,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35340,7 +35340,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35353,7 +35353,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35382,26 +35382,6 @@
 			(uuid "4dad798a-4c21-4507-84c4-d18ce69635a4")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c0f7de08-fea3-47f5-a882-d7c03f703e5e")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3fa2b7bf-ecb6-4430-8fa4-90b2517afb13")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -35421,8 +35401,28 @@
 			(layer "F.Fab")
 			(uuid "183224a3-c343-4962-b1b6-312940de6ef0")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c0f7de08-fea3-47f5-a882-d7c03f703e5e")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3fa2b7bf-ecb6-4430-8fa4-90b2517afb13")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "04281147-b2c5-4d0d-b9b9-3f2e6ba3d21e")
 			(effects
@@ -35433,7 +35433,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "5ac4e167-5f1e-4fb4-9524-957c025638b6")
 			(effects
@@ -35444,7 +35444,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "/LED Driver +  LEDs/SW6")
@@ -35453,7 +35453,7 @@
 			(uuid "c23d0a1d-6ea7-474e-bfdd-33036db6981e")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "/LED Driver +  LEDs/CS0")
@@ -35462,7 +35462,7 @@
 			(uuid "89e2b6aa-869f-488e-8944-be71c2a980f4")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "/LED Driver +  LEDs/CS1")
@@ -35471,7 +35471,7 @@
 			(uuid "d161a1a2-7ffb-402f-bf43-02efd85c0276")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "/LED Driver +  LEDs/CS2")
@@ -35484,12 +35484,12 @@
 	(footprint "Hourglass_footprint_library:150044M155220"
 		(layer "F.Cu")
 		(uuid "ff5a36ba-cf27-4a03-8d05-613e462e72e7")
-		(at 287.82 187.95)
+		(at 205.6 162 135)
 		(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 		(property "Reference" "D52"
-			(at 0 -1.4064 0)
+			(at 0 -1.4064 135)
 			(layer "F.SilkS")
-			(uuid "7af3ad4b-edf3-4e37-ae18-c9935e887ef2")
+			(uuid "1018583d-f3d7-41b8-a4e0-1fcaa617609a")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -35498,9 +35498,9 @@
 			)
 		)
 		(property "Value" "150044M155220"
-			(at 0 1.3936 0)
+			(at 0 1.3936 135)
 			(layer "F.Fab")
-			(uuid "eb235f64-eaeb-4ceb-9f9a-97527238bef9")
+			(uuid "b3261111-e07d-4095-b978-326835bd2713")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -35509,10 +35509,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d41d897-9cd6-4eb2-a621-1e44d2ac3d29")
+			(uuid "d655e8cb-e9d3-4484-bc10-156a78ececfd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35521,10 +35521,10 @@
 			)
 		)
 		(property "Description" "Multi-Color LEDs WL-SFCC 2/3V 120 deg Red, Green and Blue"
-			(at 0 0 0)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1a073e8-cdb3-4ef7-bebb-a357ef4e1e28")
+			(uuid "3cdb96cd-4386-4f82-a993-4d10b646c4ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35533,7 +35533,7 @@
 			)
 		)
 		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35546,7 +35546,7 @@
 			)
 		)
 		(property "Description_1" "SMT 0404 RGB Typ.(@5mA): 623/525/465 nm; 200/500/110 mcd; 2/3/3 V ; 120°"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35559,7 +35559,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35572,7 +35572,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35585,7 +35585,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35598,7 +35598,7 @@
 			)
 		)
 		(property "MP" "150044M155220"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35611,7 +35611,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35624,7 +35624,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150044M155220/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35653,26 +35653,6 @@
 			(uuid "4730807e-e3de-418e-8732-b8d9b98a57d4")
 		)
 		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a3816c4e-e9c2-47c4-8193-4b06c7686f4e")
-		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6a0ad0cc-68f8-4fb6-814f-758a4e91481b")
-		)
-		(fp_line
 			(start 0.5 -0.5)
 			(end 0.5 0.5)
 			(stroke
@@ -35692,8 +35672,28 @@
 			(layer "F.Fab")
 			(uuid "5c516b49-ca7e-4e19-8be6-3f4bf4517408")
 		)
+		(fp_line
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3816c4e-e9c2-47c4-8193-4b06c7686f4e")
+		)
+		(fp_line
+			(start -0.5 0.5)
+			(end -0.5 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a0ad0cc-68f8-4fb6-814f-758a4e91481b")
+		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.SilkS")
 			(uuid "70930564-2079-4746-986d-9b41d903faba")
 			(effects
@@ -35704,7 +35704,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.1 0.45 0)
+			(at -1.1 0.450001 135)
 			(layer "F.Fab")
 			(uuid "b28e615f-4091-4b0a-bdc0-76f63d16ce00")
 			(effects
@@ -35715,7 +35715,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.4 0.4)
+			(at -0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "/LED Driver +  LEDs/SW8")
@@ -35724,7 +35724,7 @@
 			(uuid "73e908e5-331a-4d2c-aeb4-fbd8e7d49891")
 		)
 		(pad "2" smd rect
-			(at -0.4 -0.4)
+			(at -0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "/LED Driver +  LEDs/CS15")
@@ -35733,7 +35733,7 @@
 			(uuid "87397076-318b-4ca0-9240-56be056c686d")
 		)
 		(pad "3" smd rect
-			(at 0.4 -0.4)
+			(at 0.4 -0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "/LED Driver +  LEDs/CS16")
@@ -35742,7 +35742,7 @@
 			(uuid "363fea6e-5dbd-4220-8776-4bb825267856")
 		)
 		(pad "4" smd rect
-			(at 0.4 0.4)
+			(at 0.4 0.4 135)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "/LED Driver +  LEDs/CS17")
@@ -35896,8 +35896,8 @@
 		(uuid "84079442-e327-4203-a747-18992c0b3769")
 	)
 	(gr_line
-		(start 200 240)
-		(end 175.05 240)
+		(start 199.95 240)
+		(end 180 240)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -35916,7 +35916,7 @@
 		(uuid "9fa67d52-7a2e-4b11-9c76-30019e685648")
 	)
 	(gr_line
-		(start 175.05 240)
+		(start 180 240)
 		(end 197 200)
 		(stroke
 			(width 0.05)
