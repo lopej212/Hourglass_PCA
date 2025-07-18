@@ -1,7 +1,7 @@
 (footprint "JS202011JCQN"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.675 -5.635 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1fdd513a-a525-4066-949a-d4eab2ab19fc")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -169,7 +157,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5ac1eafe-ef8a-4314-a89d-f5f98f3522ef")
 	)
@@ -260,50 +248,62 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "57f3ba9c-bba2-4295-8fa8-dc19331ca17a")
 	)
 	(pad "1" smd rect
 		(at -1.2 -2.5)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "88d09d20-6d8b-46ae-8ac7-8aa5b4375b0e")
 	)
 	(pad "2" smd rect
 		(at -1.2 0)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "d3f84399-97bb-4cc4-b7a0-ddf32191f59a")
 	)
 	(pad "3" smd rect
 		(at -1.2 2.5)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "aa2c4b68-4061-4ffa-995d-fcb7bbfa9d7e")
 	)
 	(pad "5" smd rect
 		(at 1.2 -2.5)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "839b5a61-9602-48d0-bc99-b4ddf2d2f3bd")
 	)
 	(pad "6" smd rect
 		(at 1.2 0)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "ed39cd5c-77f7-45f6-9fda-ac1e250fe8e5")
 	)
 	(pad "7" smd rect
 		(at 1.2 2.5)
 		(size 1.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "f7e70209-ff90-4d4f-95bf-13ef1a91d77a")
+	)
+	(embedded_fonts no)
+	(model "/Users/manuelalcala/Documents/EmbeddedProjects/Project_Hourglass/PCB_Components/JS202011JCQN/JS202011JCQN.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
 	)
 )

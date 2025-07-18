@@ -1760,6 +1760,17 @@
 		)
 		(uuid "462e84cb-abdf-487e-ac8b-9e0d57d9bc77")
 	)
+	(text "TPs currently not \ninclucded due to space 	"
+		(exclude_from_sim yes)
+		(at 258.826 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1dbdd71-d030-457e-bf4c-ef368fb35b36")
+	)
 	(text "Place CAPs ACAP to U2\n"
 		(exclude_from_sim yes)
 		(at 38.1 37.592 0)
@@ -5886,7 +5897,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "10821d3d-cc40-4771-9e40-14726c29eb17")
 		(property "Reference" "TP8"
@@ -5953,7 +5964,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "1ac77acd-b768-461d-8496-a85ca1b4f942")
 		(property "Reference" "TP19"
@@ -6086,7 +6097,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "2f2177ad-76fc-47c8-b85d-15d0e1423bb3")
 		(property "Reference" "TP20"
@@ -6153,7 +6164,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "3447557a-8f8f-459b-a075-5f3b3567000b")
 		(property "Reference" "TP16"
@@ -6220,7 +6231,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "3cd929b2-68e0-4fa4-807e-518033b56a36")
 		(property "Reference" "TP15"
@@ -6540,7 +6551,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "6311239f-cc4f-4275-8e31-58c7f9fffe67")
 		(property "Reference" "TP9"
@@ -6607,7 +6618,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "6affe323-3665-422c-8fbb-7f6ac805d0ef")
 		(property "Reference" "TP6"
@@ -6674,7 +6685,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "76557d95-5cab-4019-885e-ce030afaac18")
 		(property "Reference" "TP11"
@@ -7081,7 +7092,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "a0713bba-1cd5-4828-a5b8-a10051922508")
 		(property "Reference" "TP23"
@@ -7148,7 +7159,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "ae6b6819-86ca-4244-a4d7-cd5e69716260")
 		(property "Reference" "TP10"
@@ -7215,7 +7226,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "be9e4cf9-d6e6-4472-86ea-61578b7828d9")
 		(property "Reference" "TP18"
@@ -7282,7 +7293,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "cfc438aa-1985-48fa-aaff-6486164aa199")
 		(property "Reference" "TP7"
@@ -7349,7 +7360,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d05c446e-759d-4dc4-92aa-313d9edd8412")
 		(property "Reference" "TP13"
@@ -7416,7 +7427,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d15cfb41-9fbf-4241-a0b2-29cf0cc224c2")
 		(property "Reference" "TP21"
@@ -7483,7 +7494,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d6402b00-1566-477a-898f-dabdfadf42fa")
 		(property "Reference" "TP22"
@@ -7687,7 +7698,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "da30baae-c863-4748-8dec-8f0744c22a45")
 		(property "Reference" "TP17"
@@ -7754,7 +7765,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "e18397bd-8958-41a7-ac3e-dc8c9ee3e3cc")
 		(property "Reference" "TP14"
@@ -7821,7 +7832,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "f3ca4448-f126-4dc9-a393-8b0e4f1ecfcc")
 		(property "Reference" "TP12"

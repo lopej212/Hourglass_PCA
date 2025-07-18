@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 0.393701 0.393701)
-				(thickness 0.15)
+				(thickness 0.098425)
 			)
 		)
 	)
@@ -21,7 +21,7 @@
 		(effects
 			(font
 				(size 0.393701 0.393701)
-				(thickness 0.15)
+				(thickness 0.098425)
 			)
 		)
 	)
@@ -165,4 +165,15 @@
 		(uuid "f5363ba8-ef48-412b-8d02-7232c4391264")
 	)
 	(embedded_fonts no)
+	(model "/Users/manuelalcala/Documents/EmbeddedProjects/Project_Hourglass/PCB_Components/CRGCQ0805F4K7/CRGCQ0805F4K7.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

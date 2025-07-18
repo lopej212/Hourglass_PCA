@@ -1,7 +1,7 @@
 (footprint "BQ25185"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "BQ25185DLHR ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "14d561b5-f7b0-4b0e-ad81-21085db86355")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -92,7 +80,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8ea5e6ea-1cc4-4a7b-b79c-ea5bdd78338d")
 	)
@@ -274,7 +262,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4cf5b6e1-e1a2-4013-86d9-7c9cd714be9b")
 	)
@@ -293,67 +281,79 @@
 	(pad "1" smd rect
 		(at -1.1303 -0.8001)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "36a7994d-225b-463e-bbdf-fd89c7d1ec4c")
 	)
 	(pad "2" smd rect
 		(at -1.1303 -0.40005)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d1a4483e-669e-49cd-8206-6b5adfe43b51")
 	)
 	(pad "3" smd rect
 		(at -1.1303 0)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fac84159-9e92-4515-a983-f5ab5af2527f")
 	)
 	(pad "4" smd rect
 		(at -1.1303 0.40005)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f612012a-ae57-425d-889a-6b0f7b6f335b")
 	)
 	(pad "5" smd rect
 		(at -1.1303 0.8001)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4dffbdaa-9e91-4393-9f51-51f45660e0e1")
 	)
 	(pad "6" smd rect
 		(at 1.1303 0.8001)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b114cf6e-9200-4d31-b3b1-2d6bf265f64b")
 	)
 	(pad "7" smd rect
 		(at 1.1303 0.40005)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c4442a5-4615-4cbb-87e2-70c6b46d2f7a")
 	)
 	(pad "8" smd rect
 		(at 1.1303 0)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3d227cea-9ad2-41eb-b76b-2bf63d15fd24")
 	)
 	(pad "9" smd rect
 		(at 1.1303 -0.40005)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2b8bf4ea-ac7b-4f43-a714-32f39808cb96")
 	)
 	(pad "10" smd rect
 		(at 1.1303 -0.8001)
 		(size 0.6604 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "df6d8e8e-1435-4a3c-93dc-c8dd9bf1109f")
 	)
 	(pad "11" smd rect
 		(at 0 0)
 		(size 0.9906 1.6002)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "723975c7-d421-4a58-9087-655f759829e5")
+	)
+	(embedded_fonts no)
+	(model "/Users/manuelalcala/Documents/EmbeddedProjects/Project_Hourglass/PCB_Components/ul_BQ25185DLHR/BQ25185DLHR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
 	)
 )

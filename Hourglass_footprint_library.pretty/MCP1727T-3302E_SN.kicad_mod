@@ -1,7 +1,7 @@
 (footprint "MCP1727T-3302E_SN"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "MCP1727T-3302E/SN ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "48a443b7-72d2-4323-8176-aa1e9718214c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -577,44 +565,10 @@
 		(uuid "14e30682-73a5-4b4a-ada1-5dec1ed45816")
 	)
 	(fp_text user "*"
-		(at -2.6162 -3.6068 0)
-		(layer "F.SilkS")
-		(uuid "658926c1-49dc-4904-ab93-e0da037761b7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.6162 -3.6068 0)
+		(at -4.2062 -1.8668 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f9170f3f-d41e-4744-a112-6033ecaedc9a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.5748 -2.3749 0)
-		(layer "F.Fab")
-		(uuid "28638d58-e8b9-4fd6-b004-990077980779")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.5748 -2.3749 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "52eeac27-6353-4311-a763-4030ee908653")
 		(effects
 			(font
 				(size 1 1)
@@ -637,49 +591,61 @@
 	(pad "1" smd rect
 		(at -2.3622 -1.905)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e26d0718-1545-47a5-a8e9-ba1c7cb27e6a")
 	)
 	(pad "2" smd rect
 		(at -2.3622 -0.635)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eca3d32c-8f4a-4d11-a3fa-341e6ecfe8c5")
 	)
 	(pad "3" smd rect
 		(at -2.3622 0.635)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8e85d020-fc08-43e7-9b65-a355d326a471")
 	)
 	(pad "4" smd rect
 		(at -2.3622 1.905)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "855d58d9-a07e-4c27-ab7d-56ac246b69ea")
 	)
 	(pad "5" smd rect
 		(at 2.3622 1.905)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3a9afc54-c5a8-431a-acd2-6c15dc798f64")
 	)
 	(pad "6" smd rect
 		(at 2.3622 0.635)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b59259b2-df6e-4f2a-aa86-c9343914813b")
 	)
 	(pad "7" smd rect
 		(at 2.3622 -0.635)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "adf49715-b89a-40eb-8f46-1c33d874ce56")
 	)
 	(pad "8" smd rect
 		(at 2.3622 -1.905)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f702cd0f-99a1-4275-83e4-8cbfec2933e6")
+	)
+	(embedded_fonts no)
+	(model "/Users/manuelalcala/Documents/EmbeddedProjects/Project_Hourglass/PCB_Components/MCP1727T_3302E_SN/SOIC8-N_MC_MCH.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

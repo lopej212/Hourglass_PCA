@@ -1,7 +1,7 @@
 (footprint "150044M155220"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "<b>WL-SFCC SMT Full-color Chip LED Compact<br></b><br>Size0404, SMT, 4pins<br>0.95x0.95x0.25mm(LXWXH)")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 0.64 0.64)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4286f22f-bb62-48f5-a987-e979d4e1d3ab")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -71,7 +59,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.CrtYd")
 		(uuid "d3db04fd-1e0b-42be-bb2c-38ff293f8aed")
 	)
@@ -140,29 +128,41 @@
 	(pad "1" smd rect
 		(at -0.4 0.4)
 		(size 0.4 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "dd2b939a-ef45-494d-8812-4948da9f541b")
 	)
 	(pad "2" smd rect
 		(at -0.4 -0.4)
 		(size 0.4 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "cf075717-0542-4882-8030-7e4fb33a9df9")
 	)
 	(pad "3" smd rect
 		(at 0.4 -0.4)
 		(size 0.4 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "aa0a8935-72fa-40bb-935b-e9da6fb93504")
 	)
 	(pad "4" smd rect
 		(at 0.4 0.4)
 		(size 0.4 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "dcd8dacd-3517-4a20-a508-91b6c7bbbc8b")
+	)
+	(embedded_fonts no)
+	(model "/Users/manuelalcala/Documents/EmbeddedProjects/Project_Hourglass/PCB_Components/150044M155220_STP_rev1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

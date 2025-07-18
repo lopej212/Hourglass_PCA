@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(tags "GRM21BZ71E106KE15L ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.31 -1.66 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "3a7ebac8-6b98-45f1-a801-fe19dc0b83b6")
+		(uuid "9af701f9-f56e-4ecc-9896-a416eb2eb382")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8e03b7d1-ef1e-4565-a3f4-36d8a0184bc7")
+		(uuid "8bb53542-d412-413e-befc-7f7f8e1f868a")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "93c5007f-2812-4a66-98bb-027e1575ac0f")
+		(uuid "4cab874d-ca51-48fd-9702-736b30622972")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ca546a0-1d77-46a6-b28e-a41ef3e805bf")
+		(uuid "36729078-c384-430e-b1c7-9f5876285bf2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -301,4 +301,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "/Users/manuelalcala/Documents/EmbeddedProjects/Project_Hourglass/PCB_Components/GRM21BZ71E106KE15L/CAP_GRM21BZ_MUR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
