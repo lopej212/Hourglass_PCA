@@ -170,4 +170,15 @@
 		(uuid "37931e8a-868e-42e2-a840-7e17a187928d")
 	)
 	(embedded_fonts no)
+	(model "/Users/manuelalcala/Documents/EmbeddedProjects/Project_Hourglass/PCB_Components/RC0805FR_07442RL/RC0805N_YAG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 0.393701 0.393701)
-				(thickness 0.15)
+				(thickness 0.098425)
 			)
 		)
 	)
@@ -21,7 +21,7 @@
 		(effects
 			(font
 				(size 0.393701 0.393701)
-				(thickness 0.15)
+				(thickness 0.098425)
 			)
 		)
 	)
@@ -165,4 +165,15 @@
 		(uuid "f1da773c-2a54-4feb-b742-9f2fae2cc1e3")
 	)
 	(embedded_fonts no)
+	(model "/Users/manuelalcala/Documents/EmbeddedProjects/Project_Hourglass/PCB_Components/MCU08050C6000FP500/MCU08050C6000FP500.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
